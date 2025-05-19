@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    {%- include header.html -%}
+
+    <main>
+        <section class="hero">
+          <h1>Sinimandria</h1>
+        </section>
+    
+        <section class="section">
+          <img src="{{ '/assets/images/side.jpg' | relative_url }}" alt="Interior view">
+          <div class="text">
+            <p>Enjoy a cozy dining experience with freshly prepared meals made from local ingredients.</p>
+          </div>
+        </section>
+        <section class="section">
+            <div class="text">
+                <p>Enjoy a cozy dining experience with freshly prepared meals made from local ingredients.</p>
+            </div>
+            <img src="{{ '/assets/images/side2.jpg' | relative_url }}" alt="Interior view">
+        </section>
+        <section class="section">
+          <img src="{{ '/assets/images/side.jpg' | relative_url }}" alt="Interior view">
+          <div class="text">
+            <p>Enjoy a cozy dining experience with freshly prepared meals made from local ingredients.</p>
+          </div>
+        </section>
+      </main>
+
+    {%- include footer.html -%}
+</body>
+</html>
+
