@@ -4,7 +4,7 @@ title: Meist
 permalink: /meist/
 ---
 
-![Our Head Chef](/assets/images/chef.jpg)
+![Our Head Chef]({{ site.baseurl }}/assets/images/chef.jpg)
 
 Saage tuttavaks Sinimandria peakokk: Denis Bobrovnikov
 

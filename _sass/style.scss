@@ -29,7 +29,7 @@
   }
   .hero {
     height: calc(100vh - 40px);
-    background: url('/assets/images/hero.jpg') no-repeat center center/cover;
+    background: url($baseurl + "/assets/images/hero.jpg") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
