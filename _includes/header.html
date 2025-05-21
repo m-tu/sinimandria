@@ -1,7 +1,10 @@
 <header>
-    <a href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Restaurant Logo" style="height: 40px;">
-    </a>
+    <div class="header-left">
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Restaurant Logo">
+      </a>
+    </div>
+    <button id="nav-toggle" class="nav-toggle">☰</button>
     <nav>
       <a href="{{ '/menu/' | relative_url }}">Menüü</a>
       <a href="{{ '/meist/' | relative_url }}">Meist</a>

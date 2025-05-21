@@ -16,7 +16,6 @@ Denisi köögi- ja pagarifilosoofia on tugevalt seotud loodusega. Ta on üles ka
 
 Denisi kureeritud Sinimandrias kasutame kohalikke tooraineid. Teeme koostööd väiketootjatega ja töötleme ise loodusande - hapendame, kuivatame, fermenteerime ja teeme tõmmiseid. Tulemuseks on menüü, mis peegeldab Denisi soovi luua midagi tõeliselt eestipärast ja põhjamaist kuid prantsusepärase elegantsiga.
 
-
 — Intervjuu versioon mis mby liiga pikk. Elu on selles 100x rohkem, aga mby videointervjuuks pöörata v kasutada mingis sisuturundusartiklis suures meedias? —
 
 Millega sa enne Sinimandriat tegelenud oled?
