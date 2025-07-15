@@ -217,6 +217,37 @@ footer {
   justify-content: center;
   background: #f4f4f4;
 }
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.section-link {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.section-link:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+
+
 @media (max-width: 768px) {
   .section {
     flex-direction: column;
