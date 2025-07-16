@@ -1,31 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const header = document.querySelector('header');
-  
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-          header.classList.add('scrolled');
-        } else {
-          header.classList.remove('scrolled');
-        }
-      });
-  
-      // Nav toggle remains the same
-      const toggle = document.getElementById('nav-toggle');
-      const nav = document.getElementById('main-nav');
-      toggle.addEventListener('click', () => {
-        nav.classList.toggle('open');
-      });
-    });
-  </script>
-
-</head>
+{%- include head.html -%}
 <body>
 
     {%- include header.html -%}

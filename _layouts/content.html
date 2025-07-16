@@ -1,28 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Restaurant Name - About</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const path = window.location.pathname;
-      const navLinks = document.querySelectorAll("nav a");
-      navLinks.forEach(link => {
-        if (link.getAttribute("href") && path.includes(link.getAttribute("href"))) {
-          link.style.fontWeight = "bold";
-        }
-      });
-
-      const toggle = document.getElementById("nav-toggle");
-      const nav = document.querySelector("nav");
-      toggle.addEventListener("click", () => {
-        nav.classList.toggle("open");
-      });
-    });
-  </script>
-</head>
+  {%- include head.html -%}
 <body class="no-hero">
 
   {%- include header.html -%}
