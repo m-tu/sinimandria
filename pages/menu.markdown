@@ -78,6 +78,6 @@ permalink: /menu/
   </p>
   <p>
     Siin on meie
-    <a href="{{ '/pagar/' | relative_url }}">pagaritooted</a>.
+    <a href="{{ '/pagar/' | absolute_url }}">pagaritooted</a>.
   </p>
 </section>

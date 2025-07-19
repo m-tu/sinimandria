@@ -9,7 +9,7 @@ permalink: /pagar/
 
 ![Pagar]({{ site.baseurl }}/assets/images/pagar.jpg)
 
-Siin on meie [menüü]({{ '/menu/' | relative_url }})
+Siin on meie [menüü]({{ '/menu/' | absolute_url }})
 
 <div class="highlight-box">
   This is a custom styled block of text.  
