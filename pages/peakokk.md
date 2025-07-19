@@ -1,5 +1,5 @@
 ---
 layout: sidebyside
 title: Meie peakokast
-permalink: /peakokk
+permalink: /peakokk/
 ---
