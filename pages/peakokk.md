@@ -1,5 +1,5 @@
 ---
-layout: sidebyside
+layout: peakokk
 title: Meie peakokast
 permalink: /peakokk/
 ---

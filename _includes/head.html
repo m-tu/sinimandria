@@ -17,12 +17,13 @@
           }
         });
     
-        // Nav toggle remains the same
         const toggle = document.getElementById('nav-toggle');
         const nav = document.getElementById('main-nav');
         toggle.addEventListener('click', () => {
           nav.classList.toggle('open');
+          header.classList.toggle("menu-open");
         });
+        
       });
     </script>
   
