@@ -324,6 +324,44 @@ footer {
   text-decoration: none;
 }
 
+blockquote {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #f0ebe0;
+  border-left: 4px solid #ccc;
+  margin: 1.5rem 0;
+  padding: 1.5rem 2rem;
+  color: #333;
+  line-height: 1.6;
+  position: relative;
+}
+
+blockquote::before {
+  content: "“";
+  font-size: 3rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  color: #ccc;
+  font-family: serif;
+}
+
+// blockquote::after {
+//   content: "”";
+//   font-size: 3rem;
+//   position: absolute;
+//   right: 0.5rem;
+//   bottom: -0.5rem;
+//   color: #ccc;
+//   font-family: serif;
+// }
+
+blockquote p {
+  margin: 0;
+}
+
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
