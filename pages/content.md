@@ -1,5 +1,5 @@
 ---
 layout: sidebyside
-title: Home
-permalink: /pildid
+title: Meie peakokast
+permalink: /peakokk
 ---
