@@ -1,5 +1,5 @@
 ---
 layout: sinimandriast
 title: Sinimandriast
-permalink: /sinimandriast
+permalink: /sinimandriast/
 ---
