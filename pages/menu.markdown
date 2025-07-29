@@ -84,15 +84,3 @@ permalink: /menu/
   </div>
 </section>
 -->
-<!--
-<section>
-  <p>
-    Leidke oma hommikust pool tundi ja tulge istuge Sinimandrias laua taha.
-    Te avastate peagi, et see osa hommikust on hästi kulutatud aeg!
-  </p>
-  <p>
-    Siin on meie
-    <a href="{{ '/pagar/' | absolute_url }}">pagaritooted</a>.
-  </p>
--->
-</section>
