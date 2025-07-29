@@ -8,8 +8,8 @@ permalink: /menu/
 <section class="menu-section">
   <h2 class="menu-heading">Brunch</h2>
   <div class="menu-item">
-    <h3>GRILLITUD RAMIRO | TONNATO | KARULAUK <span class="price">14€</span></h3>
-    <p>Ramiro pipar, tuunikala tonnato, karulauk, Focaccia</p>
+    <h3>GRILLITUD RAMIRO <span class="price">14€</span></h3>
+    <p>Ramiro pipar, tuunikala tonnato, karulauk, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
@@ -24,16 +24,16 @@ permalink: /menu/
     <p>Põletatud forell, valge veini kaste, magus-hapu minipeet, põdrakanepi võrsed, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>BENEDICTI MUNAD | HOLLANDI KASTE  <span class="price">12€</span></h3>
-    <p>soolakurk, aiaroheline, tilliõli, Sinimandria muffin</p>
+    <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
+    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin</p>
   </div>
   <div class="menu-item">
-    <h3>KANA ALLA PECORINO | KRÕBEKARTUL  <span class="price">18€</span></h3>
-    <p>kanafilee, gratineeritud tomat, Viinamärdi Pecorello, sinepine leem kapparitega,hapusaia krõbedik</p>
+    <h3>KANA ALLA PECORINO  <span class="price">18€</span></h3>
+    <p>Kanafilee, krõbekartul, gratineeritud tomat, Viinamärdi Pecorello, sinepine leem kapparitega,hapusaia krõbedik</p>
   </div>
   <div class="menu-item">
     <h3>KUKESEEN JA GNOCCHI  <span class="price">16€</span></h3>
-    <p>võis praetud kukeseen, Otti talu kartuli gnocchid, metsaseene kaste, aiaroheline, brioche krutoonid</p>
+    <p>Võis praetud kukeseen, Otti talu kartuli gnocchid, metsaseene kaste, aiaroheline, brioche krutoonid</p>
   </div>
   <div class="menu-item">
     <h3>KRÕBE HAPUSAI <span class="price">8€</span></h3>
