@@ -44,15 +44,15 @@ permalink: /menu/
 <section class="menu-section">
   <h2 class="menu-heading">Võikud</h2>
   <div class="menu-item">
-    <h3>JUUSTU TOMATI CROISSANT  <span class="price">5€</span></h3>
+    <h3>JUUSTU-TOMATI CROISSANT  <span class="price">5€</span></h3>
     <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
   </div>
   <div class="menu-item">
-    <h3>HAPUSAI SOOLAFORELLI JA TOORJUUSTUKREEMIGA <span class="price">8€</span></h3>
-    <p>Soolaforell, toorjuustukreem, tillimajonees, värske kurk</p>
+    <h3>SOOLAFORELLI & TOORJUUSTU HAPUSAI <span class="price">8€</span></h3>
+    <p>Hapusai, soolaforell, toorjuustukreem, tillimajonees, värske kurk</p>
   </div><div class="menu-item">
-    <h3>FOCCACIAL LAMBALIHA KEBAB <span class="price">8€</span></h3>
-    <p>Lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
+    <h3>LAMBALIHA KEBAB FOCACCIAL <span class="price">8€</span></h3>
+    <p>Focaccia, lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
   </div>
 </section>
 
