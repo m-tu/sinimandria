@@ -56,28 +56,27 @@ permalink: /menu/
   </div>
 </section>
 
-<!--
+
 <section class="menu-section">
-  <h2 class="menu-heading">Drinks</h2>
+  <h2 class="menu-heading">Saiakesed</h2>
   <div class="menu-item">
-    <h3>TBD <span class="price">8€</span></h3>
-    <p>Mingi jook, miski vimka, mullid või jää.</p>
+    <h3>CROISSANT <span class="price">3€</span></h3>
+    <p>Pärmi-lehttaigna klassika</p>
   </div>
   <div class="menu-item">
-    <h3>TBD <span class="price">8€</span></h3>
-    <p>Cristal</p>
+    <h3>TÄIDETUD CROISSANTI KUUBIK <span class="price">5€</span></h3>
+    <p>Erinevate kreemide ja <em>compote</em> täidistega croissant, küpsetatud kuubikujuliseks.</p>
   </div>
   <div class="menu-item">
-    <h3>TBD <span class="price">8€</span></h3>
-    <p>Cristal</p>
+    <h3>AHVILEIB <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignas, kardemoni-sidruni suhkruga. Kaetud maasikaglasuuriga.</p>
   </div>
   <div class="menu-item">
-    <h3>TBD <span class="price">8€</span></h3>
-    <p>Cristal</p>
+    <h3>KANEELISAI <span class="price">3.5€</span></h3>
+    <p>Brioche taignast, täidiseks pruun või ja sinimandria vürtside segu</p>
   </div>
   <div class="menu-item">
-    <h3>TBD <span class="price">8€</span></h3>
-    <p>Cristal</p>
+    <h3>TÄIDETUD PESA <span class="price">5€</span></h3>
+    <p>Ristlaminatsioonis pärmi-lehttainas, täidetud erinevate kreemide ja <em>compote</em>'ga</p>
   </div>
 </section>
--->
