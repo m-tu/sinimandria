@@ -20,7 +20,7 @@ permalink: /menu/
     <p>Linnamäe sink, Kolotsi talu juust, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>Forell 43C <span class="price">15€</span></h3>
+    <h3>FORELL 43C <span class="price">15€</span></h3>
     <p>Põletatud forell, valge veini kaste, magus-hapu minipeet, põdrakanepi võrsed, brioche</p>
   </div>
   <div class="menu-item">
@@ -40,25 +40,22 @@ permalink: /menu/
     <p>Sinimandria vürts, värsked vaarikad, talu hapukoor, muskovaado</p>
   </div>
 </section>
-<!--
+
 <section class="menu-section">
-  <h2 class="menu-heading">Brunch</h2>
+  <h2 class="menu-heading">Võikud</h2>
   <div class="menu-item">
-    <h3>Forell Wellington <span class="price">15€</span></h3>
-    <p>Brioche, suitsune Pähkla forell, Savoy kapsas, fenkolikaramelli sabayon</p>
+    <h3>JUUSTU TOMATI CROISSANT  <span class="price">5€</span></h3>
+    <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
   </div>
   <div class="menu-item">
-    <h3>Forell Wellington <span class="price">15€</span></h3>
-    <p>Brioche, suitsune Pähkla forell, Savoy kapsas, fenkolikaramelli sabayon</p>
+    <h3>HAPUSAI SOOLAFORELLI JA TOORJUUSTUKREEMIGA <span class="price">8€</span></h3>
+    <p>Soolaforell, toorjuustukreem, tillimajonees, värske kurk</p>
   </div><div class="menu-item">
-    <h3>Forell Wellington <span class="price">15€</span></h3>
-    <p>Brioche, suitsune Pähkla forell, Savoy kapsas, fenkolikaramelli sabayon</p>
-  </div><div class="menu-item">
-    <h3>Forell Wellington <span class="price">15€</span></h3>
-    <p>Brioche, suitsune Pähkla forell, Savoy kapsas, fenkolikaramelli sabayon</p>
+    <h3>FOCCACIAL LAMBALIHA KEBAB <span class="price">8€</span></h3>
+    <p>Lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
   </div>
 </section>
--->
+
 <!--
 <section class="menu-section">
   <h2 class="menu-heading">Drinks</h2>
