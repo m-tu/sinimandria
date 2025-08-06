@@ -79,4 +79,16 @@ permalink: /menu/
     <h3>TÄIDETUD PESA <span class="price">5€</span></h3>
     <p>Ristlaminatsioonis pärmi-lehttainas, täidetud erinevate kreemide ja <em>compote</em>'ga</p>
   </div>
+  <div class="menu-item">
+    <h3>KIRSI KEERD <span class="price">3.5€</span></h3>
+    <p>Brioche saia keerd, martsipani ja kirsimoosiga</p>
+  </div>
+  <div class="menu-item">
+    <h3>KAPSAPIRUKAS <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignas kapsapirukas, pruuni või ja vürtsidega</p>
+  </div>
+  <div class="menu-item">
+    <h3>VEISEVORSTI PIRUKAS <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignasse mähitud Linnamäe lihatööstuse veiseliha vorst.</p>
+  </div>
 </section>
