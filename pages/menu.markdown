@@ -89,6 +89,6 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>VEISEVORSTI PIRUKAS <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignasse mähitud Linnamäe lihatööstuse veiseliha vorst.</p>
+    <p>Pärmi-lehttaignasse mähitud Linnamäe lihatööstuse veiseliha vorst. Kattes fenkol ja röstitud sibul.</p>
   </div>
 </section>
