@@ -3,7 +3,7 @@ layout: content
 title: Menu
 permalink: /menu/
 ---
-<h1>Menüü</h1>
+<!--<h1>Menüü</h1>/-->
 
 <section class="menu-section">
   <h2 class="menu-heading">Brunch</h2>
