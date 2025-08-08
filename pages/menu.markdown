@@ -6,7 +6,7 @@ permalink: /menu/
 <h1>Menüü</h1>
 
 <section class="menu-section">
-  <h2 class="menu-heading">Brunch</h2>
+  <h2 class="menu-heading">Brunch (10 - 14:30)</h2>
   <div class="menu-item">
     <h3>GRILLITUD RAMIRO <span class="price">14€</span></h3>
     <p>Ramiro pipar, tuunikala tonnato, karulauk, focaccia</p>
