@@ -2,6 +2,7 @@
 layout: content
 title: Menu
 permalink: /menu/
+body_class: light-nav
 ---
 <h1>Menüü</h1>
 
