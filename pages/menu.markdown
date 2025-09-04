@@ -9,10 +9,6 @@ body_class: light-nav
 <section class="menu-section">
   <h2 class="menu-heading">Brunch (10 - 14:30)</h2>
   <div class="menu-item">
-    <h3>GRILLITUD RAMIRO <span class="price">14€</span></h3>
-    <p>Ramiro pipar, tuunikala tonnato, karulauk, focaccia</p>
-  </div>
-  <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
     <p>Kõrepi muna, karameliseeritud pruun juust, hapusai.</p>
   </div>
@@ -41,7 +37,7 @@ body_class: light-nav
     <p>Sinimandria vürts, värsked vaarikad, talu hapukoor, muskovaado</p>
   </div>
 </section>
-
+<!--
 <section class="menu-section">
   <h2 class="menu-heading">Võikud</h2>
   <div class="menu-item">
@@ -55,7 +51,7 @@ body_class: light-nav
     <h3>LAMBALIHA KEBAB FOCACCIAL <span class="price">8€</span></h3>
     <p>Focaccia, lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
   </div>
-</section>
+</section>-->
 
 
 <section class="menu-section">
