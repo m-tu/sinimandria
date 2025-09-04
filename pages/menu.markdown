@@ -61,8 +61,8 @@ body_class: light-nav
     <p>Pärmi-lehttaigna klassika</p>
   </div>
   <div class="menu-item">
-    <h3>TÄIDETUD CROISSANTI KUUBIK <span class="price">5€</span></h3>
-    <p>Erinevate kreemide ja <em>compote</em> täidistega croissant, küpsetatud kuubikujuliseks.</p>
+    <h3>TÄIDETUD CROISSANT <span class="price">4.5€</span></h3>
+    <p>Erinevate kreemide ja <em>compote</em> täidistega croissant</p>
   </div>
   <div class="menu-item">
     <h3>AHVILEIB <span class="price">3.5€</span></h3>
@@ -73,7 +73,7 @@ body_class: light-nav
     <p>Brioche taignast, täidiseks pruun või ja sinimandria vürtside segu</p>
   </div>
   <div class="menu-item">
-    <h3>TÄIDETUD PESA <span class="price">5€</span></h3>
+    <h3>TÄIDETUD PESA <span class="price">4.5€</span></h3>
     <p>Ristlaminatsioonis pärmi-lehttainas, täidetud erinevate kreemide ja <em>compote</em>'ga</p>
   </div>
   <div class="menu-item">
@@ -81,11 +81,19 @@ body_class: light-nav
     <p>Brioche saia keerd, martsipani ja kirsimoosiga</p>
   </div>
   <div class="menu-item">
+    <h3>LILLKAPSA PESA <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignas lillkapsa täidis, kolotsi talu juust ja värske ürt</p>
+  </div>
+  <div class="menu-item">
+    <h3>LAMBALIHA PESA <span class="price">4€</span></h3>
+    <p>Pärmi-lehttaignas grillitud lambaliha ja pestokaste</p>
+  </div>
+  <div class="menu-item">
     <h3>KAPSAPIRUKAS <span class="price">3.5€</span></h3>
     <p>Pärmi-lehttaignas kapsapirukas, pruuni või ja vürtsidega</p>
   </div>
   <div class="menu-item">
     <h3>VEISEVORSTI PIRUKAS <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignasse mähitud Linnamäe lihatööstuse veiseliha vorst. Kattes fenkol ja röstitud sibul.</p>
+    <p>Pärmi-lehttaignasse mähitud Linnamäe lihatööstuse veiseliha vorst. Kattes fenkol ja röstitud sibul sinepises kastmeas.</p>
   </div>
 </section>
