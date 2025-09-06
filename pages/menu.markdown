@@ -6,7 +6,7 @@ body_class: light-nav
 ---
 <h1>Menüü</h1>
 <section class="menu-section">
-  <h2 class="menu-heading">Lõunamenüü (E-R 11:30 - 13:30)</h2>
+  <h2 class="menu-heading">Lõunamenüü (E-R 12:00 - 14:00)</h2>
   <div class="menu-item">
     <h3>VEISEPÕSK <span class="price">9.5€</span></h3>
     <p>Madalküpsetatud veisepõsk, kartulipüree, bimi, demi glace</p>
