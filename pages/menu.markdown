@@ -29,7 +29,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>VÄRSKE SALAT  <span class="price">4€</span></h3>
-    <p>Lisandiks Otti talutomatist või Sinimandria soolakurgist salat</p>
+    <p>Lisandiks Otti talu tomatist või Sinimandria soolakurgist salat</p>
   </div>
 </section>
 
