@@ -24,12 +24,12 @@ body_class: light-nav
     <p>Otti talu tomati salsa, Viinamärdi stracciatella, karulaugupesto, focaccia</p>
   </div>
   <div class="menu-item">
-    <h3>SOOLAFORELL & HAPUSAI  <span class="price">18€</span></h3>
+    <h3>SOOLAFORELL & HAPUSAI <span class="price">8€</span></h3>
     <p>Õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
   </div>
   <div class="menu-item">
-    <h3>VÄRSKE SALAT  <span class="price">4€</span></h3>
-    <p>Lisandiks Otti talu tomatist või Sinimandria soolakurgist salat</p>
+    <h3>VÄRSKE SALAT <span class="price">4€</span></h3>
+    <p>Lisandiks tellimiseks: Otti talu tomatist või Sinimandria soolakurgist salat</p>
   </div>
 </section>
 
