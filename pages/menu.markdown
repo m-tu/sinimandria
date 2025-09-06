@@ -37,31 +37,23 @@ body_class: light-nav
   <h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
-    <p>Kõrepi muna, karameliseeritud pruun juust, hapusai.</p>
+    <p>Kõrepi muna, karameliseeritud pruun juust, hapusai. Lisandiks peekon (+3€)</p>
+  </div>
+  <div class="menu-item">
+    <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
+    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks suvikõrvits, soolaforell või peekon (+4€)</p>
   </div>
   <div class="menu-item">
     <h3>CROQUE MONSIEUR  <span class="price">10€</span></h3>
     <p>Linnamäe sink, Kolotsi talu juust, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>FORELL 43C <span class="price">15€</span></h3>
-    <p>Põletatud forell, valge veini kaste, magus-hapu minipeet, põdrakanepi võrsed, brioche</p>
+    <h3>CAPRESE & FOCACCIA  <span class="price">8€</span></h3>
+    <p>Tomatisalsa, Viinamärdi straciatella, karulaugu pesto, krõbe focaccia</p>
   </div>
   <div class="menu-item">
-    <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
-    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin</p>
-  </div>
-  <div class="menu-item">
-    <h3>KANA ALLA PECORINO  <span class="price">18€</span></h3>
-    <p>Kanafilee, krõbekartul, gratineeritud tomat, Viinamärdi Pecorello, sinepine leem kapparitega,hapusaia krõbedik</p>
-  </div>
-  <div class="menu-item">
-    <h3>KUKESEEN JA GNOCCHI  <span class="price">16€</span></h3>
-    <p>Võis praetud kukeseen, Otti talu kartuli gnocchid, metsaseene kaste, aiaroheline, brioche krutoonid</p>
-  </div>
-  <div class="menu-item">
-    <h3>KRÕBE HAPUSAI <span class="price">8€</span></h3>
-    <p>Sinimandria vürts, värsked vaarikad, talu hapukoor, muskovaado</p>
+    <h3>SOOLAFORELL & HAPUSAI  <span class="price">8€</span></h3>
+    <p>Õrnsoola forell, hapusai, toorjuustukreem, värsked ürdid</p>
   </div>
 </section>
 <!--
