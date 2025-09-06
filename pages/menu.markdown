@@ -5,9 +5,36 @@ permalink: /menu/
 body_class: light-nav
 ---
 <h1>Menüü</h1>
+<section class="menu-section">
+  <h2 class="menu-heading">Lõunamenüü (E-R 11:30 - 13:30)</h2>
+  <div class="menu-item">
+    <h3>VEISEPÕSK <span class="price">9.5€</span></h3>
+    <p>Madalküpsetatud veisepõsk, kartulipüree, bimi, demi glace</p>
+  </div>
+  <div class="menu-item">
+    <h3>KRÕBE KALA <span class="price">9.5€</span></h3>
+    <p>Valge kala kotlet, fenkolikreem, valge veini kaste</p>
+  </div>
+  <div class="menu-item">
+    <h3>SUITSUPEEDI SUPP <span class="price">6€</span></h3>
+    <p>Suitsupeet, juurviljapuljong, focaccia/hapusai</p>
+  </div>
+  <div class="menu-item">
+    <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
+    <p>Otti talu tomati salsa, Viinamärdi stracciatella, karulaugupesto, focaccia</p>
+  </div>
+  <div class="menu-item">
+    <h3>SOOLAFORELL & HAPUSAI  <span class="price">18€</span></h3>
+    <p>Õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
+  </div>
+  <div class="menu-item">
+    <h3>VÄRSKE SALAT  <span class="price">4€</span></h3>
+    <p>Lisandiks Otti talutomatist või Sinimandria soolakurgist salat</p>
+  </div>
+</section>
 
 <section class="menu-section">
-  <h2 class="menu-heading">Brunch (10 - 14:30)</h2>
+  <h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
     <p>Kõrepi muna, karameliseeritud pruun juust, hapusai.</p>
