@@ -4,9 +4,8 @@ title: Menu
 permalink: /menu/
 body_class: light-nav
 ---
-<h1>Menüü</h1>
+<h1>Lõunamenüü (E-R 12:00 - 13:30)</h1>
 <section class="menu-section">
-  <h2 class="menu-heading">Lõunamenüü (E-R 12:00 - 13:30)</h2>
   <div class="menu-item">
     <h3>SINEPINE SEAKAEL <span class="price">9.5€</span></h3>
     <p>madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
@@ -33,8 +32,9 @@ body_class: light-nav
   </div>
 </section>
 
+<h1>Brunch (L-P 10:00 - 14:30)</h1>
 <section class="menu-section">
-  <h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>
+  <!--<h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>-->
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
     <p>Kõrepi muna, karameliseeritud pruun juust, hapusai. Lisandiks peekon (+3€)</p>
