@@ -57,9 +57,9 @@ body_class: light-nav
   </div>
 </section>
 
-<!--
+<h1>Õhtusöögimenüü (K-R 18:00 - ..., L 17:00 - ...)</h1>
 <section class="menu-section">
-  <h2 class="menu-heading">ÕHTUSÖÖGIMENÜÜ</h2>
+  <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
     <h3>JUUSTU-TOMATI CROISSANT  <span class="price">5€</span></h3>
     <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
@@ -71,7 +71,21 @@ body_class: light-nav
     <h3>LAMBALIHA KEBAB FOCACCIAL <span class="price">8€</span></h3>
     <p>Focaccia, lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
   </div>
-</section>-->
+</section>
+<section class="menu-section">
+  <h2 class="menu-heading">EELROAD</h2>
+  <div class="menu-item">
+    <h3>JUUSTU-TOMATI CROISSANT  <span class="price">5€</span></h3>
+    <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
+  </div>
+  <div class="menu-item">
+    <h3>SOOLAFORELLI & TOORJUUSTU HAPUSAI <span class="price">8€</span></h3>
+    <p>Hapusai, soolaforell, toorjuustukreem, tillimajonees, värske kurk</p>
+  </div><div class="menu-item">
+    <h3>LAMBALIHA KEBAB FOCACCIAL <span class="price">8€</span></h3>
+    <p>Focaccia, lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
+  </div>
+</section>
 
 
 <section class="menu-section">
