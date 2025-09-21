@@ -56,9 +56,10 @@ body_class: light-nav
     <p>Õrnsoola forell, hapusai, toorjuustukreem, värsked ürdid</p>
   </div>
 </section>
+
 <!--
 <section class="menu-section">
-  <h2 class="menu-heading">Võikud</h2>
+  <h2 class="menu-heading">ÕHTUSÖÖGIMENÜÜ</h2>
   <div class="menu-item">
     <h3>JUUSTU-TOMATI CROISSANT  <span class="price">5€</span></h3>
     <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
