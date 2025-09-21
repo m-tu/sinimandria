@@ -146,7 +146,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>PLOOMI-AMARETTO KORP <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignas kohupiima ja martsipani korp, glasuuritud Amaretto glasuuriga. Eestimaine ploom ikka ka.</p>
+    <p>Pärmi-lehttaignas kohupiima ja martsipani korp, Amaretto glasuuri ja ploomidega. </p>
   </div>
   <div class="menu-item">
     <h3>REBITUD VEISESABA PESA <span class="price">4€</span></h3>
