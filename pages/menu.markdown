@@ -69,9 +69,8 @@ body_class: light-nav
     <h3>METSA MAITSETE TALDRIK <span class="price">12€/in</span></h3>
     <p>Vinnutatud hirv, rebitud veiseliha, suitsutatud part, talujuustude valik, Sinimandria leivad, hooajalised määrded ja moosid, Sinimandria sahvri saadused</p>
   </div><div class="menu-item">
-    <h3>AUSTRID GILLARDEU NR3 <span class="price">5€/tk</span></h3>
+    <h3>AUSTRID GILLARDEU #3 <span class="price">5€/tk</span></h3>
     <p>Tomati mignonette, tilliõli</p>
-  </div>
   </div><div class="menu-item">
     <h3>VÄRSKE KAMMKARP <span class="price">7€/tk</span></h3>
     <p>Tomati konsomee, õuna-redise salat, maldon sool</p>
@@ -87,6 +86,34 @@ body_class: light-nav
   <div class="menu-item">
     <h3>VEISESABA TERRIIN <span class="price">15€</span></h3>
     <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise chawanmushi ja Sinimandria brioche</p>
+  </div>
+</section>
+
+<section class="menu-section">
+  <h2 class="menu-heading">PEAROAD</h2>
+  <div class="menu-item">
+    <h3>MERIAHVEN (taimne: KITSEJUUSTUKOOK) <span class="price">25/23€</span></h3>
+    <p>Võis praetud meriahvena filee, köögiviljakreemid, Sinimandria sahvri saadused, kaheksajala & punaveini kaste</p>
+  </div>
+  <div class="menu-item">
+    <h3>VUTI BALLOTIIN <span class="price">28€</span></h3>
+    <p>Metsaseentega täidetud vutt, vuti südamed XO, kõrvitsa & pruuni läätse raguu, miniporgand, pohlaketšup, Vuti jus</p>
+  </div>
+  <div class="menu-item">
+    <h3>EESTI ULUKIFILEE <span class="price">30€</span></h3>
+    <p>Rosmariiniga grillitud ulukifilee, suitsune hernekört, metsaseened, demi glace, puraviku veloute</p>
+  </div>
+</section>
+
+<section class="menu-section">
+  <h2 class="menu-heading">DESSERDID</h2>
+  <div class="menu-item">
+    <h3>PÕLETATUD MESI <span class="price">10€</span></h3>
+    <p>Kummeli mousse põletatud meega, meekärg, meeküpsis, sidruni geel , sidruni marmelaad</p>
+  </div>
+  <div class="menu-item">
+    <h3>KREEMINE JUUSTUKOOK <span class="price">10€</span></h3>
+    <p>Värsked marjad</p>
   </div>
 </section>
 
