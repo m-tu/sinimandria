@@ -383,8 +383,15 @@ blockquote p {
 }
 
 
-/* if you want a subtler border under the main heading, keep as-is; otherwise tweak: */
-/* .menu-heading { border-bottom: 1px solid #eee; } */
+/* Tighten H1 only when it's followed by a menu section that contains a heading group */
+.content-page .menu-heading-group h1 {
+  margin-bottom: 0.75rem; /* tweak to taste */
+}
+
+/* Make sure the group isn't adding extra space at the top */
+.menu-section .menu-heading-group {
+  margin-top: 0;
+}
 
 @media (max-width: 768px) {
   .menu-note {

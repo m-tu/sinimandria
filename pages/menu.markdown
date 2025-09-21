@@ -4,7 +4,10 @@ title: Menu
 permalink: /menu/
 body_class: light-nav
 ---
-<h1>Lõunamenüü (E-R 12:00 - 13:30)</h1>
+<div class="menu-heading-group">
+  <h1>Lõunamenüü</h1>
+  <p class="menu-note">E–R 12:00 – 13:30</p>
+</div>
 <section class="menu-section">
   <div class="menu-item">
     <h3>SINEPINE SEAKAEL <span class="price">9.5€</span></h3>
