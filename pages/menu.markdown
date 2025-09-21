@@ -117,7 +117,7 @@ body_class: light-nav
   </div>
 </section>
 
-<h1 class="menu-heading">SAIAKESED</h2>
+<h1 class="menu-heading">SAIAKESED</h1>
 
 <section class="menu-section">
   <div class="menu-item">
