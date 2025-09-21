@@ -35,7 +35,8 @@ body_class: light-nav
   </div>
 </section>
 
-<h1>Brunch (L-P 10:00 - 14:30)</h1>
+<h1>Brunch</h1>
+<p class="menu-note">L-P 10:00 – 14:30</p>
 <section class="menu-section">
   <!--<h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>-->
   <div class="menu-item">
@@ -61,7 +62,7 @@ body_class: light-nav
 </section>
 
 <h1>Õhtusöögimenüü </h1>
-
+<p class="menu-note">K-R 18:00 – 22:00, L 17:00 - 22:00</p>
 <section class="menu-section">
   <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
@@ -121,7 +122,7 @@ body_class: light-nav
 </section>
 
 <h1 class="menu-heading">SAIAKESED</h1>
-
+<p class="menu-note">E–P 08:00 – kuni saiakesi jagub</p>
 <section class="menu-section">
   <div class="menu-item">
     <h3>CROISSANT <span class="price">3€</span></h3>
