@@ -77,18 +77,16 @@ body_class: light-nav
     <p>Tomati konsomee, õuna-redise salat, maldon sool</p>
   </div>
 </section>
+
 <section class="menu-section">
   <h2 class="menu-heading">EELROAD</h2>
   <div class="menu-item">
-    <h3>JUUSTU-TOMATI CROISSANT  <span class="price">5€</span></h3>
-    <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
+    <h3>LOBSTERI RAVIOOLID (taimne: METSASEENE RAVIOOLID)  <span class="price">18/14€</span></h3>
+    <p>Röstitud kapsas, fenkol, pruun või, tilli velouté</p>
   </div>
   <div class="menu-item">
-    <h3>SOOLAFORELLI & TOORJUUSTU HAPUSAI <span class="price">8€</span></h3>
-    <p>Hapusai, soolaforell, toorjuustukreem, tillimajonees, värske kurk</p>
-  </div><div class="menu-item">
-    <h3>LAMBALIHA KEBAB FOCACCIAL <span class="price">8€</span></h3>
-    <p>Focaccia, lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
+    <h3>VEISESABA TERRIIN <span class="price">15€</span></h3>
+    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise chawanmushi ja Sinimandria brioche</p>
   </div>
 </section>
 
