@@ -356,6 +356,55 @@ blockquote p {
   margin: 0;
 }
 
+.menu-note {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.35rem;
+  font-style: italic;
+}
+
+/* tighten spacing between heading and note */
+.menu-heading {
+  margin-bottom: 0.35rem; /* was 2rem; keeps border visible but closer */
+}
+
+/* When using the wrapper, remove the old underline from the H2 */
+.menu-heading-group .menu-heading {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Optional: tighten the note so the wrapper's border sits right after it */
+.menu-heading-group .menu-note {
+  margin-top: 0.35rem;
+  margin-bottom: 0; /* let the group's padding-bottom create the gap before the border */
+}
+
+
+/* if you want a subtler border under the main heading, keep as-is; otherwise tweak: */
+/* .menu-heading { border-bottom: 1px solid #eee; } */
+
+@media (max-width: 768px) {
+  .menu-note {
+    font-size: 0.9rem;
+  }
+}
+
+.menu-heading-group {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+.menu-heading-group .menu-heading { margin: 0; }
+.menu-heading-group .menu-note {
+  margin-top: 0.35rem;
+  font-style: italic;
+  color: #555;
+  font-size: 0.95rem;
+}
 
 
 /* MEDIA QUERIES */
