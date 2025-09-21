@@ -117,9 +117,9 @@ body_class: light-nav
   </div>
 </section>
 
+<h1 class="menu-heading">SAIAKESED</h2>
 
 <section class="menu-section">
-  <h2 class="menu-heading">Saiakesed</h2>
   <div class="menu-item">
     <h3>CROISSANT <span class="price">3€</span></h3>
     <p>Pärmi-lehttaigna klassika</p>
