@@ -62,7 +62,7 @@ body_class: light-nav
 </section>
 
 <h1>Õhtusöögimenüü </h1>
-<p class="menu-note">K-R 18:00 – 22:00, L 17:00 - 22:00</p>
+<p class="menu-note">K-R 18:00 – 22:00, L 17:00 - 22:00</p><p><br/></p>
 <section class="menu-section">
   <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
