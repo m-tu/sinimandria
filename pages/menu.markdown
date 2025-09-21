@@ -8,16 +8,16 @@ body_class: light-nav
 <section class="menu-section">
   <h2 class="menu-heading">Lõunamenüü (E-R 12:00 - 13:30)</h2>
   <div class="menu-item">
-    <h3>VEISEPÕSK <span class="price">9.5€</span></h3>
-    <p>Madalküpsetatud veisepõsk, kartulipüree, bimi, demi glace</p>
+    <h3>SINEPINE SEAKAEL <span class="price">9.5€</span></h3>
+    <p>madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
   </div>
   <div class="menu-item">
-    <h3>KRÕBE KALA <span class="price">9.5€</span></h3>
-    <p>Valge kala kotlet, fenkolikreem, valge veini kaste</p>
+    <h3>MOUSSAKA LÕHEGA <span class="price">9.5€</span></h3>
+    <p>baklažaan, lõhe, külm hapukoorekaste, värsked kirsstomatid</p>
   </div>
   <div class="menu-item">
-    <h3>SUITSUPEEDI SUPP <span class="price">6€</span></h3>
-    <p>Suitsupeet, juurviljapuljong, focaccia/hapusai</p>
+    <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
+    <p>sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
