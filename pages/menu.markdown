@@ -58,20 +58,23 @@ body_class: light-nav
 </section>
 
 <h1>Õhtusöögimenüü </h1>
-<p>K-R 18:00 - 22:00  laupäeviti 17:00 - 22:00</p>
 
 <section class="menu-section">
   <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
-    <h3>JUUSTU-TOMATI CROISSANT  <span class="price">5€</span></h3>
-    <p>Grillitud croissant eesti juustu, tomati ja karulauguga</p>
+    <h3>SINIMANDRIA LEIVAD  <span class="price">3€/in</span></h3>
+    <p>Sinimandria leivad, maitsevõi, majapesto</p>
   </div>
   <div class="menu-item">
-    <h3>SOOLAFORELLI & TOORJUUSTU HAPUSAI <span class="price">8€</span></h3>
-    <p>Hapusai, soolaforell, toorjuustukreem, tillimajonees, värske kurk</p>
+    <h3>METSA MAITSETE TALDRIK <span class="price">12€/in</span></h3>
+    <p>Vinnutatud hirv, rebitud veiseliha, suitsutatud part, talujuustude valik, Sinimandria leivad, hooajalised määrded ja moosid, Sinimandria sahvri saadused</p>
   </div><div class="menu-item">
-    <h3>LAMBALIHA KEBAB FOCACCIAL <span class="price">8€</span></h3>
-    <p>Focaccia, lamba kebab, feta juust, metsiku piparmündi pesto, päiksekuivatatud tomat</p>
+    <h3>AUSTRID GILLARDEU NR3 <span class="price">5€/tk</span></h3>
+    <p>Tomati mignonette, tilliõli</p>
+  </div>
+  </div><div class="menu-item">
+    <h3>VÄRSKE KAMMKARP <span class="price">7€/tk</span></h3>
+    <p>Tomati konsomee, õuna-redise salat, maldon sool</p>
   </div>
 </section>
 <section class="menu-section">
