@@ -100,19 +100,19 @@ body_class: light-nav
     <p>Brioche saia keerd, martsipani ja kirsimoosiga</p>
   </div>
   <div class="menu-item">
-    <h3>LILLKAPSA PESA <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignas lillkapsa täidis, kolotsi talu juust ja värske ürt</p>
+    <h3>PLOOMI-AMARETTO KORP <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignas kohupiima ja martsipani korp, glasuuritud Amaretto glasuuriga. Eestimaine ploom ikka ka.</p>
   </div>
   <div class="menu-item">
-    <h3>LAMBALIHA PESA <span class="price">4€</span></h3>
-    <p>Pärmi-lehttaignas grillitud lambaliha ja pestokaste</p>
+    <h3>REBITUD VEISESABA PESA <span class="price">4€</span></h3>
+    <p>Pärmi-lehttaignas madalküpsetatud veisesaba ja sibulamoos</p>
   </div>
   <div class="menu-item">
-    <h3>KAPSAPIRUKAS <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignas kapsapirukas, pruuni või ja vürtsidega</p>
+    <h3>SEENEPIRUKAS <span class="price">3€</span></h3>
+    <p>Pärmi-lehttaignas röstitud seened</p>
   </div>
   <div class="menu-item">
-    <h3>VEISEVORSTI PIRUKAS <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignasse mähitud Linnamäe lihatööstuse veiseliha vorst. Kattes fenkol ja röstitud sibul sinepises kastmeas.</p>
+    <h3>SINGI-JUUSTU PIRUKAS <span class="price">3€</span></h3>
+    <p>Pärmi-lehttaignass Linnamäe sink ja talujuust.</p>
   </div>
 </section>
