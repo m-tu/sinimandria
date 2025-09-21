@@ -8,15 +8,15 @@ body_class: light-nav
 <section class="menu-section">
   <div class="menu-item">
     <h3>SINEPINE SEAKAEL <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
+    <p>Madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
   </div>
   <div class="menu-item">
     <h3>MOUSSAKA LÕHEGA <span class="price">9.5€</span></h3>
-    <p>baklažaan, lõhe, külm hapukoorekaste, värsked kirsstomatid</p>
+    <p>Baklažaan, lõhe, külm hapukoorekaste, värsked kirsstomatid</p>
   </div>
   <div class="menu-item">
     <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
-    <p>sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
+    <p>Sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
@@ -67,13 +67,13 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>METSA MAITSETE TALDRIK <span class="price">12€/in</span></h3>
-    <p>Vinnutatud hirv, rebitud veiseliha, suitsutatud part, talujuustude valik, Sinimandria leivad, hooajalised määrded ja moosid, Sinimandria sahvri saadused</p>
+    <p>Vinnutatud hirv, rebitud veiseliha, suitsutatud part, talujuustude valik, Sinimandria leivad & sahvri saadused, hooajalised määrded ja moosid</p>
   </div><div class="menu-item">
     <h3>AUSTRID GILLARDEU #3 <span class="price">5€/tk</span></h3>
     <p>Tomati mignonette, tilliõli</p>
   </div><div class="menu-item">
     <h3>VÄRSKE KAMMKARP <span class="price">7€/tk</span></h3>
-    <p>Tomati konsomee, õuna-redise salat, maldon sool</p>
+    <p>Tomati konsomee, õuna-redise salat</p>
   </div>
 </section>
 
@@ -85,7 +85,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>VEISESABA TERRIIN <span class="price">15€</span></h3>
-    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise chawanmushi ja Sinimandria brioche</p>
+    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise chawanmushi, brioche</p>
   </div>
 </section>
 
@@ -109,7 +109,7 @@ body_class: light-nav
   <h2 class="menu-heading">DESSERDID</h2>
   <div class="menu-item">
     <h3>PÕLETATUD MESI <span class="price">10€</span></h3>
-    <p>Kummeli mousse põletatud meega, meekärg, meeküpsis, sidruni geel , sidruni marmelaad</p>
+    <p>Kummeli mousse põletatud meega, meekärg, meeküpsis, sidruni geel, sidruni marmelaad</p>
   </div>
   <div class="menu-item">
     <h3>KREEMINE JUUSTUKOOK <span class="price">10€</span></h3>
