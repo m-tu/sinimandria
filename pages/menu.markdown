@@ -92,7 +92,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>VEISESABA TERRIIN <span class="price">15€</span></h3>
-    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise chawanmushi, brioche</p>
+    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise kreembrülee, brioche</p>
   </div>
 </section>
 
