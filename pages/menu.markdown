@@ -63,8 +63,8 @@ body_class: light-nav
 </section>
 
 <div class="menu-heading-group">
-  <h1>Õhtusöögimenüü (alates 3.oktoober)</h1>
-  <p class="menu-note">K-R 18:00 – 22:00, L 17:00 - 22:00</p>
+  <h1>Õhtusöök</h1>
+  <p class="menu-note">ALATES 3.oktoober K-R 18:00 – 22:00, L 17:00 - 22:00</p>
 </div>
 <section class="menu-section">
   <h2 class="menu-heading">SUUPISTED</h2>
