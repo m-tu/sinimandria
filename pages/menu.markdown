@@ -5,7 +5,7 @@ permalink: /menu/
 body_class: light-nav
 ---
 <div class="menu-heading-group">
-  <h1>Lõunamenüü</h1>
+  <h1>Lõuna</h1>
   <p class="menu-note">E–R 12:00 – 13:30</p>
 </div>
 <section class="menu-section">
