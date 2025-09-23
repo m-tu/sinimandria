@@ -17,7 +17,7 @@ body_class: light-nav
     <h3>MOUSSAKA LÕHEGA <span class="price">9.5€</span></h3>
     <p>Baklažaan, lõhe, külm hapukoorekaste, värsked kirsstomatid</p>
   </div>
-  <div class="menu-item">
+  <div class="menu-item"> 
     <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
     <p>Sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
   </div>
