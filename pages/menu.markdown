@@ -5,7 +5,7 @@ permalink: /menu/
 body_class: light-nav
 ---
 <div class="menu-heading-group">
-  <h1>Lõunamenüü</h1>
+  <h1>Lõuna</h1>
   <p class="menu-note">E–R 12:00 – 13:30</p>
 </div>
 <section class="menu-section">
@@ -17,7 +17,7 @@ body_class: light-nav
     <h3>MOUSSAKA LÕHEGA <span class="price">9.5€</span></h3>
     <p>Baklažaan, lõhe, külm hapukoorekaste, värsked kirsstomatid</p>
   </div>
-  <div class="menu-item">
+  <div class="menu-item"> 
     <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
     <p>Sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
   </div>
@@ -34,8 +34,10 @@ body_class: light-nav
     <p>Lisandiks tellimiseks: Otti talu tomatist või Sinimandria soolakurgist salat</p>
   </div>
 </section>
-
-<h1>Brunch (L-P 10:00 - 14:30)</h1>
+<div class="menu-heading-group">
+  <h1>Brunch</h1>
+  <p class="menu-note">L-P 10:00 – 14:30</p>
+</div>
 <section class="menu-section">
   <!--<h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>-->
   <div class="menu-item">
@@ -60,8 +62,10 @@ body_class: light-nav
   </div>
 </section>
 
-<h1>Õhtusöögimenüü </h1>
-
+<div class="menu-heading-group">
+  <h1>Õhtusöök</h1>
+  <p class="menu-note">ALATES 3.oktoober K-R 18:00 – 22:00, L 17:00 - 22:00</p>
+</div>
 <section class="menu-section">
   <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
@@ -88,7 +92,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>VEISESABA TERRIIN <span class="price">15€</span></h3>
-    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise chawanmushi, brioche</p>
+    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise kreembrülee, brioche</p>
   </div>
 </section>
 
@@ -120,8 +124,10 @@ body_class: light-nav
   </div>
 </section>
 
-<h1 class="menu-heading">SAIAKESED</h1>
-
+<div class="menu-heading-group">
+  <h1 class="menu-heading">SAIAKESED</h1>
+  <p class="menu-note">E–P 08:00 – kuni saiakesi jagub</p>
+</div>
 <section class="menu-section">
   <div class="menu-item">
     <h3>CROISSANT <span class="price">3€</span></h3>
