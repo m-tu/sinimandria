@@ -479,3 +479,191 @@ blockquote p {
     gap: 0.5rem;
   }
 }
+
+/* BAKERY PAGE STYLES */
+
+.bakery-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.bakery-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.bakery-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.bakery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.bakery-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.bakery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.bakery-image {
+  height: 200px;
+  background: linear-gradient(135deg, #f5f0e6 0%, #e8dcc0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-placeholder {
+  font-size: 4rem;
+  opacity: 0.8;
+  transition: transform 0.3s ease;
+}
+
+.bakery-item:hover .image-placeholder {
+  transform: scale(1.1);
+}
+
+.bakery-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bakery-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.bakery-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  flex-grow: 1;
+}
+
+.bakery-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.bakery-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.add-to-cart-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.add-to-cart-btn:hover {
+  background: #444;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart-btn:active {
+  transform: translateY(0);
+}
+
+.bakery-info {
+  text-align: center;
+  padding: 2rem;
+  background: #f8f6f1;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.bakery-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments for bakery page */
+@media (max-width: 768px) {
+  .bakery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .bakery-item {
+    margin: 0 0.5rem;
+  }
+  
+  .bakery-content {
+    padding: 1.25rem;
+  }
+  
+  .bakery-footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .add-to-cart-btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .bakery-price {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bakery-header h1 {
+    font-size: 2rem;
+  }
+  
+  .bakery-subtitle {
+    font-size: 1rem;
+  }
+  
+  .bakery-image {
+    height: 160px;
+  }
+  
+  .image-placeholder {
+    font-size: 3rem;
+  }
+}
