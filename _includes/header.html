@@ -1,16 +1,50 @@
-<header>
-    <div class="header-left">
-      <a href="{{ '/' | absolute_url }}">
-        <img src="{{ '/assets/images/noBgWhiteLogo.png' | absolute_url }}" alt="Restaurant Logo" class="logo logo-white">
-        <img src="{{ '/assets/images/noBgBlack.png' | absolute_url }}" alt="Logo" class="logo logo-black">
-      </a>
-    </div>
+<header class="{{ page.cart_shown }}">
+  <div class="header-left">
+    <a href="{{ '/' | absolute_url }}">
+      <img src="{{ '/assets/images/noBgWhiteLogo.png' | absolute_url }}" alt="Restaurant Logo" class="logo logo-white">
+      <img src="{{ '/assets/images/noBgBlack.png' | absolute_url }}" alt="Logo" class="logo logo-black">
+    </a>
+  </div>
+  <div class="header-right">
+    <button id="cart-toggle" class="cart-toggle">
+      🛒
+      <span class="cart-badge">0</span>
+    </button>
     <button id="nav-toggle" class="nav-toggle">☰</button>
-    <nav id="main-nav">
-      <a href="{{ '/menu/' | absolute_url }}">Menüü</a>
-      <a href="{{ '/peakokk/' | absolute_url }}">Meie peakokast</a>
-      <a href="{{ '/sinimandriast/' | absolute_url }}">Sinimandriast</a>
-      <a href="{{ '/kontakt/' | absolute_url }}">Kontakt</a>
-      <a href="https://book.easytable.com/book/?id=f4386&lang=auto" target="_blank" rel="noopener noreferrer">Broneeri</a>
-    </nav>  
+  </div>
+  <nav id="main-nav">
+    <a href="{{ '/menu/' | absolute_url }}">Menüü</a>
+    <a href="{{ '/peakokk/' | absolute_url }}">Meie peakokast</a>
+    <a href="{{ '/sinimandriast/' | absolute_url }}">Sinimandriast</a>
+    <a href="{{ '/kontakt/' | absolute_url }}">Kontakt</a>
+    <a href="https://book.easytable.com/book/?id=f4386&lang=auto" target="_blank" rel="noopener noreferrer">Broneeri</a>
+  </nav>  
 </header>
+
+<!-- Cart Overlay -->
+<div class="cart-overlay"></div>
+
+<!-- Cart Panel -->
+<div class="cart-panel">
+<div class="cart-header">
+  <h3>Ostukorv</h3>
+  <button class="cart-close">×</button>
+</div>
+
+<div class="cart-content">
+  <div class="cart-items">
+    <div class="cart-empty">Ostukorv on tühi</div>
+  </div>
+  
+  <div class="cart-summary">
+    <div class="cart-total-line">
+      <span>Kokku: </span>
+      <span class="cart-total">0€</span>
+    </div>
+    <button class="checkout-btn" disabled>OSTA</button>
+  </div>
+</div>
+</div>
+
+<!-- Include cart script -->
+<script src="{{ '/assets/js/cart.js' | absolute_url }}"></script>

@@ -3,6 +3,7 @@ layout: content
 title: Pagar
 permalink: /pagar/
 body_class: light-nav
+cart_shown: show-cart
 ---
 
 <div class="bakery-header">
@@ -11,9 +12,10 @@ body_class: light-nav
 </div>
 
 <div class="bakery-grid">
+
   <div class="bakery-item">
     <div class="bakery-image">
-      <div class="image-placeholder">🥐</div>
+      <img class="bakery-photo" src="{{ '/assets/images/saiad/croissant.jpg' | absolute_url }}" alt="Croissant" />
     </div>
     <div class="bakery-content">
       <h3>Croissant</h3>
@@ -27,21 +29,7 @@ body_class: light-nav
 
   <div class="bakery-item">
     <div class="bakery-image">
-      <div class="image-placeholder">🥐</div>
-    </div>
-    <div class="bakery-content">
-      <h3>Täidetud Croissant</h3>
-      <p class="bakery-description">Erinevate kreemide ja compote täidistega croissant. Mitmekesine maitse igas hammustuses.</p>
-      <div class="bakery-footer">
-        <span class="bakery-price">4.5€</span>
-        <button class="add-to-cart-btn">Lisa korvi</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="bakery-item">
-    <div class="bakery-image">
-      <div class="image-placeholder">🍞</div>
+    <img class="bakery-photo" src="{{ '/assets/images/saiad/ahvileib.jpg' | absolute_url }}" alt="Ahvileib" />
     </div>
     <div class="bakery-content">
       <h3>Ahvileib</h3>
@@ -55,7 +43,7 @@ body_class: light-nav
 
   <div class="bakery-item">
     <div class="bakery-image">
-      <div class="image-placeholder">🌀</div>
+      <img class="bakery-photo" src="{{ '/assets/images/saiad/kaneelirull.jpg' | absolute_url }}" alt="Kaneelisai" />
     </div>
     <div class="bakery-content">
       <h3>Kaneelisai</h3>
@@ -69,7 +57,7 @@ body_class: light-nav
 
   <div class="bakery-item">
     <div class="bakery-image">
-      <div class="image-placeholder">🥧</div>
+      <img class="bakery-photo" src="{{ '/assets/images/saiad/mustikapesa.jpg' | absolute_url }}" alt="Pesa" />
     </div>
     <div class="bakery-content">
       <h3>Täidetud Pesa</h3>
@@ -83,7 +71,7 @@ body_class: light-nav
 
   <div class="bakery-item">
     <div class="bakery-image">
-      <div class="image-placeholder">🍒</div>
+      <img class="bakery-photo" src="{{ '/assets/images/saiad/kirsikeerd.jpg' | absolute_url }}" alt="Kirsi Keerd" />
     </div>
     <div class="bakery-content">
       <h3>Kirsi Keerd</h3>
@@ -95,55 +83,14 @@ body_class: light-nav
     </div>
   </div>
 
-  <div class="bakery-item">
-    <div class="bakery-image">
-      <div class="image-placeholder">🥮</div>
-    </div>
-    <div class="bakery-content">
-      <h3>Ploomi-Amaretto Korp</h3>
-      <p class="bakery-description">Pärmi-lehttaignas kohupiima ja martsipani korp, Amaretto glasuuri ja ploomidega.</p>
-      <div class="bakery-footer">
-        <span class="bakery-price">3.5€</span>
-        <button class="add-to-cart-btn">Lisa korvi</button>
-      </div>
-    </div>
-  </div>
 
   <div class="bakery-item">
     <div class="bakery-image">
-      <div class="image-placeholder">🥧</div>
+      <img class="bakery-photo" src="{{ '/assets/images/saiad/seeonviiner.jpg' | absolute_url }}" alt="Viineripirukas" />
     </div>
     <div class="bakery-content">
-      <h3>Rebitud Veisesaba Pesa</h3>
-      <p class="bakery-description">Pärmi-lehttaignas madalküpsetatud veisesaba ja sibulamoos. Soolane variant.</p>
-      <div class="bakery-footer">
-        <span class="bakery-price">4€</span>
-        <button class="add-to-cart-btn">Lisa korvi</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="bakery-item">
-    <div class="bakery-image">
-      <div class="image-placeholder">🍄</div>
-    </div>
-    <div class="bakery-content">
-      <h3>Seenepirukas</h3>
-      <p class="bakery-description">Pärmi-lehttaignas röstitud seened. Maitsev soolane valik lõunaks või õhtusöögiks.</p>
-      <div class="bakery-footer">
-        <span class="bakery-price">3€</span>
-        <button class="add-to-cart-btn">Lisa korvi</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="bakery-item">
-    <div class="bakery-image">
-      <div class="image-placeholder">🧀</div>
-    </div>
-    <div class="bakery-content">
-      <h3>Singi-Juustu Pirukas</h3>
-      <p class="bakery-description">Pärmi-lehttaignass Linnamäe sink ja talujuust. Klassikaline eesti maitse.</p>
+      <h3>Viineri Pirukas</h3>
+      <p class="bakery-description">See on viiner </p>
       <div class="bakery-footer">
         <span class="bakery-price">3€</span>
         <button class="add-to-cart-btn">Lisa korvi</button>
