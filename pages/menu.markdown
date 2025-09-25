@@ -11,15 +11,15 @@ body_class: light-nav
 <section class="menu-section">
   <div class="menu-item">
     <h3>SINEPINE SEAKAEL <span class="price">9.5€</span></h3>
-    <p>Madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
+    <p>madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
   </div>
   <div class="menu-item">
     <h3>MOUSSAKA LÕHEGA <span class="price">9.5€</span></h3>
-    <p>Baklažaan, lõhe, külm hapukoorekaste, värsked kirsstomatid</p>
+    <p>lõhe, kartul, spinat, seller, värsked kirsstomatid, külm hapukoorekaste</p>
   </div>
   <div class="menu-item"> 
     <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
-    <p>Sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
+    <p>sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
@@ -27,7 +27,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>SOOLAFORELL & HAPUSAI <span class="price">8€</span></h3>
-    <p>Õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
+    <p>õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
   </div>
   <div class="menu-item">
     <h3>VÄRSKE SALAT <span class="price">4€</span></h3>
@@ -46,7 +46,7 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
-    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks suvikõrvits, soolaforell või peekon (+4€)</p>
+    <p>pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks suvikõrvits, soolaforell või peekon (+4€)</p>
   </div>
   <div class="menu-item">
     <h3>CROQUE MONSIEUR  <span class="price">10€</span></h3>
@@ -54,11 +54,11 @@ body_class: light-nav
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA  <span class="price">8€</span></h3>
-    <p>Tomatisalsa, Viinamärdi straciatella, karulaugu pesto, krõbe focaccia</p>
+    <p>tomatisalsa, Viinamärdi straciatella, karulaugu pesto, krõbe focaccia</p>
   </div>
   <div class="menu-item">
     <h3>SOOLAFORELL & HAPUSAI  <span class="price">8€</span></h3>
-    <p>Õrnsoola forell, hapusai, toorjuustukreem, värsked ürdid</p>
+    <p>õrnsoola forell, hapusai, toorjuustukreem, värsked ürdid</p>
   </div>
 </section>
 
@@ -70,57 +70,65 @@ body_class: light-nav
   <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
     <h3>SINIMANDRIA LEIVAD  <span class="price">3€/in</span></h3>
-    <p>Sinimandria leivad, maitsevõi, majapesto</p>
+    <p>oma maja leivad & määrded</p>
   </div>
   <div class="menu-item">
     <h3>METSA MAITSETE TALDRIK <span class="price">12€/in</span></h3>
-    <p>Vinnutatud hirv, rebitud veiseliha, suitsutatud part, talujuustude valik, Sinimandria leivad & sahvri saadused, hooajalised määrded ja moosid</p>
+    <p>lihad, juustud ja juurikad Sinimandria sahvrist</p>
   </div><div class="menu-item">
-    <h3>AUSTRID GILLARDEU #3 <span class="price">5€/tk</span></h3>
-    <p>Tomati mignonette, tilliõli</p>
+    <h3>AUSTER <span class="price">5€/tk</span></h3>
+    <p>tomati mignonette, tilliõli</p>
   </div><div class="menu-item">
-    <h3>VÄRSKE KAMMKARP <span class="price">7€/tk</span></h3>
-    <p>Tomati konsomee, õuna-redise salat</p>
+    <h3>KAMMKARP <span class="price">7€/tk</span></h3>
+    <p>õun, redis, tomat</p>
   </div>
 </section>
 
 <section class="menu-section">
   <h2 class="menu-heading">EELROAD</h2>
   <div class="menu-item">
-    <h3>LOBSTERI RAVIOOLID (taimne: METSASEENE RAVIOOLID)  <span class="price">18/14€</span></h3>
-    <p>Röstitud kapsas, fenkol, pruun või, tilli velouté</p>
+    <h3>METSASEEN  <span class="price">14€</span></h3>
+    <p>raviool, pruun või, till</p>
   </div>
   <div class="menu-item">
-    <h3>VEISESABA TERRIIN <span class="price">15€</span></h3>
-    <p>Veisesaba terriin, põletatud petersellijuur, pohlad, veise kreembrülee, brioche</p>
+    <h3>LOBSTER <span class="price">18€</span></h3>
+    <p>raviool, röstitud kapsas, fenkol, pruun või</p>
+  </div>
+  <div class="menu-item">
+    <h3>VEISESABA <span class="price">15€</span></h3>
+    <p>terriin, peterselli juur, pohl</p>
   </div>
 </section>
 
 <section class="menu-section">
   <h2 class="menu-heading">PEAROAD</h2>
   <div class="menu-item">
-    <h3>MERIAHVEN (taimne: KITSEJUUSTUKOOK) <span class="price">25/23€</span></h3>
-    <p>Võis praetud meriahvena filee, köögiviljakreemid, Sinimandria sahvri saadused, kaheksajala & punaveini kaste</p>
+    <h3>KITSEJUUST <span class="price">23€</span></h3>
+    <p>suvikõrvits, tomat, filotainas</p>
   </div>
   <div class="menu-item">
-    <h3>VUTI BALLOTIIN <span class="price">28€</span></h3>
-    <p>Metsaseentega täidetud vutt, vuti südamed XO, kõrvitsa & pruuni läätse raguu, miniporgand, pohlaketšup, Vuti jus</p>
+    <h3>MERIAHVEN <span class="price">25€</span></h3>
+    <p>köögiviljad, kaheksajala jus</p>
   </div>
   <div class="menu-item">
-    <h3>EESTI ULUKIFILEE <span class="price">30€</span></h3>
-    <p>Rosmariiniga grillitud ulukifilee, suitsune hernekört, metsaseened, demi glace, puraviku veloute</p>
+    <h3>VUTT <span class="price">28€</span></h3>
+    <p>ballotiin, seened, läätsed</p>
+  </div>
+  <div class="menu-item">
+    <h3>ULUK <span class="price">30€</span></h3>
+    <p>filee, rosmariin, hernes, puravik</p>
   </div>
 </section>
 
 <section class="menu-section">
   <h2 class="menu-heading">DESSERDID</h2>
   <div class="menu-item">
-    <h3>PÕLETATUD MESI <span class="price">10€</span></h3>
-    <p>Kummeli mousse põletatud meega, meekärg, meeküpsis, sidruni geel, sidruni marmelaad</p>
+    <h3> MESI <span class="price">10€</span></h3>
+    <p>kummel, mesi</p>
   </div>
   <div class="menu-item">
-    <h3>KREEMINE JUUSTUKOOK <span class="price">10€</span></h3>
-    <p>Värsked marjad</p>
+    <h3>TOORJUUST <span class="price">10€</span></h3>
+    <p>Baski juustukook, värsked marjad</p>
   </div>
 </section>
 
