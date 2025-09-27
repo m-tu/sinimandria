@@ -115,7 +115,7 @@ body_class: light-nav
     <p>ballotiin, seened, läätsed</p>
   </div>
   <div class="menu-item">
-    <h3>ULUK <span class="price">30€</span></h3>
+    <h3>ULUK <span class="price">29€</span></h3>
     <p>filee, rosmariin, hernes, puravik</p>
   </div>
 </section>
