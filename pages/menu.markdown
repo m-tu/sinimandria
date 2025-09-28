@@ -10,16 +10,16 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>SINEPINE SEAKAEL <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud seakael sinepises koorekastmes, röstitud kartuli ja köögiviljadega</p>
+    <h3>CHILLI CON CARNE <span class="price">9.5€</span></h3>
+    <p>chilli con carne, ürdine riis</p>
   </div>
   <div class="menu-item">
-    <h3>MOUSSAKA LÕHEGA <span class="price">9.5€</span></h3>
-    <p>lõhe, kartul, spinat, seller, värsked kirsstomatid, külm hapukoorekaste</p>
+    <h3>AHJUVORM KALAGA <span class="price">9.5€</span></h3>
+    <p>valge kala ahjuvorm röstitud köögiviljade ja külma kastmega</p>
   </div>
   <div class="menu-item"> 
-    <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
-    <p>sügisene kõrvits, röstitud kõrvitsaseemned, feta, focaccia</p>
+    <h3>TOMATISUPP <span class="price">6€</span></h3>
+    <p>kreemine tomati püreesupp mozzarella ja focacciaga</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
@@ -34,12 +34,12 @@ body_class: light-nav
     <p>Lisandiks tellimiseks: Otti talu tomatist või Sinimandria soolakurgist salat</p>
   </div>
 </section>
+<!--
 <div class="menu-heading-group">
   <h1>Brunch</h1>
   <p class="menu-note">L-P 10:00 – 14:30</p>
 </div>
 <section class="menu-section">
-  <!--<h2 class="menu-heading">Brunch (L-P 10:00 - 14:30)</h2>-->
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
     <p>Kõrepi muna, karameliseeritud pruun juust, hapusai. Lisandiks peekon (+3€)</p>
@@ -61,7 +61,7 @@ body_class: light-nav
     <p>õrnsoola forell, hapusai, toorjuustukreem, värsked ürdid</p>
   </div>
 </section>
-
+-->
 <div class="menu-heading-group">
   <h1>Õhtusöök</h1>
   <p class="menu-note">ALATES 3.oktoober K-R 18:00 – 22:00, L 17:00 - 22:00</p>
@@ -91,7 +91,7 @@ body_class: light-nav
     <p>raviool, pruun või, till</p>
   </div>
   <div class="menu-item">
-    <h3>LOBSTER <span class="price">18€</span></h3>
+    <h3>MERIVÄHK <span class="price">18€</span></h3>
     <p>raviool, röstitud kapsas, fenkol, pruun või</p>
   </div>
   <div class="menu-item">
