@@ -4,36 +4,6 @@ title: Menu
 permalink: /menu/
 body_class: light-nav
 ---
-<div class="menu-heading-group">
-  <h1>Lõuna</h1>
-  <p class="menu-note">E–R 12:00 – 13:30</p>
-</div>
-<section class="menu-section">
-  <div class="menu-item">
-    <h3>CHILLI CON CARNE <span class="price">9.5€</span></h3>
-    <p>chilli con carne, ürdine riis</p>
-  </div>
-  <div class="menu-item">
-    <h3>AHJUVORM KALAGA <span class="price">9.5€</span></h3>
-    <p>valge kala ahjuvorm röstitud köögiviljade ja külma kastmega</p>
-  </div>
-  <div class="menu-item"> 
-    <h3>TOMATISUPP <span class="price">6€</span></h3>
-    <p>kreemine tomati püreesupp mozzarella ja focacciaga</p>
-  </div>
-  <div class="menu-item">
-    <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
-    <p>Otti talu tomati salsa, Viinamärdi stracciatella, karulaugupesto, focaccia</p>
-  </div>
-  <div class="menu-item">
-    <h3>SOOLAFORELL & HAPUSAI <span class="price">8€</span></h3>
-    <p>õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
-  </div>
-  <div class="menu-item">
-    <h3>VÄRSKE SALAT <span class="price">4€</span></h3>
-    <p>Lisandiks tellimiseks: Otti talu tomatist või Sinimandria soolakurgist salat</p>
-  </div>
-</section>
 <!--
 <div class="menu-heading-group">
   <h1>Brunch</h1>
@@ -129,6 +99,37 @@ body_class: light-nav
   <div class="menu-item">
     <h3>TOORJUUST <span class="price">10€</span></h3>
     <p>Baski juustukook, värsked marjad</p>
+  </div>
+</section>
+
+<div class="menu-heading-group">
+  <h1>Lõuna</h1>
+  <p class="menu-note">E–R 12:00 – 13:30</p>
+</div>
+<section class="menu-section">
+  <div class="menu-item">
+    <h3>CHILLI CON CARNE <span class="price">9.5€</span></h3>
+    <p>chilli con carne, ürdine riis</p>
+  </div>
+  <div class="menu-item">
+    <h3>AHJUVORM KALAGA <span class="price">9.5€</span></h3>
+    <p>valge kala ahjuvorm röstitud köögiviljade ja külma kastmega</p>
+  </div>
+  <div class="menu-item"> 
+    <h3>TOMATISUPP <span class="price">6€</span></h3>
+    <p>kreemine tomati püreesupp mozzarella ja focacciaga</p>
+  </div>
+  <div class="menu-item">
+    <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
+    <p>Otti talu tomati salsa, Viinamärdi stracciatella, karulaugupesto, focaccia</p>
+  </div>
+  <div class="menu-item">
+    <h3>SOOLAFORELL & HAPUSAI <span class="price">8€</span></h3>
+    <p>õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
+  </div>
+  <div class="menu-item">
+    <h3>VÄRSKE SALAT <span class="price">4€</span></h3>
+    <p>Lisandiks tellimiseks: Otti talu tomatist või Sinimandria soolakurgist salat</p>
   </div>
 </section>
 
