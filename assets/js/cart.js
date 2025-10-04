@@ -109,6 +109,13 @@ class ShoppingCart {
                 this.toggleCustomerInfo();
             }
         });
+
+        document.addEventListener('input', (e) => {
+            const t = e.target;
+            if (t && (t.id === 'customer-name' || t.id === 'customer-email')) {
+                this.clearFieldError(t);
+            }
+        });
     }
 
     // Handle add to cart button click
@@ -307,27 +314,34 @@ class ShoppingCart {
     }
 
     // Checkout process
-    checkout() {
+    async checkout() {
         if (this.cart.length === 0) {
             alert('Ostukorv on tühi!');
             return;
         }
 
+        if (!this.validateCustomerInfo()) {
+            return;
+        }
+        
         const total = this.getTotal();
         const totalItems = this.getTotalItems();
-        
-        // Simple confirmation
         const confirmation = confirm(
             `Kinnitad ostu?\n\nKokku: ${totalItems} toodet\nSumma: ${total.toFixed(2)}€`
         );
-        
-        if (confirmation) {
-            // Clear cart after successful "purchase"
+        if (!confirmation) return;
+        const btn = document.querySelector('.checkout-btn');
+        if (btn) { btn.disabled = true; btn.textContent = 'Saatmine...'; }
+        try {
+            await this.submitOrder();
             this.clearCart();
             this.closeCart();
-            
-            // Show success message
             this.showCheckoutSuccess();
+        } catch (err) {
+            console.error('Order submit failed:', err);
+            alert('Tellimuse saatmine ebaõnnestus. Palun proovige uuesti.');
+        } finally {
+            if (btn) { btn.textContent = 'OSTA'; btn.disabled = this.cart.length === 0; }
         }
     }
 
@@ -369,9 +383,86 @@ class ShoppingCart {
             }
         }
     }
+
+    validateCustomerInfo() {
+        const nameInput = document.getElementById('customer-name');
+        const emailInput = document.getElementById('customer-email');
+        const customerInfo = document.querySelector('.cart-customer-info');
+        const toggleIcon = document.querySelector('.toggle-icon');
+        let valid = true;
+        let firstInvalid = null;
+
+        if (nameInput) {
+            this.clearFieldError(nameInput);
+            if (!nameInput.value.trim()) {
+                this.showFieldError(nameInput, 'Nimi on kohustuslik');
+                valid = false; firstInvalid = firstInvalid || nameInput;
+            }
+        }
+
+        if (emailInput) {
+            this.clearFieldError(emailInput);
+            const val = emailInput.value.trim();
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+            if (!val) {
+                this.showFieldError(emailInput, 'E-post on kohustuslik');
+                valid = false; firstInvalid = firstInvalid || emailInput;
+            } else if (!emailRegex.test(val)) {
+                this.showFieldError(emailInput, 'Palun sisestage kehtiv e-posti aadress');
+                valid = false; firstInvalid = firstInvalid || emailInput;
+            }
+        }
+        if (!valid) {
+            if (customerInfo && customerInfo.classList.contains('collapsed')) {
+                customerInfo.classList.remove('collapsed');
+                if (toggleIcon) toggleIcon.textContent = '▲';
+            }
+            if (firstInvalid) firstInvalid.focus({ preventScroll: false });
+        }
+        return valid;
+    }
+
+    showFieldError(inputEl, message) {
+        if (!inputEl) return;
+        inputEl.classList.add('input-error');
+        const group = inputEl.closest('.form-group') || inputEl.parentElement;
+        if (!group) return;
+        let msg = group.querySelector('.error-message');
+        if (!msg) {
+            msg = document.createElement('div');
+            msg.className = 'error-message';
+            group.appendChild(msg);
+        }
+        msg.textContent = message;
+    }
+
+    // Clear inline error from field
+    clearFieldError(inputEl) {
+        if (!inputEl) return;
+        inputEl.classList.remove('input-error');
+        const group = inputEl.closest('.form-group') || inputEl.parentElement;
+        if (!group) return;
+        const msg = group.querySelector('.error-message');
+        if (msg) msg.remove();
+    }
+
+    submitOrder() {
+        const payload = {
+            customer: {
+                name: document.getElementById('customer-name')?.value.trim() || '',
+                email: document.getElementById('customer-email')?.value.trim() || '',
+                phone: document.getElementById('customer-phone')?.value.trim() || ''
+            },
+            items: this.cart.map(i => ({ name: i.name, price: i.price, quantity: i.quantity })),
+            total: this.getTotal(),
+            totalItems: this.getTotalItems(),
+            timestamp: new Date().toISOString()
+        };
+        console.log('Submitting order:', payload);
+        return new Promise((resolve) => setTimeout(resolve, 800));
+    }
 }
 
-// Initialize cart when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     window.sinimandriCart = new ShoppingCart();
 });
