@@ -446,7 +446,7 @@ class ShoppingCart {
         if (msg) msg.remove();
     }
 
-    submitOrder() {
+    async submitOrder() {
         const payload = {
             customer: {
                 name: document.getElementById('customer-name')?.value.trim() || '',
@@ -458,8 +458,30 @@ class ShoppingCart {
             totalItems: this.getTotalItems(),
             timestamp: new Date().toISOString()
         };
+        
         console.log('Submitting order:', payload);
-        return new Promise((resolve) => setTimeout(resolve, 800));
+        
+        try {
+            const response = await fetch('https://emailrelay.mataba.eu/sendemail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(payload)
+            });
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const result = await response.json();
+            console.log('Order submitted successfully:', result);
+            return result;
+            
+        } catch (error) {
+            console.error('Failed to submit order:', error);
+            throw error;
+        }
     }
 }
 
