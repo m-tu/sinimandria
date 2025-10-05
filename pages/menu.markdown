@@ -108,16 +108,16 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>CHILLI CON CARNE <span class="price">9.5€</span></h3>
-    <p>chilli con carne, ürdine riis</p>
+    <h3>LASANJE <span class="price">9.5€</span></h3>
+    <p>lasanje veiselihaga, külm hapukoorekaste</p>
   </div>
   <div class="menu-item">
-    <h3>AHJUVORM KALAGA <span class="price">9.5€</span></h3>
-    <p>valge kala ahjuvorm röstitud köögiviljade ja külma kastmega</p>
+    <h3>LÕHE <span class="price">9.5€</span></h3>
+    <p>madalküpsetatud lõhefilee, lillkapsa kreem, kartulikrõpsud</p>
   </div>
   <div class="menu-item"> 
-    <h3>TOMATISUPP <span class="price">6€</span></h3>
-    <p>kreemine tomati püreesupp mozzarella ja focacciaga</p>
+    <h3>SUITSUPEEDI SUPP <span class="price">6€</span></h3>
+    <p>suitsupeet, juurviljapuljong, hapusai/focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
