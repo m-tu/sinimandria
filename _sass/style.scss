@@ -4,9 +4,32 @@
   box-sizing: border-box;
 }
 
+/* Fonts */
+@font-face {
+  font-family: 'Oakes Grotesk';
+  src: url(#{$baseurl + '/assets/css/OakesGroteskRegular.woff'}) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oakes Grotesk';
+  src: url(#{$baseurl + '/assets/css/OakesGroteskBold.woff'}) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 body, html {
-  font-family: Arial, sans-serif;
+  font-family: 'Oakes Grotesk', Arial, sans-serif;
   background: #f5f0e6;
+}
+
+/* Headings use the bold weight of the single family */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oakes Grotesk', 'Helvetica Neue', 'Liberation Sans', Arial, sans-serif;
+  font-weight: 700;
 }
 
 /* HEADER */
@@ -150,7 +173,7 @@ header.scrolled .logo-black {
 
 .menu-section {
   margin-bottom: 4rem;
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: 'Oakes Grotesk', "Segoe UI", Arial, sans-serif;
 }
 
 .menu-heading {
@@ -162,6 +185,7 @@ header.scrolled .logo-black {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-align: center;
+  font-weight: 700;
 }
 
 .content-page h1 {
@@ -171,6 +195,7 @@ header.scrolled .logo-black {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #111;
+  font-weight: 700;
 }
 
 .menu-item {
@@ -184,7 +209,7 @@ header.scrolled .logo-black {
   justify-content: space-between;
   align-items: flex-end;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.5rem;
   color: #222;
   text-transform: uppercase;
@@ -201,7 +226,7 @@ header.scrolled .logo-black {
 .menu-item p {
   margin-top: 0.5rem;
   color: #333;
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: 'Oakes Grotesk', "Segoe UI", Arial, sans-serif;
 }
 
 /* HIGHLIGHT */
@@ -234,7 +259,7 @@ header.scrolled .logo-black {
 }
 
 .hero h1 {
-  font-family: "Segoe UI", "Helvetica Neue", "Liberation Sans", Arial, sans-serif;
+  font-family: 'Oakes Grotesk', "Helvetica Neue", "Liberation Sans", Arial, sans-serif;
   font-size: clamp(2.5rem, 6vw, 5rem);
 }
 
@@ -269,6 +294,7 @@ header.scrolled .logo-black {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #111;
+  font-weight: 700;
 }
 
 .section-description {
@@ -553,10 +579,10 @@ blockquote p {
   font-size: 1.3rem;
   margin-bottom: 0.75rem;
   color: #222;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: 'Oakes Grotesk', "Segoe UI", Arial, sans-serif;
 }
 
 .bakery-description {
@@ -564,7 +590,7 @@ blockquote p {
   color: #555;
   line-height: 1.5;
   margin-bottom: 1.5rem;
-  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: 'Oakes Grotesk', "Segoe UI", Arial, sans-serif;
   flex-grow: 1;
 }
 
