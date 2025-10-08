@@ -283,11 +283,42 @@ header.scrolled .logo-black {
   flex: 1 1 50%;
   min-width: 300px;
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid; /* center a single column grid */
+  grid-template-columns: minmax(0, var(--measure, 65ch));
+  justify-content: center; /* center the column within the available space */
+  align-content: center; /* vertically center the content within the block */
   background: #f5f0e6;
+  text-align: left; /* ensure inline text aligns left */
+  --measure: 80ch; /* shared measure for inner content width */
+  row-gap: 1rem;
+}
+
+/* Limit measure of text for better readability */
+.section .text p,
+.section .text .section-description,
+.section .text ul,
+.section .text ol {
+  width: 100%; /* fill the grid column */
+}
+
+/* Align h2 and the link to the same left edge as the centered text block,
+   but keep their intrinsic width (no full-width stretching). */
+.section .text h2,
+.section .text .section-link {
+  justify-self: start; /* align to left edge of the centered column */
+  width: auto; /* intrinsic width (prevents link border from stretching) */
+}
+
+/* Add tracking to the h2 inside the text block */
+.section .text h2 {
+  letter-spacing: 2px;
+}
+
+
+@media (min-width: 1024px) {
+  .section .text {
+    padding: 2.5rem 3rem; /* a bit more breathing room on larger screens */
+  }
 }
 
 .section h2 {
@@ -305,20 +336,39 @@ header.scrolled .logo-black {
   letter-spacing: 2px;
 }
 
+/* When inside the .section .text container, keep description text left-aligned */
+.section .text .section-description {
+  text-align: left;
+}
+
 .section-link {
   display: inline-block;
-  padding: 0.5rem 1.25rem;
-  background-color: #222;
-  color: #fff;
+  padding: 0.5rem 3.125rem 0.3125rem 3.125rem; /* 8px 50px 5px 50px */
+  background: transparent;
+  color: #222;
+  border: 2px solid #222;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  font-weight: 700; /* bold */
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem; /* ~3px */
+  font-size: 0.8125rem; /* 13px */
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
 }
 
 .section-link:hover {
-  background-color: #444;
+  background-color: #222;
+  color: #fff;
   transform: translateY(-2px);
+}
+
+.section-link:focus-visible {
+  outline: 2px solid #222;
+  outline-offset: 2px;
+}
+
+.section-link:active {
+  transform: translateY(0) scale(0.98);
 }
 
 /* FOOTER */
