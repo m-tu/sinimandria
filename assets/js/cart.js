@@ -533,23 +533,19 @@ class ShoppingCart {
         console.log('Submitting order:', payload);
         
         try {
-            console.log('Simulating order submission...');
-            console.log('Payload:', payload);
-            await new Promise(resolve => setTimeout(resolve, 1000));
-            const result = { success: true, message: 'Order received (simulated)' };
-            // const response = await fetch('https://emailrelay.mataba.eu/sendemail', {
-            //     method: 'POST',
-            //     headers: {
-            //         'Content-Type': 'application/json',
-            //     },
-            //     body: JSON.stringify(payload)
-            // });
+            const response = await fetch('https://emailrelay.mataba.eu/sendemail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(payload)
+            });
             
-            // if (!response.ok) {
-            //     throw new Error(`HTTP error! status: ${response.status}`);
-            // }
-            
-            // const result = await response.json();
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const result = await response.json();
             console.log('Order submitted successfully:', result);
             return result;
             
