@@ -1,18 +1,18 @@
-// Sinimandria Shopping Cart
 class ShoppingCart {
     constructor() {
         this.cart = [];
-        this.cartExpiryHours = 24; // Cart expires after 24 hours
+        this.cartExpiryHours = 24;
+        this.MAX_TOTAL_ITEMS = 50;
         this.init();
     }
 
     init() {
         this.loadCartFromStorage();
         this.bindEvents();
+        this.configurePickupDateBounds();
         this.updateCartDisplay();
     }
 
-    // Load cart from localStorage with expiry check
     loadCartFromStorage() {
         try {
             const cartData = localStorage.getItem('sinimandria_cart');
@@ -26,7 +26,6 @@ class ShoppingCart {
                 if (hoursElapsed < this.cartExpiryHours) {
                     this.cart = JSON.parse(cartData);
                 } else {
-                    // Cart expired, clear it
                     this.clearCart();
                 }
             }
@@ -36,7 +35,6 @@ class ShoppingCart {
         }
     }
 
-    // Save cart to localStorage
     saveCartToStorage() {
         try {
             localStorage.setItem('sinimandria_cart', JSON.stringify(this.cart));
@@ -46,29 +44,24 @@ class ShoppingCart {
         }
     }
 
-    // Bind event listeners
     bindEvents() {
-        // Cart toggle button
         const cartToggle = document.getElementById('cart-toggle');
         if (cartToggle) {
             cartToggle.addEventListener('click', () => this.toggleCart());
         }
 
-        // Close cart button
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('cart-close') || e.target.closest('.cart-close')) {
                 this.closeCart();
             }
         });
 
-        // Close cart when clicking overlay
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('cart-overlay')) {
                 this.closeCart();
             }
         });
 
-        // Add to cart buttons
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('add-to-cart-btn') || e.target.closest('.add-to-cart-btn')) {
                 e.preventDefault();
@@ -76,7 +69,6 @@ class ShoppingCart {
             }
         });
 
-        // Cart item quantity changes
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('qty-increase')) {
                 const productName = e.target.dataset.product;
@@ -90,14 +82,12 @@ class ShoppingCart {
             }
         });
 
-        // Checkout button
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('checkout-btn') || e.target.closest('.checkout-btn')) {
                 this.checkout();
             }
         });
 
-        // Escape key to close cart
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
                 this.closeCart();
@@ -115,10 +105,55 @@ class ShoppingCart {
             if (t && (t.id === 'customer-name' || t.id === 'customer-email')) {
                 this.clearFieldError(t);
             }
+            if (t && t.id === 'pickup-date') {
+                this.clearFieldError(t);
+            }
+        });
+        document.addEventListener('focusin', (e) => {
+            if (e.target && e.target.id === 'pickup-date') {
+                this.configurePickupDateBounds();
+            }
         });
     }
 
-    // Handle add to cart button click
+    configurePickupDateBounds() {
+        const input = document.getElementById('pickup-date');
+        if (!input) return;
+        const today = new Date();
+        const minDate = new Date(today);
+        minDate.setDate(minDate.getDate() + 2);
+        const maxDate = new Date(today);
+        const m = maxDate.getMonth();
+        maxDate.setMonth(m + 2);
+        const fmt = (d) => {
+            const y = d.getFullYear();
+            const m = String(d.getMonth() + 1).padStart(2, '0');
+            const da = String(d.getDate()).padStart(2, '0');
+            return `${y}-${m}-${da}`;
+        };
+        input.min = fmt(minDate);
+        input.max = fmt(maxDate);
+        console.log(`Pickup date bounds set: min=${input.min}, max=${input.max}`);
+        const saved = localStorage.getItem('sinimandria_pickup_date');
+        if (saved && saved >= input.min && saved <= input.max) {
+            input.value = saved;
+        }
+        input.addEventListener('change', () => {
+            const val = input.value;
+            if (!val) return;
+            if (input.min && val < input.min) {
+                input.value = input.min;
+                this.showFieldError(input, `Kuupäev ei tohi olla varem kui ${input.min}`);
+            } else if (input.max && val > input.max) {
+                input.value = input.max;
+                this.showFieldError(input, `Kuupäev ei tohi olla hiljem kui ${input.max}`);
+            } else {
+                this.clearFieldError(input);
+            }
+            if (input.value) localStorage.setItem('sinimandria_pickup_date', input.value);
+        }, { once: false });
+    }
+
     handleAddToCart(button) {
         const bakeryItem = button.closest('.bakery-item');
         if (!bakeryItem) return;
@@ -127,17 +162,29 @@ class ShoppingCart {
         const priceText = bakeryItem.querySelector('.bakery-price').textContent.trim();
         const price = parseFloat(priceText.replace('€', '').replace(',', '.'));
 
-        this.addItem(name, price);
-        this.showAddedToCartFeedback(button);
+        const added = this.addItem(name, price);
+        if (added) {
+            this.showAddedToCartFeedback(button);
+        } else {
+            this.showLimitNotification();
+        }
     }
 
-    // Add item to cart
     addItem(name, price) {
+        if (this.getTotalItems() >= this.MAX_TOTAL_ITEMS) {
+            return false;
+        }
         const existingItem = this.cart.find(item => item.name === name);
         
         if (existingItem) {
+            if (this.getTotalItems() + 1 > this.MAX_TOTAL_ITEMS) {
+                return false;
+            }
             existingItem.quantity += 1;
         } else {
+            if (this.getTotalItems() + 1 > this.MAX_TOTAL_ITEMS) {
+                return false;
+            }
             this.cart.push({
                 name: name,
                 price: price,
@@ -147,26 +194,32 @@ class ShoppingCart {
         
         this.saveCartToStorage();
         this.updateCartDisplay();
+        return true;
     }
 
-    // Remove item from cart
     removeItem(name) {
         this.cart = this.cart.filter(item => item.name !== name);
         this.saveCartToStorage();
         this.updateCartDisplay();
     }
 
-    // Increase item quantity
     increaseQuantity(name) {
+        if (this.getTotalItems() >= this.MAX_TOTAL_ITEMS) {
+            this.showLimitNotification();
+            return;
+        }
         const item = this.cart.find(item => item.name === name);
         if (item) {
+            if (this.getTotalItems() + 1 > this.MAX_TOTAL_ITEMS) {
+                this.showLimitNotification();
+                return;
+            }
             item.quantity += 1;
             this.saveCartToStorage();
             this.updateCartDisplay();
         }
     }
 
-    // Decrease item quantity
     decreaseQuantity(name) {
         const item = this.cart.find(item => item.name === name);
         if (item && item.quantity > 1) {
@@ -178,23 +231,19 @@ class ShoppingCart {
         }
     }
 
-    // Get total price
     getTotal() {
         return this.cart.reduce((total, item) => total + (item.price * item.quantity), 0);
     }
 
-    // Get total items count
     getTotalItems() {
         return this.cart.reduce((total, item) => total + item.quantity, 0);
     }
 
-    // Update cart display
     updateCartDisplay() {
         this.updateCartBadge();
         this.updateCartPanel();
     }
 
-    // Update cart badge
     updateCartBadge() {
         const cartBadge = document.querySelector('.cart-badge');
         const totalItems = this.getTotalItems();
@@ -209,7 +258,6 @@ class ShoppingCart {
         }
     }
 
-    // Update cart panel content
     updateCartPanel() {
         const cartItems = document.querySelector('.cart-items');
         const cartTotal = document.querySelector('.cart-total');
@@ -253,7 +301,6 @@ class ShoppingCart {
         }
     }
 
-    // Toggle cart panel
     toggleCart() {
         const cartPanel = document.querySelector('.cart-panel');
         const cartOverlay = document.querySelector('.cart-overlay');
@@ -269,7 +316,6 @@ class ShoppingCart {
         }
     }
 
-    // Open cart panel
     openCart() {
         const cartPanel = document.querySelector('.cart-panel');
         const cartOverlay = document.querySelector('.cart-overlay');
@@ -277,11 +323,11 @@ class ShoppingCart {
         if (cartPanel && cartOverlay) {
             cartPanel.classList.add('cart-open');
             cartOverlay.classList.add('cart-open');
-            document.body.style.overflow = 'hidden'; // Prevent body scroll
+            document.body.style.overflow = 'hidden';
+            this.configurePickupDateBounds();
         }
     }
 
-    // Close cart panel
     closeCart() {
         const cartPanel = document.querySelector('.cart-panel');
         const cartOverlay = document.querySelector('.cart-overlay');
@@ -289,11 +335,10 @@ class ShoppingCart {
         if (cartPanel && cartOverlay) {
             cartPanel.classList.remove('cart-open');
             cartOverlay.classList.remove('cart-open');
-            document.body.style.overflow = ''; // Restore body scroll
+            document.body.style.overflow = '';
         }
     }
 
-    // Show feedback when item added to cart
     showAddedToCartFeedback(button) {
         const originalText = button.textContent;
         button.textContent = 'Lisatud!';
@@ -305,7 +350,24 @@ class ShoppingCart {
         }, 1000);
     }
 
-    // Clear cart
+    showLimitNotification() {
+        const panel = document.querySelector('.cart-panel');
+        if (!panel) return;
+        let toast = panel.querySelector('.cart-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.className = 'cart-toast';
+            toast.setAttribute('role', 'status');
+            panel.appendChild(toast);
+        }
+        toast.textContent = `Maksimaalne kogus on ${this.MAX_TOTAL_ITEMS} toodet.`;
+        toast.classList.add('is-visible');
+        clearTimeout(this._toastTimer);
+        this._toastTimer = setTimeout(() => {
+            toast.classList.remove('is-visible');
+        }, 2200);
+    }
+
     clearCart() {
         this.cart = [];
         localStorage.removeItem('sinimandria_cart');
@@ -313,7 +375,6 @@ class ShoppingCart {
         this.updateCartDisplay();
     }
 
-    // Checkout process
     async checkout() {
         if (this.cart.length === 0) {
             alert('Ostukorv on tühi!');
@@ -326,10 +387,7 @@ class ShoppingCart {
         
         const total = this.getTotal();
         const totalItems = this.getTotalItems();
-        const confirmation = confirm(
-            `Kinnitad ostu?\n\nKokku: ${totalItems} toodet\nSumma: ${total.toFixed(2)}€`
-        );
-        if (!confirmation) return;
+
         const btn = document.querySelector('.checkout-btn');
         if (btn) { btn.disabled = true; btn.textContent = 'Saatmine...'; }
         try {
@@ -345,9 +403,7 @@ class ShoppingCart {
         }
     }
 
-    // Show checkout success message
     showCheckoutSuccess() {
-        // Create success message
         const successDiv = document.createElement('div');
         successDiv.className = 'checkout-success';
         successDiv.innerHTML = `
@@ -359,13 +415,11 @@ class ShoppingCart {
         
         document.body.appendChild(successDiv);
         
-        // Remove success message after 3 seconds
         setTimeout(() => {
             successDiv.remove();
         }, 3000);
     }
     
-    // Toggle customer info section
     toggleCustomerInfo() {
         const customerInfo = document.querySelector('.cart-customer-info');
         const toggleIcon = document.querySelector('.toggle-icon');
@@ -373,7 +427,6 @@ class ShoppingCart {
         if (customerInfo) {
             customerInfo.classList.toggle('collapsed');
             
-            // Rotate icon
             if (toggleIcon) {
                 if (customerInfo.classList.contains('collapsed')) {
                     toggleIcon.textContent = '▼';
@@ -387,6 +440,7 @@ class ShoppingCart {
     validateCustomerInfo() {
         const nameInput = document.getElementById('customer-name');
         const emailInput = document.getElementById('customer-email');
+        const pickupInput = document.getElementById('pickup-date');
         const customerInfo = document.querySelector('.cart-customer-info');
         const toggleIcon = document.querySelector('.toggle-icon');
         let valid = true;
@@ -410,6 +464,23 @@ class ShoppingCart {
             } else if (!emailRegex.test(val)) {
                 this.showFieldError(emailInput, 'Palun sisestage kehtiv e-posti aadress');
                 valid = false; firstInvalid = firstInvalid || emailInput;
+            }
+        }
+
+        if (pickupInput) {
+            this.clearFieldError(pickupInput);
+            const val = pickupInput.value;
+            const min = pickupInput.min;
+            const max = pickupInput.max;
+            if (!val) {
+                this.showFieldError(pickupInput, 'Palun valige kättesaamise kuupäev');
+                valid = false; firstInvalid = firstInvalid || pickupInput;
+            } else if (min && val < min) {
+                this.showFieldError(pickupInput, `Kuupäev ei tohi olla varem kui ${min}`);
+                valid = false; firstInvalid = firstInvalid || pickupInput;
+            } else if (max && val > max) {
+                this.showFieldError(pickupInput, `Kuupäev ei tohi olla hiljem kui ${max}`);
+                valid = false; firstInvalid = firstInvalid || pickupInput;
             }
         }
         if (!valid) {
@@ -436,7 +507,6 @@ class ShoppingCart {
         msg.textContent = message;
     }
 
-    // Clear inline error from field
     clearFieldError(inputEl) {
         if (!inputEl) return;
         inputEl.classList.remove('input-error');
@@ -456,25 +526,30 @@ class ShoppingCart {
             items: this.cart.map(i => ({ name: i.name, price: i.price, quantity: i.quantity })),
             total: this.getTotal(),
             totalItems: this.getTotalItems(),
+            pickupDate: document.getElementById('pickup-date')?.value || '',
             timestamp: new Date().toISOString()
         };
         
         console.log('Submitting order:', payload);
         
         try {
-            const response = await fetch('https://emailrelay.mataba.eu/sendemail', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(payload)
-            });
+            console.log('Simulating order submission...');
+            console.log('Payload:', payload);
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            const result = { success: true, message: 'Order received (simulated)' };
+            // const response = await fetch('https://emailrelay.mataba.eu/sendemail', {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/json',
+            //     },
+            //     body: JSON.stringify(payload)
+            // });
             
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            // if (!response.ok) {
+            //     throw new Error(`HTTP error! status: ${response.status}`);
+            // }
             
-            const result = await response.json();
+            // const result = await response.json();
             console.log('Order submitted successfully:', result);
             return result;
             

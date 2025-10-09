@@ -274,6 +274,33 @@
     background: #bbb;
     cursor: not-allowed;
   }
+
+  /* Cart toast notification */
+  .cart-panel {
+    position: fixed;
+  }
+  .cart-toast {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    z-index: 1002;
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: translateY(-6px);
+  }
+  .cart-toast.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
   
   .checkout-success {
     position: fixed;
