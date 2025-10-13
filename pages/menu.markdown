@@ -108,12 +108,12 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LASANJE <span class="price">9.5€</span></h3>
-    <p>lasanje veiselihaga, külm hapukoorekaste</p>
+    <h3>SIGA <span class="price">9.5€</span></h3>
+    <p>sealiha steik, juurselleri kreem, stir-fry juurviljad</p>
   </div>
   <div class="menu-item">
-    <h3>LÕHE <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud lõhefilee, lillkapsa kreem, kartulikrõpsud</p>
+    <h3>KALAVORM <span class="price">9.5€</span></h3>
+    <p>valge kala ahjuvorm köögiviljadega, hapukoore kaste</p>
   </div>
   <div class="menu-item"> 
     <h3>SUITSUPEEDI SUPP <span class="price">6€</span></h3>
