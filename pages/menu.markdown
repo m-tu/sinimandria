@@ -108,16 +108,16 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>SIGA <span class="price">9.5€</span></h3>
-    <p>sealiha steik, juurselleri kreem, stir-fry juurviljad</p>
+    <h3>LIHAPALLID TOMATI/ÜRIDKASTMES <span class="price">9.5€</span></h3>
+    <p>krõbedad lihapallid veiselihast, marinara kaste, spagetid</p>
   </div>
   <div class="menu-item">
-    <h3>KALAVORM <span class="price">9.5€</span></h3>
-    <p>valge kala ahjuvorm köögiviljadega, hapukoore kaste</p>
+    <h3>KRÕBE KALA <span class="price">9.5€</span></h3>
+    <p>valge kala filee, hernepüree, fenkoli salat, tzatziki kastekaste</p>
   </div>
   <div class="menu-item"> 
-    <h3>SUITSUPEEDI SUPP <span class="price">6€</span></h3>
-    <p>suitsupeet, juurviljapuljong, hapusai/focaccia</p>
+    <h3>JUURSELLERI SUPP <span class="price">6€</span></h3>
+    <p>kreemine juurselleri supp, hapusaia krutoonid, kreeka pähkel</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
