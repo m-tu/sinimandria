@@ -108,12 +108,12 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LIHAPALLID TOMATI/ÜRIDKASTMES <span class="price">9.5€</span></h3>
-    <p>krõbedad lihapallid veiselihast, marinara kaste, spagetid</p>
+    <h3>KRÕBE KANA <span class="price">9.5€</span></h3>
+    <p>kana hakkšnitsel, soe saksa kartulisalat, coleslaw, sidrunimajonees</p>
   </div>
   <div class="menu-item">
-    <h3>KRÕBE KALA <span class="price">9.5€</span></h3>
-    <p>valge kala filee, hernepüree, fenkoli salat, tzatziki kastekaste</p>
+    <h3>AHJUKALA PIRI PIRI KASTMES <span class="price">9.5€</span></h3>
+    <p>valge kala filee, piri-piri kaste, brokkoli, röstitud paprika</p>
   </div>
   <div class="menu-item"> 
     <h3>JUURSELLERI SUPP <span class="price">6€</span></h3>
