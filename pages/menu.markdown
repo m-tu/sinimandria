@@ -108,8 +108,8 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LEST <span class="price">9.5€</span></h3>
-    <p>krõbedaks praetud lest, hernepüree, tar-tar kaste, värske salat</p>
+    <h3>VALGE KALA <span class="price">9.5€</span></h3>
+    <p>praetud valge kala, hernepüree, tar-tar kaste, värske salat</p>
   </div>
   <div class="menu-item">
     <h3>STROGANOFF <span class="price">9.5€</span></h3>
