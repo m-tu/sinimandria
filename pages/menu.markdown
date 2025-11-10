@@ -108,16 +108,16 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LASANJE <span class="price">9.5€</span></h3>
-    <p>veiseliha, marinara, bechamel, hapukoore-basiiliku kaste</p>
+    <h3>LEST <span class="price">9.5€</span></h3>
+    <p>krõbedaks praetud lest, hernepüree, tar-tar kaste, värske salat</p>
   </div>
   <div class="menu-item">
-    <h3>LÕHE <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud lõhefilee, kartulipüree, tüümianine porgand</p>
+    <h3>STROGANOFF <span class="price">9.5€</span></h3>
+    <p>kana-šampinjoni stroganoff, pruun riis, marineeritud punane sibul</p>
   </div>
   <div class="menu-item"> 
-    <h3>VALGE OA SUPP <span class="price">6€</span></h3>
-    <p>oad, miso, kale</p>
+    <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
+    <p>kõrvitsapüree, marineeritud kõrvits, röstitud kõrvitsaseemned, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
