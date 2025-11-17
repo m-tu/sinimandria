@@ -58,7 +58,7 @@ body_class: light-nav
   <h2 class="menu-heading">EELROAD</h2>
   <div class="menu-item">
     <h3>METSASEEN  <span class="price">14€</span></h3>
-    <p>raviool, pruun või, till</p>
+    <p>gnocchi, mürkel, pruun või</p>
   </div>
   <div class="menu-item">
     <h3>MERIVÄHK <span class="price">18€</span></h3>
@@ -108,16 +108,16 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>VALGE KALA <span class="price">9.5€</span></h3>
-    <p>praetud valge kala, hernepüree, tar-tar kaste, värske salat</p>
+    <h3>KALA <span class="price">9.5€</span></h3>
+    <p>valge kala filee, vahemerepärane tomatihautis, pärlkuskuss</p>
   </div>
   <div class="menu-item">
-    <h3>STROGANOFF <span class="price">9.5€</span></h3>
-    <p>kana-šampinjoni stroganoff, pruun riis, marineeritud punane sibul</p>
+    <h3>SIGA <span class="price">9.5€</span></h3>
+    <p>sealihasteik, stir-fry köögivili, juurselleri kreem, kimchi</p>
   </div>
   <div class="menu-item"> 
-    <h3>KÕRVITSASUPP <span class="price">6€</span></h3>
-    <p>kõrvitsapüree, marineeritud kõrvits, röstitud kõrvitsaseemned, focaccia</p>
+    <h3>KÕRVITSA-KOOKOSE SUPP <span class="price">6€</span></h3>
+    <p>kõrvitsapüree, kookospiim, marineeritud kõrvits, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
