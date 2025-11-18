@@ -107,10 +107,6 @@ permalink: /menu/
     <h3>SOOLAFORELL & HAPUSAI <span class="price">8€</span></h3>
     <p>õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
   </div>
-  <div class="menu-item">
-    <h3>VÄRSKE SALAT <span class="price">4€</span></h3>
-    <p>Lisandiks tellimiseks: Otti talu tomatist või Sinimandria soolakurgist salat</p>
-  </div>
 </section>
 
 <div id="ohtusook" class="menu-heading-group">
