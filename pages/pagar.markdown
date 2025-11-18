@@ -2,7 +2,6 @@
 layout: content
 title: Pagar
 permalink: /pagar/
-body_class: light-nav
 cart_shown: show-cart
 ---
 

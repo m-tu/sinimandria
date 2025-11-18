@@ -2,7 +2,6 @@
 layout: content
 title: Menu
 permalink: /menu/
-body_class: light-nav
 ---
 <!--
 <div class="menu-heading-group">
