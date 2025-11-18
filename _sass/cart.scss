@@ -278,6 +278,8 @@
   /* Cart toast notification */
   .cart-panel {
     position: fixed;
+    overflow-x: hidden;
+    max-width: 100vw;
   }
   .cart-toast {
     position: absolute;
@@ -369,6 +371,16 @@
     font-family: inherit;
     transition: border-color 0.2s;
     box-sizing: border-box;
+  }
+  .cart-customer-info input[type="date"] {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    display: block;
+    -webkit-appearance: none;
+    appearance: none;
+    inline-size: 100%;
+    min-inline-size: 0;
   }
   
   .cart-customer-info input:focus {
