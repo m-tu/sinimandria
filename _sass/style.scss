@@ -35,9 +35,10 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER */
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.5rem;
   align-items: center;
-  justify-content: space-between;
   padding: 0.5rem 2rem;
   background-color: #163172;
   position: fixed;
@@ -53,10 +54,27 @@ header {
   max-width: 100%;
 }
 
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 /* Nav */
 
 .nav-toggle {
-  display: none;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 32px;
@@ -66,18 +84,26 @@ header {
   border: none;
   color: #fff;
   font-size: 1.5rem;
-  margin-left: auto;
+  position: relative;
+  top: -1px;
 }
 
 nav {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
-  margin-left: auto;
+  min-width: 0;
+  flex: 0 0 auto;
 }
 
 .show-cart nav {
   margin-right: 2.5rem;
+}
+
+.nav-inline {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 nav a {
@@ -89,6 +115,42 @@ nav a {
 
 nav a:hover {
   color: #ddd;
+}
+
+.nav-link-cta {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.nav-link-cta:hover {
+  background: #fff;
+  color: #163172;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  min-width: 220px;
+  background: linear-gradient(145deg, rgba(22, 49, 114, 0.98), rgba(15, 36, 95, 0.98));
+  border-radius: 0.75rem;
+  box-shadow: 0 18px 30px rgba(8, 16, 40, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+nav.open .nav-dropdown {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
 }
 
 /* CONTENT PAGE */
@@ -104,6 +166,35 @@ nav a:hover {
 }
 
 /* MENU PAGE */
+
+.menu-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 2.5rem;
+  margin: 0 auto 3rem;
+  padding: 1.5rem 0 2.5rem;
+}
+
+.menu-summary-item h2 {
+  font-size: 2.25rem;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.menu-summary-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-summary .menu-note {
+  font-size: 1.1rem;
+  color: #444;
+  font-style: normal;
+}
 
 .menu-section {
   margin-bottom: 4rem;
@@ -420,6 +511,15 @@ blockquote p {
 }
 
 @media (max-width: 768px) {
+  .menu-summary {
+    gap: 1.5rem;
+    padding: 1rem 0 2rem;
+  }
+
+  .menu-summary-item h2 {
+    font-size: 1.8rem;
+  }
+
   .menu-note {
     font-size: 0.9rem;
   }
@@ -444,14 +544,26 @@ blockquote p {
 
 @media (max-width: 768px) {
   .nav-toggle {
-    display: inline-flex;
     margin-bottom: 5px;
   }
 
   header {
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0.5rem 0.25rem;
+  }
+
+  .nav-wrapper {
+    flex: 1;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    position: static;
+  }
+
+  .nav-group {
+    flex: 1;
+    position: static;
   }
 
   .section.reverse-on-mobile {
@@ -459,7 +571,7 @@ blockquote p {
   }
 
   header.menu-open {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #163172;
   }
 
   nav {
@@ -471,11 +583,12 @@ blockquote p {
     left: 0;
     width: 100%;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 1rem;
+    background-color: #163172;
+    padding: 1rem 0.65rem;
     z-index: 999;
     display: flex;
-    gap: 1.75rem;
+    gap: 0;
+    align-items: stretch;
   }
 
   body.no-hero main {
@@ -485,6 +598,42 @@ blockquote p {
   nav.open {
     opacity: 1;
     pointer-events: auto;
+  }
+
+  .nav-inline,
+  .nav-dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: stretch;
+  }
+
+  .nav-dropdown {
+    position: static;
+    padding: 0.25rem 0 0;
+    background: #163172;
+    box-shadow: none;
+    border-radius: 0;
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+    border-top: 0;
+  }
+
+  .nav-inline a,
+  .nav-dropdown a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.4rem 0;
+  }
+
+  .nav-link-cta {
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    padding: 0.4rem 0;
   }
 
   .section {

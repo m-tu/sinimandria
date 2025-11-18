@@ -4,29 +4,33 @@
       <img src="{{ '/assets/images/noBgWhiteLogo.png' | absolute_url }}" alt="Restaurant Logo" class="logo">
     </a>
   </div>
-  <div class="header-right">
+  <div class="nav-wrapper">
+    <div class="nav-group">
+      <nav id="main-nav">
+        <div class="nav-inline">
+          <a href="{{ '/menu/' | absolute_url }}">Menüü</a>
+          <a href="https://book.easytable.com/book/?id=f4386&lang=auto" target="_blank" rel="noopener noreferrer" class="nav-link-cta">Broneeri</a>
+        </div>
+        <div class="nav-dropdown">
+          <a href="{{ '/peakokk/' | absolute_url }}">Meie peakokast</a>
+          <a href="{{ '/sinimandriast/' | absolute_url }}">Sinimandriast</a>
+          <a href="{{ '/kontakt/' | absolute_url }}">Kontakt</a>
+        </div>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle">☰</button>
+    </div>
     <button id="cart-toggle" class="cart-toggle">
-      🛒
+      dY>'
       <span class="cart-badge">0</span>
     </button>
-    <button id="nav-toggle" class="nav-toggle">☰</button>
   </div>
-  <nav id="main-nav">
-    <a href="{{ '/menu/' | absolute_url }}">Menüü</a>
-    <a href="{{ '/peakokk/' | absolute_url }}">Meie peakokast</a>
-    <a href="{{ '/sinimandriast/' | absolute_url }}">Sinimandriast</a>
-    <a href="{{ '/kontakt/' | absolute_url }}">Kontakt</a>
-    <a href="https://book.easytable.com/book/?id=f4386&lang=auto" target="_blank" rel="noopener noreferrer">Broneeri</a>
-  </nav>
 </header>
 
-<!-- Cart Overlay -->
 <div class="cart-overlay"></div>
-<!-- Cart Panel -->
 <div class="cart-panel">
   <div class="cart-header">
     <h3>Ostukorv</h3>
-    <button class="cart-close">×</button>
+    <button class="cart-close">x</button>
   </div>
 
   <div class="cart-content">
@@ -34,7 +38,6 @@
       <div class="cart-empty">Ostukorv on tühi</div>
     </div>
 
-    <!-- Customer Information Form -->
     <div class="cart-customer-section">
       <h4 class="cart-customer-toggle">
         Teie andmed

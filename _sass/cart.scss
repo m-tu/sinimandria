@@ -26,36 +26,28 @@ $bakery-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 $bakery-card-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
 $bakery-info-bg: #f8f6f1;
 
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
+.cart-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem;
+  color: inherit;
+  transition: transform 0.2s ease;
+  z-index: $cart-panel-layer;
 
-  .cart-toggle {
-    display: none;
-    background: none;
-    border: 0;
-    font-size: 1.5rem;
-    cursor: pointer;
-    position: relative;
-    padding: 0.5rem;
-    color: inherit;
-    transition: transform 0.2s ease;
-    z-index: $cart-panel-layer;
-
-    &:hover {
-      transform: scale(1.1);
-    }
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
 .show-cart {
   .cart-toggle {
-    display: block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -590,14 +582,9 @@ $bakery-info-bg: #f8f6f1;
     right: -100%;
   }
 
-  .header-right {
-    gap: 0.5rem;
-    right: 0.5rem;
-
-    .cart-toggle {
-      font-size: 1.3rem;
-      padding: 0.25rem;
-    }
+  .cart-toggle {
+    font-size: 1.3rem;
+    padding: 0.25rem;
   }
 
   .bakery-grid {
