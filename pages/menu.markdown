@@ -24,10 +24,6 @@ permalink: /menu/
 <section class="menu-section">
   <h2 class="menu-heading">MAGUSAM</h2>
   <div class="menu-item">
-    <h3>CROISSANT <span class="price">3€</span></h3>
-    <p>Pärmi-lehttaigna klassika</p>
-  </div>
-  <div class="menu-item">
     <h3>TÄIDETUD CROISSANT <span class="price">4.5€</span></h3>
     <p>Erinevate kreemide ja <em>compote</em> täidistega croissant</p>
   </div>
@@ -55,16 +51,35 @@ permalink: /menu/
 <section class="menu-section">
   <h2 class="menu-heading">SOOLASEM</h2>
   <div class="menu-item">
-    <h3>REBITUD VEISESABA PESA <span class="price">4€</span></h3>
-    <p>Pärmi-lehttaignas madalküpsetatud veisesaba ja sibulamoos</p>
+    <h3>CROISSANT <span class="price">3€</span></h3>
+    <p>Pärmi-lehttaigna klassika</p>
   </div>
   <div class="menu-item">
-    <h3>SEENEPIRUKAS <span class="price">3€</span></h3>
-    <p>Pärmi-lehttaignas röstitud seened</p>
+    <h3>"CHEESELOVER" CROISSANT<span class="price">5€</span></h3>
+    <p>Juustu mousse ja meie maja croissant</p>
   </div>
   <div class="menu-item">
-    <h3>SINGI-JUUSTU PIRUKAS <span class="price">3€</span></h3>
-    <p>Pärmi-lehttaignass Linnamäe sink ja talujuust.</p>
+    <h3>PIPRASINGI CROISSANT <span class="price">5€</span></h3>
+    <p>Piprane sink, marineeritud kurk, majonees ja meie maja croissant</p>
+  </div>
+  <div class="menu-item">
+    <h3>LILLKAPSA PESA <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignass lillkapsakreem ja juust</p>
+  </div>
+</section>
+<section class="menu-section">
+  <h2 class="menu-heading">VEDELAM</h2>
+  <div class="menu-item">
+    <h3>KOHVIJOOGID <span class="price">3-4€</span></h3>
+    <p>Kõik klassikud on kohal - espresso, americano, capuccino, latte, flat white </p>
+  </div>
+  <div class="menu-item">
+    <h3>VÄRSKELT PRESSITUD MAHL <span class="price">5€</span></h3>
+    <p>Küsi apelsini või greipi.</p>
+  </div>
+  <div class="menu-item">
+    <h3>MAJALIMONAAD <span class="price">4€</span></h3>
+    <p>Rabarber, mustsõstar, maasikas, sidrun</p>
   </div>
 </section>
 
