@@ -34,7 +34,7 @@ body_class: light-nav
 -->
 <div class="menu-heading-group">
   <h1>Õhtusöök</h1>
-  <p class="menu-note">ALATES 3.oktoober K-R 18:00 – 22:00, L 17:00 - 22:00</p>
+  <p class="menu-note">K-R 18:00 – 22:00, L 17:00 - 22:00</p>
 </div>
 <section class="menu-section">
   <h2 class="menu-heading">SUUPISTED</h2>
@@ -58,7 +58,7 @@ body_class: light-nav
   <h2 class="menu-heading">EELROAD</h2>
   <div class="menu-item">
     <h3>METSASEEN  <span class="price">14€</span></h3>
-    <p>raviool, pruun või, till</p>
+    <p>gnocchi, mürkel, pruun või</p>
   </div>
   <div class="menu-item">
     <h3>MERIVÄHK <span class="price">18€</span></h3>
@@ -108,16 +108,16 @@ body_class: light-nav
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LASANJE <span class="price">9.5€</span></h3>
-    <p>lasanje veiselihaga, külm hapukoorekaste</p>
+    <h3>KALA <span class="price">9.5€</span></h3>
+    <p>valge kala filee, vahemerepärane tomatihautis, pärlkuskuss</p>
   </div>
   <div class="menu-item">
-    <h3>LÕHE <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud lõhefilee, lillkapsa kreem, kartulikrõpsud</p>
+    <h3>SIGA <span class="price">9.5€</span></h3>
+    <p>sealihasteik, stir-fry köögivili, juurselleri kreem, kimchi</p>
   </div>
   <div class="menu-item"> 
-    <h3>SUITSUPEEDI SUPP <span class="price">6€</span></h3>
-    <p>suitsupeet, juurviljapuljong, hapusai/focaccia</p>
+    <h3>KÕRVITSA-KOOKOSE SUPP <span class="price">6€</span></h3>
+    <p>kõrvitsapüree, kookospiim, marineeritud kõrvits, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
