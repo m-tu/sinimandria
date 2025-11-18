@@ -367,19 +367,20 @@ nav.open .nav-dropdown {
 }
 
 .section h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   color: #111;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .section-description {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: #333;
   text-align: center;
   line-height: 33px;
-  // letter-spacing: 2px;
+  // font-size: 24px;
+  font-weight: 300;
 }
 
 /* When inside the .section .text container, keep description text left-aligned */
