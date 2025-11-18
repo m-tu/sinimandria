@@ -20,7 +20,9 @@ permalink: /menu/
 <div id="hommik" class="menu-heading-group">
   <h1 class="menu-heading">HOMMIK</h1>
 </div>
+
 <section class="menu-section">
+  <h2 class="menu-heading">MAGUSAM</h2>
   <div class="menu-item">
     <h3>CROISSANT <span class="price">3€</span></h3>
     <p>Pärmi-lehttaigna klassika</p>
@@ -46,9 +48,12 @@ permalink: /menu/
     <p>Brioche saia keerd, martsipani ja kirsimoosiga</p>
   </div>
   <div class="menu-item">
-    <h3>PLOOMI-AMARETTO KORP <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignas kohupiima ja martsipani korp, Amaretto glasuuri ja ploomidega. </p>
+    <h3>KOHUPIIMA KORP <span class="price">3.5€</span></h3>
+    <p>Pärmi-lehttaignas kohupiimakorp, meie maja moos ja värsked marjad</p>
   </div>
+</section>
+<section class="menu-section">
+  <h2 class="menu-heading">SOOLASEM</h2>
   <div class="menu-item">
     <h3>REBITUD VEISESABA PESA <span class="price">4€</span></h3>
     <p>Pärmi-lehttaignas madalküpsetatud veisesaba ja sibulamoos</p>
