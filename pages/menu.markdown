@@ -88,16 +88,16 @@ permalink: /menu/
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>KALA <span class="price">9.5€</span></h3>
-    <p>valge kala filee, vahemerepärane tomatihautis, pärlkuskuss</p>
+    <h3>LAMBALIHA RAGUU <span class="price">9.5€</span></h3>
+    <p>madalküpsetatud talle kints, mündi-jogurti kaste</p>
   </div>
   <div class="menu-item">
-    <h3>SIGA <span class="price">9.5€</span></h3>
-    <p>sealihasteik, stir-fry köögivili, juurselleri kreem, kimchi</p>
+    <h3>KRÕBE RÄIM <span class="price">9.5€</span></h3>
+    <p>paneeritud & praetud räim, ahjukartul, tillimajonees</p>
   </div>
   <div class="menu-item"> 
-    <h3>KÕRVITSA-KOOKOSE SUPP <span class="price">6€</span></h3>
-    <p>kõrvitsapüree, kookospiim, marineeritud kõrvits, focaccia</p>
+    <h3>PUNAPEEDI SUPP <span class="price">6€</span></h3>
+    <p>punapeet, juurviljapuljong, hapukoor, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
