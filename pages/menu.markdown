@@ -88,12 +88,12 @@ permalink: /menu/
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LAMBALIHA RAGUU <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud talle kints, mündi-jogurti kaste</p>
+    <h3>KALAKOTLET <span class="price">9.5€</span></h3>
+    <p>haugi/latika kotlet, kartulitamp, tar-tar kaste, värske salat</p>
   </div>
   <div class="menu-item">
-    <h3>KRÕBE RÄIM <span class="price">9.5€</span></h3>
-    <p>paneeritud & praetud räim, ahjukartul, tillimajonees</p>
+    <h3>KANA PARMIGIANA <span class="price">9.5€</span></h3>
+    <p>kana, parmesan, marinara kaste, spagetid</p>
   </div>
   <div class="menu-item"> 
     <h3>PUNAPEEDI SUPP <span class="price">6€</span></h3>
