@@ -88,16 +88,16 @@ permalink: /menu/
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>KALAKOTLET <span class="price">9.5€</span></h3>
-    <p>haugi/latika kotlet, kartulitamp, tar-tar kaste, värske salat</p>
+    <h3>PAPRIKA-JUUSTU HAKKRULL <span class="price">9.5€</span></h3>
+    <p>hakkliha, paprika, juust, punase oa hautis, röstitud punane sibul</p>
   </div>
   <div class="menu-item">
-    <h3>KANA PARMIGIANA <span class="price">9.5€</span></h3>
-    <p>kana, parmesan, marinara kaste, spagetid</p>
+    <h3>MEREANNI RISOTTO <span class="price">9.5€</span></h3>
+    <p>mereannid, arborio riis, peterselliõli, focaccia crumble</p>
   </div>
   <div class="menu-item"> 
-    <h3>PUNAPEEDI SUPP <span class="price">6€</span></h3>
-    <p>punapeet, juurviljapuljong, hapukoor, focaccia</p>
+    <h3>PRANTSUSE SIBULASUPP <span class="price">6€</span></h3>
+    <p>sibul, veisepuljong, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
