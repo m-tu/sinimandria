@@ -88,16 +88,16 @@ permalink: /menu/
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>PAPRIKA-JUUSTU HAKKRULL <span class="price">9.5€</span></h3>
-    <p>hakkliha, paprika, juust, punase oa hautis, röstitud punane sibul</p>
+    <h3>VERIVORST <span class="price">9.5€</span></h3>
+    <p>verivorst, kartuli-tangupuder krõbeda sibulaga, hautatud punane kapsas, pohlamoos, tumeda õlle kaste</p>
   </div>
   <div class="menu-item">
-    <h3>MEREANNI RISOTTO <span class="price">9.5€</span></h3>
-    <p>mereannid, arborio riis, peterselliõli, focaccia crumble</p>
+    <h3>LÕHE <span class="price">9.5€</span></h3>
+    <p>madalküpsetatud lõhe, juurselleri kreem, kartuli chipsid, röstitud brüsseli kapsas</p>
   </div>
   <div class="menu-item"> 
-    <h3>PRANTSUSE SIBULASUPP <span class="price">6€</span></h3>
-    <p>sibul, veisepuljong, focaccia</p>
+    <h3>LILLKAPSA PÜREESUPP <span class="price">6€</span></h3>
+    <p>röstitud lillkapsas, aedviljapuljong, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
