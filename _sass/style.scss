@@ -576,20 +576,29 @@ blockquote p {
   }
 
   nav {
-    transition: opacity 0.3s ease;
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     flex-direction: column;
     background-color: #163172;
-    padding: 1rem 0.65rem;
+    padding: 0 0.65rem;
     z-index: 999;
     display: flex;
     gap: 0;
     align-items: stretch;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(-8px);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      max-height 0.3s ease,
+      padding 0.3s ease,
+      visibility 0s linear 0.3s;
   }
 
   body.no-hero main {
@@ -599,6 +608,16 @@ blockquote p {
   nav.open {
     opacity: 1;
     pointer-events: auto;
+    visibility: visible;
+    padding: 1rem 0.65rem;
+    max-height: 100vh;
+    transform: translateY(0);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      max-height 0.3s ease,
+      padding 0.3s ease,
+      visibility 0s;
   }
 
   .nav-inline,
