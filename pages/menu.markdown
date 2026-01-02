@@ -84,28 +84,28 @@ permalink: /menu/
 </section>
 
 <div id="louna" class="menu-heading-group">
-  <h1 class="menu-heading">LÕUNA</h1>
+  <h1 class="menu-heading">BRUNCH</h1>
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>VERIVORST <span class="price">9.5€</span></h3>
-    <p>verivorst, kartuli-tangupuder krõbeda sibulaga, hautatud punane kapsas, pohlamoos, tumeda õlle kaste</p>
+    <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
+    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin</p>
   </div>
   <div class="menu-item">
-    <h3>LÕHE <span class="price">9.5€</span></h3>
-    <p>madalküpsetatud lõhe, juurselleri kreem, kartuli chipsid, röstitud brüsseli kapsas</p>
+    <h3>MUNAPUDER <span class="price">8€</span></h3>
+    <p>muna, karamelliseeritud pruun juust, hapusai</p>
+  </div>
+  <div class="menu-item">
+    <h3>CROQUE MONSIEUR <span class="price">10€</span></h3>
+    <p>Linnamäe sink, Kolotsi talu juust, béchamel, brioche</p>
+  </div>
+  <div class="menu-item">
+    <h3>SOOLASED PANNKOOGID <span class="price">7€</span></h3>
+    <p>pannkoogid, kodujuust, värske salat</p>
   </div>
   <div class="menu-item"> 
-    <h3>LILLKAPSA PÜREESUPP <span class="price">6€</span></h3>
-    <p>röstitud lillkapsas, aedviljapuljong, focaccia</p>
-  </div>
-  <div class="menu-item">
-    <h3>CAPRESE & FOCACCIA <span class="price">8€</span></h3>
-    <p>Otti talu tomati salsa, Viinamärdi stracciatella, karulaugupesto, focaccia</p>
-  </div>
-  <div class="menu-item">
-    <h3>SOOLAFORELL & HAPUSAI <span class="price">8€</span></h3>
-    <p>õrnsoola forell, hapusai, toorjuustukreem, ürdid</p>
+    <h3>MAGUSAD PANNKOOGID <span class="price">7€</span></h3>
+    <p>kohupiimaga pannkoogid, vaniljekaste, mustikamoos</p>
   </div>
 </section>
 
