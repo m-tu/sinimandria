@@ -4,23 +4,25 @@ title: Menu
 permalink: /menu/
 ---
 <div class="menu-summary">
-  <div class="menu-summary-item">
+  <!--<div class="menu-summary-item">
     <h2><a href="#hommik">HOMMIK</a></h2>
     <p class="menu-note">E–P 08:00 – kuni saiakesi jagub</p>
-  </div>
+  </div>-->
   <div class="menu-summary-item">
-    <h2><a href="#louna">LÕUNA</a></h2>
-    <p class="menu-note">E–R 12:00 – 13:30</p>
+    <h2><a href="#brunch">BRUNCH</a></h2>
+    <p class="menu-note">K–R 12:00 – 17:00, L-P 10:00 - 17:00</p>
   </div>
   <div class="menu-summary-item">
     <h2><a href="#ohtusook">ÕHTU</a></h2>
     <p class="menu-note">K–R 18:00 – 22:00, L 17:00 – 22:00</p>
   </div>
 </div>
+<!--
 <div id="hommik" class="menu-heading-group">
   <h1 class="menu-heading">HOMMIK</h1>
 </div>
-
+-->
+<!--
 <section class="menu-section">
   <h2 class="menu-heading">MAGUSAM</h2>
   <div class="menu-item">
@@ -67,23 +69,9 @@ permalink: /menu/
     <p>Pärmi-lehttaignass lillkapsakreem ja juust</p>
   </div>
 </section>
-<section class="menu-section">
-  <h2 class="menu-heading">VEDELAM</h2>
-  <div class="menu-item">
-    <h3>KOHVIJOOGID <span class="price">3-4€</span></h3>
-    <p>Kõik klassikud on kohal - espresso, americano, capuccino, latte, flat white </p>
-  </div>
-  <div class="menu-item">
-    <h3>VÄRSKELT PRESSITUD MAHL <span class="price">5€</span></h3>
-    <p>Küsi apelsini või greipi.</p>
-  </div>
-  <div class="menu-item">
-    <h3>MAJALIMONAAD <span class="price">4€</span></h3>
-    <p>Rabarber, mustsõstar, maasikas, sidrun</p>
-  </div>
-</section>
+-->
 
-<div id="louna" class="menu-heading-group">
+<div id="brunch" class="menu-heading-group">
   <h1 class="menu-heading">BRUNCH</h1>
 </div>
 <section class="menu-section">
@@ -108,6 +96,22 @@ permalink: /menu/
     <p>kohupiimaga pannkoogid, vaniljekaste, mustikamoos</p>
   </div>
 </section>
+<!--
+<section class="menu-section">
+  <h2 class="menu-heading">BRUNCHI JOOGID</h2>
+  <div class="menu-item">
+    <h3>KOHVIJOOGID <span class="price">3-4€</span></h3>
+    <p>Kõik klassikud on kohal - espresso, americano, capuccino, latte, flat white </p>
+  </div>
+  <div class="menu-item">
+    <h3>VÄRSKELT PRESSITUD MAHL <span class="price">5€</span></h3>
+    <p>Küsi apelsini või greipi.</p>
+  </div>
+  <div class="menu-item">
+    <h3>MAJALIMONAAD <span class="price">4€</span></h3>
+    <p>Rabarber, mustsõstar, maasikas, sidrun</p>
+  </div>
+</section>-->
 
 <div id="ohtusook" class="menu-heading-group">
   <h1 class="menu-heading">ÕHTUSÖÖK</h1>
