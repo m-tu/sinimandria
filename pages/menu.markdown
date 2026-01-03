@@ -88,12 +88,20 @@ permalink: /menu/
     <p>Linnamäe sink, Kolotsi talu juust, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>SOOLASED PANNKOOGID <span class="price">7€</span></h3>
-    <p>pannkoogid, kodujuust, värske salat</p>
+    <h3>GRUYERE PANNKOOGID <span class="price">7€</span></h3>
+    <p>pannkoogid, gruyere juust, värske salat, tillipesto</p>
+  </div>
+  <div class="menu-item">
+    <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
+    <p>grillkana, värsked aedviljad, pesto</p>
+  </div>
+  <div class="menu-item">
+    <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
+    <p>bataadichipsid, fetajuust, värsked köögiviljad, vaarika balsamico</p>
   </div>
   <div class="menu-item"> 
     <h3>MAGUSAD PANNKOOGID <span class="price">7€</span></h3>
-    <p>kohupiimaga pannkoogid, vaniljekaste, mustikamoos</p>
+    <p>kohupiimaga pannkoogid, hooajaline moos, vahtrakaramell</p>
   </div>
 </section>
 <!--
