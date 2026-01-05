@@ -93,7 +93,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
-    <p>röstitud kanakintsu liha, persillade, avokaado, granaatõun, kreeka pähkel, kurk, pesto</p>
+    <p>röstitud kanakints, persillade, avokaado, granaatõun, kreeka pähkel, kurk, pesto</p>
   </div>
   <div class="menu-item">
     <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
@@ -137,24 +137,28 @@ permalink: /menu/
     <h3>AUSTER <span class="price">5€/tk</span></h3>
     <p>tomati mignonette, tilliõli</p>
   </div><div class="menu-item">
-    <h3>KAMMKARP <span class="price">7€/tk</span></h3>
-    <p>õun, redis, tomat</p>
+    <h3>PÄHKLA FORELL <span class="price">7€/tk</span></h3>
+    <p>õun, šalottsibul, pruun või</p>
   </div>
 </section>
 
 <section class="menu-section">
   <h2 class="menu-heading">EELROAD</h2>
   <div class="menu-item">
-    <h3>METSASEEN  <span class="price">14€</span></h3>
-    <p>gnocchi, mürkel, pruun või</p>
+    <h3>PORRU <span class="price">14€</span></h3>
+    <p>confit, porru variatsioonid, vadakukaste</p>
   </div>
   <div class="menu-item">
-    <h3>MERIVÄHK <span class="price">18€</span></h3>
-    <p>raviool, röstitud kapsas, fenkol, pruun või</p>
+    <h3>KAHEKSAJALG JA MERIVÄHK <span class="price">16€</span></h3>
+    <p>terriin, kartul, tomat</p>
   </div>
   <div class="menu-item">
-    <h3>VEISESABA <span class="price">15€</span></h3>
-    <p>terriin, peterselli juur, pohl</p>
+    <h3>SMØREBROD <span class="price">10€</span></h3>
+    <p>suitsukala, must leib, kurk, muna</p>
+  </div>
+  <div class="menu-item">
+    <h3>HIRVE TAR-TAR <span class="price">18€</span></h3>
+    <p>filotaigen, suitsutatud munakollane</p>
   </div>
 </section>
 
@@ -174,15 +178,15 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>ULUK <span class="price">29€</span></h3>
-    <p>filee, rosmariin, hernes, puravik</p>
+    <p>herne raguu, taliköögiviljad, põldmari</p>
   </div>
 </section>
 
 <section class="menu-section">
   <h2 class="menu-heading">DESSERDID</h2>
   <div class="menu-item">
-    <h3> MESI <span class="price">10€</span></h3>
-    <p>kummel, mesi</p>
+    <h3>KIBUVITS <span class="price">10€</span></h3>
+    <p>brüleekreem, rose meringue, estragon</p>
   </div>
   <div class="menu-item">
     <h3>TOORJUUST <span class="price">10€</span></h3>
