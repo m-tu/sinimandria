@@ -137,7 +137,7 @@ permalink: /menu/
     <h3>AUSTER <span class="price">5€/tk</span></h3>
     <p>tomati mignonette, tilliõli</p>
   </div><div class="menu-item">
-    <h3>PÄHKLA FORELL <span class="price">7€/tk</span></h3>
+    <h3>PÄHKLA FORELL <span class="price">7€</span></h3>
     <p>õun, šalottsibul, pruun või</p>
   </div>
 </section>
