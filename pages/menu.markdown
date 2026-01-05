@@ -93,11 +93,11 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
-    <p>grillkana, värsked aedviljad, pesto</p>
+    <p>röstitud kanakintsu liha, persillade, avokaado, granaatõun, kreeka pähkel, kurk, pesto</p>
   </div>
   <div class="menu-item">
     <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
-    <p>bataadichipsid, fetajuust, värsked köögiviljad, vaarika balsamico</p>
+    <p>rösitutud bataat, fetajuust, avokaado, granaatõun, metspähklid, vaarika balsamico</p>
   </div>
   <div class="menu-item"> 
     <h3>MAGUSAD PANNKOOGID <span class="price">7€</span></h3>
