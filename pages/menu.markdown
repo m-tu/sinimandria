@@ -88,7 +88,7 @@ permalink: /menu/
     <p>Linnamäe sink, Kolotsi talu juust, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>GRUYERE PANNKOOGID <span class="price">7€</span></h3>
+    <h3>GRUYERE PANNKOOGID <span class="price">8€</span></h3>
     <p>pannkoogid, gruyere juust, värske salat, tillipesto</p>
   </div>
   <div class="menu-item">
