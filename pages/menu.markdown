@@ -77,7 +77,7 @@ permalink: /menu/
 <section class="menu-section">
   <div class="menu-item">
     <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
-    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin</p>
+    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks vali kas Pähkla forell, Kolotsi sink või tomati tar-tar</p>
   </div>
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
@@ -85,10 +85,10 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>CROQUE MONSIEUR <span class="price">10€</span></h3>
-    <p>Linnamäe sink, Kolotsi talu juust, béchamel, brioche</p>
+    <p>Linnamäe sink, Kolotsi talu juust, soolakurk, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>GRUYERE PANNKOOGID <span class="price">8€</span></h3>
+    <h3>GRUYERE PANNKOOGID <span class="price">9€</span></h3>
     <p>pannkoogid, gruyere juust, värske salat, tillipesto</p>
   </div>
   <div class="menu-item">
@@ -99,8 +99,12 @@ permalink: /menu/
     <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
     <p>rösitutud bataat, fetajuust, avokaado, granaatõun, metspähklid, vaarika balsamico</p>
   </div>
+  <div class="menu-item">
+    <h3>AUSTER <span class="price">5€/tk</span></h3>
+    <p>tomati mignonette, tilliõli</p>
+  </div>
   <div class="menu-item"> 
-    <h3>MAGUSAD PANNKOOGID <span class="price">7€</span></h3>
+    <h3>MAGUSAD PANNKOOGID <span class="price">6€</span></h3>
     <p>kohupiimaga pannkoogid, hooajaline moos, vahtrakaramell</p>
   </div>
 </section>
@@ -149,15 +153,15 @@ permalink: /menu/
     <p>confit, porru variatsioonid, vadakukaste</p>
   </div>
   <div class="menu-item">
-    <h3>KAHEKSAJALG JA MERIVÄHK <span class="price">16€</span></h3>
+    <h3>KAHEKSAJALG JA MERIVÄHK <span class="price">18€</span></h3>
     <p>terriin, kartul, tomat</p>
   </div>
   <div class="menu-item">
-    <h3>SMØREBROD <span class="price">10€</span></h3>
+    <h3>SMØREBROD <span class="price">11€</span></h3>
     <p>suitsukala, must leib, kurk, muna</p>
   </div>
   <div class="menu-item">
-    <h3>HIRVE TAR-TAR <span class="price">18€</span></h3>
+    <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
     <p>filotaigen, suitsutatud munakollane</p>
   </div>
 </section>
@@ -169,8 +173,8 @@ permalink: /menu/
     <p>suvikõrvits, tomat, filotainas</p>
   </div>
   <div class="menu-item">
-    <h3>MERIAHVEN <span class="price">25€</span></h3>
-    <p>köögiviljad, kaheksajala jus</p>
+    <h3>VALGE KALA <span class="price">25€</span></h3>
+    <p>köögiviljad, bouillabase</p>
   </div>
   <div class="menu-item">
     <h3>VUTT <span class="price">28€</span></h3>
