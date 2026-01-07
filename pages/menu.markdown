@@ -162,7 +162,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
-    <p>filotaigen, suitsutatud munakollane</p>
+    <p>lehttainas, suitsutatud munakollane</p>
   </div>
 </section>
 
