@@ -162,7 +162,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
-    <p>lehttainas, suitsutatud munakollane</p>
+    <p>filotainas, suitsutatud munakollane</p>
   </div>
 </section>
 
@@ -170,7 +170,7 @@ permalink: /menu/
   <h2 class="menu-heading">PEAROAD</h2>
   <div class="menu-item">
     <h3>KITSEJUUST <span class="price">23€</span></h3>
-    <p>suvikõrvits, tomat, filotainas</p>
+    <p>suvikõrvits, tomat, lehttainas</p>
   </div>
   <div class="menu-item">
     <h3>VALGE KALA <span class="price">25€</span></h3>
