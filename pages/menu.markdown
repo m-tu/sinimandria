@@ -77,11 +77,11 @@ permalink: /menu/
 <section class="menu-section">
   <div class="menu-item">
     <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
-    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks vali kas Pähkla forell, Kolotsi sink või tomati tar-tar</p>
+    <p>Pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks vali kas Pähkla forell, peekon või tomati tar-tar</p>
   </div>
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
-    <p>muna, karamelliseeritud pruun juust, hapusai</p>
+    <p>muna, karamelliseeritud pruun juust, hapusai. Lisandiks kas Pähkla forell, peekon või tomati tar-tar</p>
   </div>
   <div class="menu-item">
     <h3>CROQUE MONSIEUR <span class="price">10€</span></h3>
