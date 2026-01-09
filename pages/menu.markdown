@@ -14,7 +14,7 @@ permalink: /menu/
   </div>
   <div class="menu-summary-item">
     <h2><a href="#ohtusook">ÕHTU</a></h2>
-    <p class="menu-note">K–R 18:00 – 22:00, L 17:00 – 22:00</p>
+    <p class="menu-note">K–L 17:00 – 23:00</p>
   </div>
 </div>
 <!--
