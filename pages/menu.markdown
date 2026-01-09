@@ -76,28 +76,28 @@ permalink: /menu/
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>MUNAD BENEDICTI MOODI <span class="price">12€</span></h3>
-    <p>pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin. Lisandiks vali kas Pähkla forell, peekon või tomati tar-tar</p>
+    <h3>BENEDICTI MUNAD forell | peekon | tomat <span class="price">12€</span></h3>
+    <p>pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin.</p>
   </div>
   <div class="menu-item">
     <h3>MUNAPUDER <span class="price">8€</span></h3>
-    <p>muna, karamelliseeritud pruun juust, hapusai. Lisandiks kas Pähkla forell, peekon või tomati tar-tar</p>
+    <p>karamelliseeritud pruun juust, kartulileib</p>
   </div>
   <div class="menu-item">
     <h3>CROQUE MONSIEUR <span class="price">10€</span></h3>
     <p>Linnamäe sink, Kolotsi talu juust, soolakurk, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>GRUYERE PANNKOOGID <span class="price">9€</span></h3>
-    <p>pannkoogid, gruyere juust, värske salat, tillipesto</p>
+    <h3>GRUYERE PANNKOOK <span class="price">9€</span></h3>
+    <p>gruyere juust, värske salat, tillipesto</p>
   </div>
   <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
-    <p>röstitud kanakints, persillade, avokaado, granaatõun, kreeka pähkel, kurk, pesto</p>
+    <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto</p>
   </div>
   <div class="menu-item">
     <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
-    <p>rösitutud bataat, fetajuust, avokaado, granaatõun, metspähklid, vaarika balsamico</p>
+    <p>rösitutud bataat, avokaado, granaatõun, pähkel, vaarika balsamico</p>
   </div>
   <div class="menu-item">
     <h3>AUSTER <span class="price">5€/tk</span></h3>
@@ -105,7 +105,7 @@ permalink: /menu/
   </div>
   <div class="menu-item"> 
     <h3>MAGUSAD PANNKOOGID <span class="price">6€</span></h3>
-    <p>kohupiimaga pannkoogid, hooajaline moos, vahtrakaramell</p>
+    <p>hooajaline moos, vahtrakaramell</p>
   </div>
 </section>
 <!--
