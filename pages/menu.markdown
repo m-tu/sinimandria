@@ -76,7 +76,7 @@ permalink: /menu/
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>EGGS BENEDICT & forell | peekon | tomat <span class="price">12€</span></h3>
+    <h3>EGGS BENEDICT & forell | peekon | tomat <span class="price">13€</span></h3>
     <p>pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin.</p>
   </div>
   <div class="menu-item">
