@@ -16,6 +16,9 @@ permalink: /menu/
     <h2><a href="#ohtusook">ÕHTU</a></h2>
     <p class="menu-note">K–L 17:00 – 23:00</p>
   </div>
+  <div class="menu-summary-item">
+    <h2><a href="../assets/images/sinimandria-joogikaart.pdf">JOOGIKAART</a></h2>
+  </div>
 </div>
 <!--
 <div id="hommik" class="menu-heading-group">
