@@ -101,7 +101,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
-    <p>rösitutud bataat, avokaado, granaatõun, pähkel, vaarika balsamico</p>
+    <p>röstitud bataat, avokaado, granaatõun, pähkel, vaarika balsamico</p>
   </div>
   <div class="menu-item">
     <h3>AUSTER <span class="price">5€/tk</span></h3>
@@ -110,6 +110,10 @@ permalink: /menu/
   <div class="menu-item"> 
     <h3>MAGUSAD PANNKOOGID <span class="price">6€</span></h3>
     <p>hooajaline moos, vahtrakaramell</p>
+  </div>
+  <div class="menu-item"> 
+    <h3>KOOK <span class="price">5-8€</span></h3>
+    <p>küsi valikut ettekandjalt või piilu ise meie kondiitriletti!</p>
   </div>
 </section>
 <!--
