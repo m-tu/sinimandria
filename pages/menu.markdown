@@ -17,7 +17,7 @@ permalink: /menu/
     <p class="menu-note">K–L 17:00 – 23:00</p>
   </div>
   <div class="menu-summary-item">
-    <h2><a href="../assets/images/sinimandria-joogikaart.pdf">JOOGIKAART</a></h2>
+    <h2><a href="../assets/images/sinimandria-joogikaart.pdf">JOOGID</a></h2>
   </div>
 </div>
 <!--
