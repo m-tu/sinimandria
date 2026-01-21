@@ -10,14 +10,14 @@ permalink: /menu/
   </div>-->
   <div class="menu-summary-item">
     <h2><a href="#brunch">BRUNCH</a></h2>
-    <p class="menu-note">K–R 12 – 17:00, L-P 10 - 17:00</p>
+    <p class="menu-note"><a href="#brunch">K–R 12 – 17:00, L-P 10 - 17:00</a></p>
   </div>
   <div class="menu-summary-item">
     <h2><a href="#ohtusook">ÕHTU</a></h2>
-    <p class="menu-note">K–L 17 – 23:00</p>
+    <p class="menu-note"><a href="#ohtusook">K–L 17 – 23:00</a></p>
   </div>
   <div class="menu-summary-item">
-    <h2><a href="../assets/images/sinimandria-joogikaart.pdf">JOOGIKAART</a></h2>
+    <h2><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">JOOGIKAART</a></h2>
     <p class="menu-note"><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">alati saadaval</a></p>
   </div>
 </div>
