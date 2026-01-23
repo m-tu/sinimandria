@@ -207,7 +207,8 @@ permalink: /menu/
 </section>
 
 <section class="menu-section">
-  <h2 class="menu-heading">MAITSEV TARTU (komplekti hind 38EUR)</h2>
+  <h2 class="menu-heading">MAITSEV TARTU</h2>
+   <p>saadaval 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
   <div class="menu-item">
     <h3>PÄHKLA FORELL</h3>
     <p>Pähkla forelli ballotiin, kartulivaht, karamelliseeritud lillkapsas</p>
