@@ -208,9 +208,6 @@ permalink: /menu/
 
 <section class="menu-section">
   <h2 class="menu-heading">MAITSEV TARTU</h2>
-   <div class="menu-item">
-   <p>saadaval 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
-   </div>
   <div class="menu-item">
     <h3>PÄHKLA FORELL</h3>
     <p>Pähkla forelli ballotiin, kartulivaht, karamelliseeritud lillkapsas</p>
@@ -222,5 +219,8 @@ permalink: /menu/
   <div class="menu-item">
     <h3>VAARIKA-KADAKA TIRAMISU</h3>
     <p>vaarika biskviit, kadakamari, toorjuust</p>
+  </div>
+  <div class="menu-item">
+   <p>Maitsev Tartu menüüd pakume 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
   </div>
 </section>
