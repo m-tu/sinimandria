@@ -205,3 +205,18 @@ permalink: /menu/
     <p>Baski juustukook, värsked marjad</p>
   </div>
 </section>
+<section class="menu-section">
+  <h2 class="menu-heading">MAITSEV TARTU (komplekti hind 38EUR)</h2>
+  <div class="menu-item">
+    <h3>PÄHKLA FORELL
+    <p>Pähkla forelli ballotiin, kartulivaht, karamelliseeritud lillkapsas</p>
+  </div>
+  <div class="menu-item">
+    <h3>LAMBAKINTS</h3>
+    <p>kauaküpsenud lambakints, metsmarja glasuur, juurselleri gratään</p>
+  </div>
+  <div class="menu-item">
+    <h3>VAARIKA-KADAKA TIRAMISU</h3>
+    <p>vaarika biskviit, kadakamari, toorjuust</p>
+  </div>
+</section>
