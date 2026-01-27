@@ -165,7 +165,7 @@ permalink: /menu/
     <p>terriin, kartul, tomat</p>
   </div>
   <div class="menu-item">
-    <h3>SMØREBROD <span class="price">11€</span></h3>
+    <h3>SMØRREBROD <span class="price">11€</span></h3>
     <p>suitsukala, must leib, kurk, muna</p>
   </div>
   <div class="menu-item">
