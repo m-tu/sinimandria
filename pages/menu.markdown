@@ -92,10 +92,6 @@ permalink: /menu/
     <p>Linnamäe sink, Kolotsi talu juust, soolakurk, béchamel, brioche</p>
   </div>
   <div class="menu-item">
-    <h3>GRUYERE PANNKOOK <span class="price">9€</span></h3>
-    <p>gruyere juust, värske salat, tillipesto</p>
-  </div>
-  <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
     <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto</p>
   </div>
@@ -161,14 +157,6 @@ permalink: /menu/
     <p>confit, porru variatsioonid, vadakukaste</p>
   </div>
   <div class="menu-item">
-    <h3>KAHEKSAJALG JA MERIVÄHK <span class="price">18€</span></h3>
-    <p>terriin, kartul, tomat</p>
-  </div>
-  <div class="menu-item">
-    <h3>SMØRREBROD <span class="price">11€</span></h3>
-    <p>suitsukala, must leib, kurk, muna</p>
-  </div>
-  <div class="menu-item">
     <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
     <p>filotainas, suitsutatud munakollane</p>
   </div>
@@ -179,14 +167,6 @@ permalink: /menu/
   <div class="menu-item">
     <h3>KITSEJUUST <span class="price">23€</span></h3>
     <p>suvikõrvits, tomat, lehttainas</p>
-  </div>
-  <div class="menu-item">
-    <h3>VALGE KALA <span class="price">25€</span></h3>
-    <p>köögiviljad, bouillabase</p>
-  </div>
-  <div class="menu-item">
-    <h3>VUTT <span class="price">28€</span></h3>
-    <p>ballotiin, seened, läätsed</p>
   </div>
   <div class="menu-item">
     <h3>ULUK <span class="price">29€</span></h3>
