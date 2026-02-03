@@ -92,6 +92,10 @@ permalink: /menu/
     <p>Linnamäe sink, Kolotsi talu juust, soolakurk, béchamel, brioche</p>
   </div>
   <div class="menu-item">
+    <h3>MAISIKANA <span class="price">16€</span></h3>
+    <p>kanafilee, kartulikreem, bimi</p>
+  </div>  
+  <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
     <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto</p>
   </div>
