@@ -5,41 +5,36 @@ permalink: /events/aastapaev-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
-    <h2><a href="#brunch">BRUNCH</a></h2>
-    <p class="menu-note"><a href="#brunch">K–R 12 – 17:00, L-P 10 - 17:00</a></p>
+    <h2>AASTAPÄEVABRUNCH - ERIMENÜÜ</h2>
+    <p class="menu-note">24.veebruar 2026, 12:00 - 18:00</p>
   </div>
-  <div class="menu-summary-item">
-    <h2><a href="#ohtusook">ÕHTU</a></h2>
-    <p class="menu-note"><a href="#ohtusook">K–L 17 – 23:00</a></p>
-  </div>
-  <div class="menu-summary-item">
-    <h2><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">JOOGIKAART</a></h2>
-    <p class="menu-note"><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">alati saadaval</a></p>
-  </div>
+
 </div>
 
 
 <div id="brunch" class="menu-heading-group">
-  <h1 class="menu-heading">AASTAPÄEVABRUNCH - KOLMEKÄIGULINE ERIMENÜÜ</h1>
+  <h1 class="menu-heading">KOLMEKÄIGULINE MENÜÜ, 30€/in</h1>
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>EGGS BENEDICT & forell | peekon | tomat <span class="price">13€</span></h3>
-    <p>pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin.</p>
+    <h3>KILU/h3>
+    <p>Meie maja must leib, maitsevõi, balti mere kilu, muna, maitseroheline.</p>
     <p>&nbsp;</p>
     <p>või</p>
     <p>&nbsp;</p>
-    <h3>MUNAPUDER <span class="price">8€</span></h3>
-    <p>karamelliseeritud pruun juust, kartulileib</p>
+    <h3>OLIVIER' SALAT</h3>
+    <p>Kartulisalat, maasuitsusink, meie maja must leib</p>
   </div>
   <div class="menu-item">
-    <h3>MUNAPUDER <span class="price">8€</span></h3>
-    <p>karamelliseeritud pruun juust, kartulileib</p>
+    <h3>RÄIM </h3>
+    <p>Praetud räim, karulaugu-kartuli kreem, suitsune kodujuust, kurk</p>
+    <p>&nbsp;</p>
+    <p>või</p>
+    <p>&nbsp;</p>
+    <h3>EGGS BENEDICT & PÄHKLA FORELL | SUITSUSINGI KÕRNED</h3>
+    <p>Pošeeritud munad, inglise muffin, hollandaise kaste, salat, maitseroheline</p>
   </div>
-  <div class="menu-item">
-    <h3>CROQUE MONSIEUR <span class="price">10€</span></h3>
-    <p>Linnamäe sink, Kolotsi talu juust, soolakurk, béchamel, brioche</p>
-  </div>
+
   <div class="menu-item">
     <h3>MAISIKANA <span class="price">16€</span></h3>
     <p>kanafilee, kartulikreem, bimi</p>
