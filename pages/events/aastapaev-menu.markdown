@@ -13,7 +13,7 @@ permalink: /events/aastapaev-menu
 
 
 <div id="brunch" class="menu-heading-group">
-  <h1 class="menu-heading">KOLMEKÄIGULINE MENÜÜ, 30€/in</h1>
+  <h1 class="menu-heading">EELROOG</h1>
 </div>
 <section class="menu-section">
   
@@ -26,6 +26,13 @@ permalink: /events/aastapaev-menu
     <h3>OLIVIER' SALAT</h3>
     <p>Kartulisalat, maasuitsusink, meie maja must leib</p>
   </div>
+</section>
+  
+<div id="brunch" class="menu-heading-group">
+  <h1 class="menu-heading">PEAROOG</h1>
+</div>
+
+<section class="menu-section">
       
   <div class="menu-item">
     <h3>RÄIM </h3>
@@ -37,104 +44,23 @@ permalink: /events/aastapaev-menu
     <p>Pošeeritud munad, inglise muffin, hollandaise kaste, salat, maitseroheline</p>
   </div>
 
-  <div class="menu-item">
-    <h3>MAISIKANA <span class="price">16€</span></h3>
-    <p>kanafilee, kartulikreem, bimi</p>
-  </div>  
-  <div class="menu-item">
-    <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
-    <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto</p>
-  </div>
-  <div class="menu-item">
-    <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
-    <p>röstitud bataat, avokaado, granaatõun, pähkel, vaarika balsamico</p>
-  </div>
-  <div class="menu-item">
-    <h3>AUSTER <span class="price">5€/tk</span></h3>
-    <p>tomati mignonette, tilliõli</p>
-  </div>
-  <div class="menu-item"> 
-    <h3>MAGUSAD PANNKOOGID <span class="price">6€</span></h3>
-    <p>hooajaline moos, vahtrakaramell</p>
-  </div>
-  <div class="menu-item"> 
-    <h3>KOOK <span class="price">5-8€</span></h3>
-    <p>küsi valikut ettekandjalt või piilu ise meie kondiitriletti!</p>
-  </div>
 </section>
-<!--
-<section class="menu-section">
-  <h2 class="menu-heading">BRUNCHI JOOGID</h2>
-  <div class="menu-item">
-    <h3>KOHVIJOOGID <span class="price">3-4€</span></h3>
-    <p>Kõik klassikud on kohal - espresso, americano, capuccino, latte, flat white </p>
-  </div>
-  <div class="menu-item">
-    <h3>VÄRSKELT PRESSITUD MAHL <span class="price">5€</span></h3>
-    <p>Küsi apelsini või greipi.</p>
-  </div>
-  <div class="menu-item">
-    <h3>MAJALIMONAAD <span class="price">4€</span></h3>
-    <p>Rabarber, mustsõstar, maasikas, sidrun</p>
-  </div>
-</section>-->
 
-<div id="ohtusook" class="menu-heading-group">
-  <h1 class="menu-heading">ÕHTUSÖÖK</h1>
+<div id="brunch" class="menu-heading-group">
+  <h1 class="menu-heading">DESSERT</h1>
 </div>
 <section class="menu-section">
-  <h2 class="menu-heading">SUUPISTED</h2>
   <div class="menu-item">
-    <h3>SINIMANDRIA LEIVAD  <span class="price">3€/in</span></h3>
-    <p>oma maja leivad & määrded</p>
-  </div>
-  <div class="menu-item">
-    <h3>METSA MAITSETE TALDRIK <span class="price">12€/in</span></h3>
-    <p>lihad, juustud ja juurikad Sinimandria sahvrist</p>
-  </div><div class="menu-item">
-    <h3>AUSTER <span class="price">5€/tk</span></h3>
-    <p>tomati mignonette, tilliõli</p>
-  </div><div class="menu-item">
-    <h3>PÄHKLA FORELL <span class="price">7€</span></h3>
-    <p>õun, šalottsibul, pruun või</p>
-  </div>
+    <h3>MÄNNIKÄBI KOHUKE </h3>
+    <p>talukohupiim, männikäbi siirup, marjaglasuur, meringue</p>
+    <p>&nbsp;</p>
+    <p>või</p>
+    <p>&nbsp;</p>
+    <h3>VASTLACROISSANT</h3>
+    <p>Croissant, vahukoor, metsmarja moos</p>
+  </div>  
 </section>
 
-<section class="menu-section">
-  <h2 class="menu-heading">EELROAD</h2>
-  <div class="menu-item">
-    <h3>PORRU <span class="price">14€</span></h3>
-    <p>confit, porru variatsioonid, vadakukaste</p>
-  </div>
-  <div class="menu-item">
-    <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
-    <p>filotainas, suitsutatud munakollane</p>
-  </div>
-</section>
-
-<section class="menu-section">
-  <h2 class="menu-heading">PEAROAD</h2>
-  <div class="menu-item">
-    <h3>KITSEJUUST <span class="price">23€</span></h3>
-    <p>suvikõrvits, tomat, lehttainas</p>
-  </div>
-  <div class="menu-item">
-    <h3>ULUK <span class="price">29€</span></h3>
-    <p>herne raguu, taliköögiviljad, põldmari</p>
-  </div>
-</section>
-
-<section class="menu-section">
-  <h2 class="menu-heading">DESSERDID</h2>
-  <div class="menu-item">
-    <h3>KIBUVITS <span class="price">10€</span></h3>
-    <p>brüleekreem, rose meringue, estragon</p>
-  </div>
-  <div class="menu-item">
-    <h3>TOORJUUST <span class="price">10€</span></h3>
-    <p>Baski juustukook, värsked marjad</p>
-  </div>
-</section>
 
 <section class="menu-section">
   <h2 class="menu-heading">MAITSEV TARTU</h2>
