@@ -16,8 +16,9 @@ permalink: /events/aastapaev-menu
   <h1 class="menu-heading">KOLMEKÄIGULINE MENÜÜ, 30€/in</h1>
 </div>
 <section class="menu-section">
+  
   <div class="menu-item">
-    <h3>KILU/h3>
+    <h3>KILU </h3>
     <p>Meie maja must leib, maitsevõi, balti mere kilu, muna, maitseroheline.</p>
     <p>&nbsp;</p>
     <p>või</p>
@@ -25,6 +26,7 @@ permalink: /events/aastapaev-menu
     <h3>OLIVIER' SALAT</h3>
     <p>Kartulisalat, maasuitsusink, meie maja must leib</p>
   </div>
+      
   <div class="menu-item">
     <h3>RÄIM </h3>
     <p>Praetud räim, karulaugu-kartuli kreem, suitsune kodujuust, kurk</p>
