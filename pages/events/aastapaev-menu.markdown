@@ -26,7 +26,9 @@ permalink: /events/aastapaev-menu
   <div class="menu-item">
     <h3>EGGS BENEDICT & forell | peekon | tomat <span class="price">13€</span></h3>
     <p>pošeeritud muna, hollandaise kaste, soolakurk, aiaroheline, tilliõli, inglise muffin.</p>
-    <p>VÕI</p>
+    <p> </p>
+    <p>või</p>
+    <p> </p>
     <h3>MUNAPUDER <span class="price">8€</span></h3>
     <p>karamelliseeritud pruun juust, kartulileib</p>
   </div>
