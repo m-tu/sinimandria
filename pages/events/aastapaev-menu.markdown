@@ -60,7 +60,7 @@ permalink: /events/aastapaev-menu
     <p>Croissant, vahukoor, metsmarja moos</p>
   </div>
   <div class="menu-item">
-     <p>Vabariigi aastapäevabrunchi erimenüü 30EUR. Lastele saadaval road ka meie lastemenüüst.</p>
+     <p>Vabariigi aastapäevabrunchi erimenüü 27€. Lastele saadaval road ka meie lastemenüüst.</p>
   </div>
 </section>
 
