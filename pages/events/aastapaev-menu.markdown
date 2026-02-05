@@ -21,7 +21,7 @@ permalink: /events/aastapaev-menu
     <h3>KILU </h3>
     <p>Meie maja must leib, maitsevõi, balti mere kilu, muna, maitseroheline.</p>
     <p>&nbsp;</p>
-    <p>või</p>
+    <p><em>või</em></p>
     <p>&nbsp;</p>
     <h3>OLIVIER' SALAT</h3>
     <p>Kartulisalat, maasuitsusink, meie maja must leib</p>
