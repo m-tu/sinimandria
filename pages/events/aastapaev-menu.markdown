@@ -38,7 +38,7 @@ permalink: /events/aastapaev-menu
     <h3>RÄIM </h3>
     <p>Praetud räim, karulaugu-kartuli kreem, suitsune kodujuust, kurk</p>
     <p>&nbsp;</p>
-    <p>või</p>
+    <p><em>või</em></p>
     <p>&nbsp;</p>
     <h3>EGGS BENEDICT & PÄHKLA FORELL | SUITSUSINGI KÕRNED</h3>
     <p>Pošeeritud munad, inglise muffin, hollandaise kaste, salat, maitseroheline</p>
@@ -54,16 +54,18 @@ permalink: /events/aastapaev-menu
     <h3>MÄNNIKÄBI KOHUKE </h3>
     <p>talukohupiim, männikäbi siirup, marjaglasuur, meringue</p>
     <p>&nbsp;</p>
-    <p>või</p>
+    <p><em>või</em></p>
     <p>&nbsp;</p>
     <h3>VASTLACROISSANT</h3>
     <p>Croissant, vahukoor, metsmarja moos</p>
-  </div>  
+  </div>
+  <div class="menu-item">
+     <p>Vabariigi aastapäevabrunchi erimenüü 30EUR. Lastele saadaval road ka meie lastemenüüst.</p>
+  </div>
 </section>
 
-
 <section class="menu-section">
-  <h2 class="menu-heading">MAITSEV TARTU</h2>
+  <h2 class="menu-heading">MAITSEV TARTU MENÜÜ</h2>
   <div class="menu-item">
     <h3>PÄHKLA FORELL</h3>
     <p>Pähkla forelli ballotiin, kartulivaht, karamelliseeritud lillkapsas</p>
@@ -77,7 +79,7 @@ permalink: /events/aastapaev-menu
     <p>vaarika biskviit, kadakamari, toorjuust</p>
   </div>
   <div class="menu-item">
-   <p>Maitsev Tartu menüüd pakume 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
+   <p>24.veebruaril on samuti saadaval "Maitsev Tartu" menüü. Kolmekäigulise menüü hind 38EUR.</p>
   </div>
 </section>
 
