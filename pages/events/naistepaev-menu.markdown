@@ -19,7 +19,7 @@ permalink: /events/naistepaev-menu
 <section class="menu-section">
   
   <div class="menu-item">
-    <h3>AMUSE BOUCHE </h3>
+    <h3>AMUSE BOUCHE & MULL</h3>
     <p>Kolme kartuli confit', murulauk, ürdimajo, vuti paté, tuha tuille</p>
   </div>
   <div class="menu-item">
@@ -46,6 +46,10 @@ permalink: /events/naistepaev-menu
     <h3>Petits fours </h3>
     <p>metspähkli trühvel, vaarika marmelaad</p>
   </div>
+</section>
+
+<section class="menu-section">
+  Seitsmekäigulise erimenüü hind 89€/in. Sobitatud joogivalik 39€/in.
 </section>
 
 
