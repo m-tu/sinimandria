@@ -42,6 +42,10 @@ permalink: /events/naistepaev-menu
     <h3>LEPALAASTU PANNA COTTA </h3>
     <p>kartulikaramell, Sinimandria müsli, rabarber</p>
   </div>
+  <div class="menu-item">
+    <h3>Petits fours </h3>
+    <p>metspähkli trühvel, vaarika marmelaad</p>
+  </div>
 </section>
 
 
