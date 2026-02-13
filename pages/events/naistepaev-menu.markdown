@@ -19,7 +19,7 @@ permalink: /events/naistepaev-menu
 <section class="menu-section">
   
   <div class="menu-item">
-    <h3>AMUSE BOUCHE & MULL</h3>
+    <h3>AMUSE BOUCHE</h3>
     <p>Kolme kartuli confit', murulauk, ürdimajo, vuti paté, tuha tuille</p>
   </div>
   <div class="menu-item">
