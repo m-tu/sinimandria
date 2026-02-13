@@ -1,7 +1,7 @@
 ---
 layout: content
-title: Vabariigi aastapäevabrunch - menüü
-permalink: /events/aastapaev-menu
+title: Naistepäev - eriõhtusöök - menüü
+permalink: /events/naistepaev-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
