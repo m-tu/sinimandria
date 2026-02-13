@@ -5,7 +5,7 @@ permalink: /events/naistepaev-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
-    <h2>NAISTEPÄEVA ERIÕHTUSÖÖK</h2>
+    <h2>NAISTEPÄEVA EELÕHTUSÖÖK</h2>
     <p class="menu-note">L 07.03.2026, 19:00 - ...</p>
     <p class="menu-note"><em>Tutvustame uut kevadist menüüd erilise seitsmekäigulise õhtusöögiga!</em></p>
   </div>
