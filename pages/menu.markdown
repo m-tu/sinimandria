@@ -21,59 +21,6 @@ permalink: /menu/
     <p class="menu-note"><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">alati saadaval</a></p>
   </div>
 </div>
-<!--
-<div id="hommik" class="menu-heading-group">
-  <h1 class="menu-heading">HOMMIK</h1>
-</div>
--->
-<!--
-<section class="menu-section">
-  <h2 class="menu-heading">MAGUSAM</h2>
-  <div class="menu-item">
-    <h3>TÄIDETUD CROISSANT <span class="price">4.5€</span></h3>
-    <p>Erinevate kreemide ja <em>compote</em> täidistega croissant</p>
-  </div>
-  <div class="menu-item">
-    <h3>AHVILEIB <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignas, kardemoni-sidruni suhkruga. Kaetud maasikaglasuuriga.</p>
-  </div>
-  <div class="menu-item">
-    <h3>KANEELISAI <span class="price">3.5€</span></h3>
-    <p>Brioche taignast, täidiseks pruun või ja sinimandria vürtside segu</p>
-  </div>
-  <div class="menu-item">
-    <h3>TÄIDETUD PESA <span class="price">4.5€</span></h3>
-    <p>Ristlaminatsioonis pärmi-lehttainas, täidetud erinevate kreemide ja <em>compote</em>'ga</p>
-  </div>
-  <div class="menu-item">
-    <h3>KIRSI KEERD <span class="price">3.5€</span></h3>
-    <p>Brioche saia keerd, martsipani ja kirsimoosiga</p>
-  </div>
-  <div class="menu-item">
-    <h3>KOHUPIIMA KORP <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignas kohupiimakorp, meie maja moos ja värsked marjad</p>
-  </div>
-</section>
-<section class="menu-section">
-  <h2 class="menu-heading">SOOLASEM</h2>
-  <div class="menu-item">
-    <h3>CROISSANT <span class="price">3€</span></h3>
-    <p>Pärmi-lehttaigna klassika</p>
-  </div>
-  <div class="menu-item">
-    <h3>"CHEESELOVER" CROISSANT<span class="price">5€</span></h3>
-    <p>Juustu mousse ja meie maja croissant</p>
-  </div>
-  <div class="menu-item">
-    <h3>PIPRASINGI CROISSANT <span class="price">5€</span></h3>
-    <p>Piprane sink, marineeritud kurk, majonees ja meie maja croissant</p>
-  </div>
-  <div class="menu-item">
-    <h3>LILLKAPSA PESA <span class="price">3.5€</span></h3>
-    <p>Pärmi-lehttaignass lillkapsakreem ja juust</p>
-  </div>
-</section>
--->
 
 <div id="brunch" class="menu-heading-group">
   <h1 class="menu-heading">BRUNCH</h1>
@@ -97,11 +44,11 @@ permalink: /menu/
   </div>  
   <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
-    <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto</p>
+    <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
-    <p>röstitud bataat, avokaado, granaatõun, pähkel, vaarika balsamico</p>
+    <p>röstitud bataat, avokaado, granaatõun, pähkel, vaarika balsamico, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>AUSTER <span class="price">5€/tk</span></h3>
