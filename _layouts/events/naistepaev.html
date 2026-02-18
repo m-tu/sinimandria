@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-{%- include head.html -%}
-<body class="no-hero">
+  {%- include head.html -%}
+  <body class="no-hero">
 
     {%- include header.html -%}
 
@@ -9,43 +9,56 @@
       <section class="section">
         <div class="text">
           <h2>NAISTEPÄEV</h2>
+
           <p class="section-description">
-            Tule ja tähista Eesti Vabariigi sünnipäeva <a href="../aastapaev-menu">kolmekäigulise erimenüüga</a> mille on loonud meie peakokk Justin just selleks eriliseks päevaks.
+            Tule ja tähista Eesti Vabariigi sünnipäeva
+            <a href="../aastapaev-menu">kolmekäigulise erimenüüga</a>,
+            mille on loonud meie peakokk Justin just selleks eriliseks päevaks.
           </p>
+
           <p class="section-description">
-            Ootame sind külla teisipäeval, 24.veebruaril 12:00 - 18:00. Kolmekäigulise erimenüü hind on 27€/in.      
+            Ootame sind külla teisipäeval, 24. veebruaril 12:00–18:00.
+            Kolmekäigulise erimenüü hind on 27 €/in.
           </p>
+
           <p class="section-description">
-             <a href="https://book.easytable.com/book/?id=f4386&lang=auto">Broneeri laud</a> varakult ja tule pere või sõpradega meie oma eestimaised maitseid nautima! 
+            <a href="https://book.easytable.com/book/?id=f4386&lang=auto">
+              Broneeri laud
+            </a>
+            varakult ja tule pere või sõpradega meie oma eestimaised maitseid nautima!
           </p>
         </div>
-        <img src="{{ '/assets/images/aastapaev.jpg' | absolute_url }}" alt="Sinimandria kinkekaart">
+
+        <h1 class="menu-heading">MENÜÜ</h1>
+
+        <section class="menu-section">
+          <div class="menu-item">
+            <h3>AMUSE BOUCHE</h3>
+            <p>Kolme kartuli confit’ & vuti paté</p>
+          </div>
+
+          <div class="menu-item">
+            <h3>RÄIM</h3>
+            <p>must leib, sibula marmelaad, nõrutatud hapukoor, röstitud sibul</p>
+          </div>
+
+          <div class="menu-item">
+            <h3>VÕÕRAL MAAL</h3>
+            <p>kaheksajalg, safrani latte, focaccia, estragoni ketšup, sirduni majo</p>
+          </div>
+        </section>
+
+        <img
+          src="{{ '/assets/images/aastapaev.jpg' | absolute_url }}"
+          alt="Sinimandria kinkekaart"
+        />
       </section>
 
- <section class="section">
-<div id="brunch" class="menu-heading-group">
-  <h1 class="menu-heading">MENÜÜ</h1>
-</div>
-<section class="menu-section">
-  
-  <div class="menu-item">
-    <h3>AMUSE BOUCHE</h3>
-    <p>Kolme kartuli confit' &  vuti paté</p>
-  </div>
-  <div class="menu-item">
-    <h3>RÄIM </h3>
-    <p>must leib, sibula marmelaad, nõrutatud hapukoor, röstitud sibul</p>
-  </div>
-  <div class="menu-item">
-    <h3>VÕÕRAL MAAL </h3>
-    <p>kaheksajalg, safrani latte, focaccia, estragoni ketšup, sirduni majo</p>
-  </div>
-</section>
- </section>
-        
+      <section class="section">
+      </section>
     </main>
 
     {%- include footer.html -%}
-</body>
-</html>
 
+  </body>
+</html>
