@@ -6,7 +6,7 @@ permalink: /grupid-menu
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>Sinimandria grupimenüü</h2>
-    <p class="menu-note">grupimenüüd pakume alates 15 sööjast</p>
+    <p class="menu-note">Seltskondadele alates 15 inimesest. Tellimiseks kirjuta info@sinimandria.ee</p>
     <p class="menu-note"><em>Neljakäigulise grupimenüü hind 48€/in</em></p>
   </div>
 
@@ -18,8 +18,8 @@ permalink: /grupid-menu
 <section class="menu-section">
   
   <div class="menu-item">
-    <h3>SUUPISTED </h3>
-    <p>Hoolikalt valitud hooajalised suupisted</p>
+    <h3>SUUPISTEVALIK </h3>
+    <p>Peakoka valitud hooajalised suupisted</p>
   </div>
 </section>  
 
@@ -64,9 +64,6 @@ permalink: /grupid-menu
   <div class="menu-item">
     <h3>LEPP JA KARTUL </h3>
     <p>lepalaast, panna cotta, kartuli karamell, astelpaju tekstuurid</p>
-  </div>
-  <div class="menu-item">
-     <p>Grupimenüü hind 48€/in</p>
   </div>
 </section>
 
