@@ -1,7 +1,7 @@
 ---
 layout: content
 title: 
-permalink: /events/naistepaev-menu
+permalink: /grupid-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
