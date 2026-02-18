@@ -6,7 +6,7 @@ permalink: /events/naistepaev-menu
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>NAISTEPÄEVA EELÕHTUSÖÖK</h2>
-    <p class="menu-note">L 07.03.2026, kell 19:00. <a href="https://book.easytable.com/book/?id=f4386#step=qty&event=23026">Reserveeri laud juba täna!</a></p>
+    <p class="menu-note">L 07.03.2026, kell 19:00. <a href="https://book.easytable.com/book/?id=f4386&lang=auto#step=qty&type=33874">Reserveeri laud juba täna!</a></p>
     <p class="menu-note"><em>Tutvustame uut kevadist menüüd erilise seitsmekäigulise õhtusöögiga!</em></p>
   </div>
 
@@ -49,7 +49,7 @@ permalink: /events/naistepaev-menu
 </section>
 
 <section class="menu-section">
-  Seitsmekäigulise erimenüü hind 89€/in. Sobitatud joogivalik 39€/in. <a href="https://book.easytable.com/book/?id=f4386#step=qty&event=23026">Reserveeri laud</a>
+  Seitsmekäigulise erimenüü hind 89€/in. Sobitatud joogivalik 39€/in. <a href="https://book.easytable.com/book/?id=f4386&lang=auto#step=qty&type=33874">Reserveeri laud</a>
 </section>
 
 
