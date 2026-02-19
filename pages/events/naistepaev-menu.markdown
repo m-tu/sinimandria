@@ -20,7 +20,7 @@ permalink: /events/naistepaev-menu
   
   <div class="menu-item">
     <h3>AMUSE BOUCHE</h3>
-    <p>Kolme kartuli confit' &  vuti paté</p>
+    <p>Kartuli confit' &  vuti paté</p>
   </div>
   <div class="menu-item">
     <h3>RÄIM </h3>
