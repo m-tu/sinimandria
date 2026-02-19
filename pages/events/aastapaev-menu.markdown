@@ -63,7 +63,7 @@ permalink: /events/aastapaev-menu
      <p>Vabariigi aastapäevabrunchi erimenüü 27€. Lastele saadaval road ka meie lastemenüüst.</p>
   </div>
 </section>
-
+<!--
 <section class="menu-section">
   <h2 class="menu-heading">MAITSEV TARTU MENÜÜ</h2>
   <div class="menu-item">
@@ -81,5 +81,5 @@ permalink: /events/aastapaev-menu
   <div class="menu-item">
    <p>24.veebruaril on samuti saadaval "Maitsev Tartu" menüü. Kolmekäigulise menüü hind 38EUR.</p>
   </div>
-</section>
+</section>-->
 
