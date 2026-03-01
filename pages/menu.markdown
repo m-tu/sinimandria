@@ -150,5 +150,5 @@ permalink: /menu/
   <div class="menu-item">
    <p>Maitsev Tartu menüüd pakume 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
   </div>
-  -->
 </section>
+  -->
