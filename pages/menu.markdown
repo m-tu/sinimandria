@@ -63,22 +63,6 @@ permalink: /menu/
     <p>küsi valikut ettekandjalt või piilu ise meie kondiitriletti!</p>
   </div>
 </section>
-<!--
-<section class="menu-section">
-  <h2 class="menu-heading">BRUNCHI JOOGID</h2>
-  <div class="menu-item">
-    <h3>KOHVIJOOGID <span class="price">3-4€</span></h3>
-    <p>Kõik klassikud on kohal - espresso, americano, capuccino, latte, flat white </p>
-  </div>
-  <div class="menu-item">
-    <h3>VÄRSKELT PRESSITUD MAHL <span class="price">5€</span></h3>
-    <p>Küsi apelsini või greipi.</p>
-  </div>
-  <div class="menu-item">
-    <h3>MAJALIMONAAD <span class="price">4€</span></h3>
-    <p>Rabarber, mustsõstar, maasikas, sidrun</p>
-  </div>
-</section>-->
 
 <div id="ohtusook" class="menu-heading-group">
   <h1 class="menu-heading">ÕHTUSÖÖK</h1>
@@ -108,6 +92,10 @@ permalink: /menu/
     <p>confit, porru variatsioonid, vadakukaste</p>
   </div>
   <div class="menu-item">
+    <h3>RÄIM <span class="price">10€</span></h3>
+    <p>sibulamoos, suitsuhapukoor, must leib</p>
+  </div>
+  <div class="menu-item">
     <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
     <p>filotainas, suitsutatud munakollane</p>
   </div>
@@ -116,8 +104,16 @@ permalink: /menu/
 <section class="menu-section">
   <h2 class="menu-heading">PEAROAD</h2>
   <div class="menu-item">
-    <h3>KITSEJUUST <span class="price">23€</span></h3>
-    <p>suvikõrvits, tomat, lehttainas</p>
+    <h3>KAPSAS JA SÕIR <span class="price">23€</span></h3>
+    <p>köögivilja demi glace, juurseller</p>
+  </div>
+  <div class="menu-item">
+    <h3>VALGE KALA <span class="price">25€</span></h3>
+    <p>köögiviljad, bouillabaisse</p>
+  </div>
+  <div class="menu-item">
+    <h3>VUTT <span class="price">27€</span></h3>
+    <p>kollane peet, hernes, trühvel</p>
   </div>
   <div class="menu-item">
     <h3>ULUK <span class="price">29€</span></h3>
@@ -136,7 +132,7 @@ permalink: /menu/
     <p>Baski juustukook, värsked marjad</p>
   </div>
 </section>
-
+<!--
 <section class="menu-section">
   <h2 class="menu-heading">MAITSEV TARTU</h2>
   <div class="menu-item">
@@ -154,4 +150,5 @@ permalink: /menu/
   <div class="menu-item">
    <p>Maitsev Tartu menüüd pakume 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
   </div>
+  -->
 </section>
