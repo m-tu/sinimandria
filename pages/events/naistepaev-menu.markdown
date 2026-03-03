@@ -35,8 +35,8 @@ permalink: /events/naistepaev-menu
     <p>kapsa saute, Sinimandria sõir, kale variatsioonid, juurselleri demi glace</p>
   </div>
   <div class="menu-item">
-    <h3>VEIS </h3>
-    <p>välisfilee, juurselleri kreem, porru orsotto & majo</p>
+    <h3>HIRV </h3>
+    <p>Hirvefilee, porru orsotto, sõstar</p>
   </div>
   <div class="menu-item">
     <h3>LEPALAASTU PANNA COTTA </h3>
