@@ -34,8 +34,8 @@ permalink: /grupid-menu
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>JUURSELLERI CARPACCIO</h3>
-    <p>Juurseller, stracciatella, tilliõli</p>
+    <h3>PEEDI CARPACCIO</h3>
+    <p>Kollane peet, balsamico klaas, õhitud tatar, päevalill</p>
   </div>
 </section>
   
@@ -52,7 +52,7 @@ permalink: /grupid-menu
     <p><em>või</em></p>
     <p>&nbsp;</p>
     <h3>KAPSAS JA SÕIR</h3>
-    <p>Käharkapsas, sõir, terasinepi kaste</p>
+    <p>Käharkapsas, sõir, juurselleri demi glace</p>
   </div>
 
 </section>
@@ -62,8 +62,8 @@ permalink: /grupid-menu
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>LEPP JA KARTUL </h3>
-    <p>lepalaast, panna cotta, kartuli karamell, astelpaju tekstuurid</p>
+    <h3>LEPALAASTU PANNA COTTA </h3>
+    <p>lepalaast, panna cotta, kartuli karamell, rabarberi tekstuurid</p>
   </div>
 </section>
 
