@@ -92,6 +92,10 @@ permalink: /menu/
     <p>confit, porru variatsioonid, vadakukaste</p>
   </div>
   <div class="menu-item">
+    <h3>METSLINNU PATE <span class="price">14€</span></h3>
+    <p>kananaha krõbedik, balsamico, focaccia</p>
+  </div>
+  <div class="menu-item">
     <h3>RÄIM <span class="price">10€</span></h3>
     <p>sibulamoos, suitsuhapukoor, must leib</p>
   </div>
