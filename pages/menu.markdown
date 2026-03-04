@@ -97,11 +97,11 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>RÄIM <span class="price">10€</span></h3>
-    <p>sibulamoos, suitsuhapukoor, must leib</p>
+    <p>sibulamoos, kodujuust, must leib</p>
   </div>
   <div class="menu-item">
     <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
-    <p>filotainas, suitsutatud munakollane</p>
+    <p>melange noir, suitsutatud munakollane</p>
   </div>
 </section>
 
