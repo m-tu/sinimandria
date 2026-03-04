@@ -63,7 +63,7 @@ permalink: /grupid-menu
 <section class="menu-section">
   <div class="menu-item">
     <h3>LEPALAASTU PANNA COTTA </h3>
-    <p>lepalaast, panna cotta, kartuli karamell, rabarberi tekstuurid</p>
+    <p>kartuli karamell, rabarberi tekstuurid</p>
   </div>
 </section>
 
