@@ -121,7 +121,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>ULUK <span class="price">29€</span></h3>
-    <p>herne raguu, taliköögiviljad, põldmari</p>
+    <p>kruubid, tüümian, sõstar</p>
   </div>
 </section>
 
