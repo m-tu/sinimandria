@@ -154,6 +154,14 @@ permalink: /menu/
     <p>talukohupiim, toomingasiirup, marjaglasuur, meringue</p>
   </div>
 </section>
+
+<div class="menu-summary">
+  <div class="menu-summary-item">
+    <h2>GRUPID</h2>
+    <p class="menu-note">Tuled meile külla suurema seltskonnaga? Tutvu meie <a href="https://sinimandria.ee/grupid-menu">grupimenüüdega</a></p>
+  </div>
+
+</div>
 <!--
 <section class="menu-section">
   <h2 class="menu-heading">MAITSEV TARTU</h2>
