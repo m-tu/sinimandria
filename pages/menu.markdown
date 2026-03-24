@@ -136,6 +136,24 @@ permalink: /menu/
     <p>Baski juustukook, värsked marjad</p>
   </div>
 </section>
+
+<div id="brunch" class="menu-heading-group">
+  <h1 class="menu-heading">LASTELE</h1>
+</div>
+<section class="menu-section">
+  <div class="menu-item">
+    <h3>SINGI-JUUSTU VÕIKU <span class="price">5€</span></h3>
+    <p>brioche, Linnamäe sink, Kolotsi juust</p>
+  </div>
+  <div class="menu-item">
+    <h3>LASTEPASTA <span class="price">7€</span></h3>
+    <p>kana, koor, juust</p>
+  </div>
+  <div class="menu-item">
+    <h3>KOHUKE <span class="price">5€</span></h3>
+    <p>talukohupiim, toomingasiirup, marjaglasuur, meringue</p>
+  </div>
+</section>
 <!--
 <section class="menu-section">
   <h2 class="menu-heading">MAITSEV TARTU</h2>
