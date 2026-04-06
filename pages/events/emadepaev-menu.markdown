@@ -18,7 +18,7 @@ permalink: /events/emadepaev-menu
 </div>
 
 <div id="brunch1" class="menu-heading-group">
-  <h2 class="menu-heading">EELROOG</h1>
+  <h2 class="menu-heading">EELROOG</h2>
 </div>
 <section class="menu-section">
   
@@ -34,7 +34,7 @@ permalink: /events/emadepaev-menu
 </section>
   
 <div id="brunch2" class="menu-heading-group">
-  <h2 class="menu-heading">PEAROOG</h1>
+  <h2 class="menu-heading">PEAROOG</h2>
 </div>
 
 <section class="menu-section">
@@ -52,7 +52,7 @@ permalink: /events/emadepaev-menu
 </section>
 
 <div id="brunch3" class="menu-heading-group">
-  <h2 class="menu-heading">DESSERT</h1>
+  <h2 class="menu-heading">DESSERT</h2>
 </div>
 
 <section class="menu-section">
