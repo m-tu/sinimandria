@@ -17,8 +17,8 @@ permalink: /menu/
     <p class="menu-note"><a href="#ohtusook">K–L 17 – 23:00</a></p>
   </div>
   <div class="menu-summary-item">
-    <h2><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">JOOGIKAART</a></h2>
-    <p class="menu-note"><a href="../assets/images/sinimandria-joogikaart.pdf" target="_blank">alati saadaval</a></p>
+    <h2><a href="../assets/images/joogikaart-sinimandria.pdf" target="_blank">JOOGIKAART</a></h2>
+    <p class="menu-note"><a href="../assets/images/joogikaart-sinimandria.pdf" target="_blank">alati saadaval</a></p>
   </div>
 </div>
 
