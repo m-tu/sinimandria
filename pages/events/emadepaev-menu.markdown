@@ -1,10 +1,8 @@
-
 ---
 layout: content
 title: Emadepäeva brunch
 permalink: /events/emadepaev-menu
 ---
-
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>EMADEPÄEV</h2>
