@@ -17,6 +17,60 @@ permalink: /events/emadepaev-menu
 <div id="brunch" class="menu-heading-group">
   <h1 class="menu-heading">MENÜÜ</h1>
 </div>
+
+<div id="brunch1" class="menu-heading-group">
+  <h2 class="menu-heading">EELROOG</h1>
+</div>
+<section class="menu-section">
+  
+  <div class="menu-item">
+    <h3>RÖSTITUD LILLKAPSAS </h3>
+    <p>nõgesepesto, pähklid, talujogurt</p>
+    <p>&nbsp;</p>
+    <p><em>või</em></p>
+    <p>&nbsp;</p>
+    <h3>SUITSUNOTSU VÕIKU</h3>
+    <p>kartulisai, vinnutatud tomat, karulaugu remulaad</p>
+  </div>
+</section>
+  
+<div id="brunch2" class="menu-heading-group">
+  <h2 class="menu-heading">PEAROOG</h1>
+</div>
+
+<section class="menu-section">
+      
+  <div class="menu-item">
+    <h3>EGGS BENEDICT FORELL | PEEKON | TOMAT</h3>
+    <p>pošeeritud muna, karulaugu hollandaise, soolakurk, tilliõli, inglise muffin</p>
+    <p>&nbsp;</p>
+    <p><em>või</em></p>
+    <p>&nbsp;</p>
+    <h3>MAISIKANA</h3>
+    <p>karulaugu kartulikreem, redis, kale</p>
+  </div>
+
+</section>
+
+<div id="brunch3" class="menu-heading-group">
+  <h2 class="menu-heading">DESSERT</h1>
+</div>
+
+<section class="menu-section">
+      
+  <div class="menu-item">
+    <h3>TOOMINGAÕIE KOHUKE </h3>
+    <p>talukohupiim, vaarika glasuur</p>
+    <p>&nbsp;</p>
+    <p><em>või</em></p>
+    <p>&nbsp;</p>
+    <h3>MILLE FEUILLE</h3>
+    <p>patisserie, creme anglaise</p>
+  </div>
+
+</section>
+
+
 <section class="menu-section">
   
   <div class="menu-item">
