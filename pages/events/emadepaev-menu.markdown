@@ -7,7 +7,7 @@ permalink: /events/emadepaev-menu
   <div class="menu-summary-item">
     <h2>EMADEPÄEV</h2>
     <p class="menu-note">P 10.mai 2026, 10:00 - 17:00.</p>
-    <p class="menu-note"><em>Veeda emadepäev Sinimandrias - kolmekäiguline brunch ootab!</em></p>
+    <p class="menu-note"><em>Kolmekäigulise emadepäeva erimenüü hind 29€/in</em></p>
   </div>
 </div>
 
@@ -62,10 +62,6 @@ permalink: /events/emadepaev-menu
     <p>patisserie, creme anglaise</p>
   </div>
 
-</section>
-
-<section class="menu-section">
-  Kolmekäigulise emadepäeva erimenüü hind 29€/in. 
 </section>
 
 <div style="display:flex; justify-content:center;">
