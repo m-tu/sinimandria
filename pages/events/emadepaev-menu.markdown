@@ -34,7 +34,8 @@ permalink: /events/emadepaev-menu
 <section class="menu-section">
       
   <div class="menu-item">
-    <h3>EGGS BENEDICT FORELL | PEEKON | TOMAT</h3>
+    <h3>EGGS BENEDICT</h3>
+    <p>FORELL | PEEKON | TOMAT </p>
     <p>pošeeritud muna, karulaugu hollandaise, soolakurk, tilliõli, inglise muffin</p>
     <p>&nbsp;</p>
     <p><em>või</em></p>
@@ -64,11 +65,11 @@ permalink: /events/emadepaev-menu
 </section>
 
 <section class="menu-section">
-  Kolmekäigulise emadepäeva erimenüü hind 29€/in. Lastele saadaval road ka meie <a href="https://sinimandria.ee/menu/#lastele">lastemenüüst</a>.  <a href="https://book.easytable.com/book/?id=f4386">Reserveeri laud</a>
+  Kolmekäigulise emadepäeva erimenüü hind 29€/in. Lastele saadaval road ka meie <a href="https://sinimandria.ee/menu/#lastele">lastemenüüst</a>
 </section>
 
-<section class="menu-section">
-  <a href="https://book.easytable.com/book/?id=f4386">Reserveeri laud</a>
-</section>
+<div style="display:flex; justify-content:center; align-items:center; height:100vh;">
+  <div><a href="https://book.easytable.com/book/?id=f4386">Reserveeri laud</a></div>
+</div>
 
 
