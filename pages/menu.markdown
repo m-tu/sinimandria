@@ -137,7 +137,7 @@ permalink: /menu/
   </div>
 </section>
 
-<div id="brunch" class="menu-heading-group">
+<div id="lastele" class="menu-heading-group">
   <h1 class="menu-heading">LASTELE</h1>
 </div>
 <section class="menu-section">
