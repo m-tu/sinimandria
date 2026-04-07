@@ -68,7 +68,7 @@ permalink: /events/emadepaev-menu
   Kolmekäigulise emadepäeva erimenüü hind 29€/in. Lastele saadaval road ka meie <a href="https://sinimandria.ee/menu/#lastele">lastemenüüst</a>
 </section>
 
-<div style="display:flex; justify-content:center; align-items:center; height:100vh;">
+<div style="display:flex; justify-content:center;">
   <div><a href="https://book.easytable.com/book/?id=f4386">Reserveeri laud</a></div>
 </div>
 
