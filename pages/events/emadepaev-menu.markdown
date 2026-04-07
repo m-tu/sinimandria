@@ -6,7 +6,7 @@ permalink: /events/emadepaev-menu
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>EMADEPÄEV</h2>
-    <p class="menu-note">P 10.05.2026, 10 - 17:00. <a href="https://book.easytable.com/book/?id=f4386&lang=auto#step=confirm&qty=2&date=10/05/2026">Reserveeri laud juba täna!</a></p>
+    <p class="menu-note">P 10.mai 2026, 10:00 - 17:00. <a href="https://book.easytable.com/book/?id=f4386">Reserveeri laud juba täna!</a></p>
     <p class="menu-note"><em>Veeda emadepäev Sinimandrias - kolmekäiguline brunch ootab!</em></p>
   </div>
 </div>
