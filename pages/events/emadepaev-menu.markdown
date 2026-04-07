@@ -68,4 +68,22 @@ permalink: /events/emadepaev-menu
   <div><a href="https://book.easytable.com/book/?id=f4386">Reserveeri laud</a></div>
 </div>
 
-
+<div style="text-align:center; margin-top:40px;">
+  <a href="https://book.easytable.com/book/?id=f4386" 
+     style="
+       display:inline-block;
+       padding:14px 28px;
+       border:1px solid #111;
+       color:#111;
+       text-decoration:none;
+       font-size:14px;
+       letter-spacing:1px;
+       text-transform:uppercase;
+       transition:all 0.2s ease;
+     "
+     onmouseover="this.style.background='#111'; this.style.color='#fff';"
+     onmouseout="this.style.background='transparent'; this.style.color='#111';"
+  >
+    Reserveeri laud
+  </a>
+</div>
