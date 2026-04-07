@@ -7,7 +7,7 @@ permalink: /events/emadepaev-menu
   <div class="menu-summary-item">
     <h2>EMADEPÄEV</h2>
     <p class="menu-note">P 10.mai 2026, 10:00 - 17:00.</p>
-    <p class="menu-note"><em>Kolmekäigulise emadepäeva erimenüü hind 29€/in</em></p>
+    <p class="menu-note"><em>Kolmekäiguline emadepäeva erimenüü hind 29€</em></p>
   </div>
 </div>
 
