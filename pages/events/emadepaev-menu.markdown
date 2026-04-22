@@ -35,7 +35,7 @@ permalink: /events/emadepaev-menu
       
   <div class="menu-item">
     <h3>EGGS BENEDICT</h3>
-    <p><strong>peekon | pähkla forell | tomat </p>
+    <p><strong>peekon | pähkla forell | tomat </strong></p>
     <p>pošeeritud muna, karulaugu hollandaise, soolakurk, tilliõli, inglise muffin</p>
     <p>&nbsp;</p>
     <p><em>või</em></p>
