@@ -267,6 +267,7 @@ nav.open .nav-dropdown {
 /* HERO */
 
 .hero {
+  position: relative;
   height: 100vh;
   background: url($baseurl + '/assets/images/hero.jpg') no-repeat center center/cover;
   display: flex;
@@ -281,6 +282,24 @@ nav.open .nav-dropdown {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hero-award {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  height: 96px;
+  width: auto;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .hero-award {
+    right: 1rem;
+    bottom: 1rem;
+    height: 64px;
+  }
 }
 
 .hero h1 {
