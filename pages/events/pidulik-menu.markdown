@@ -20,6 +20,7 @@ permalink: /pidulik-menu
     <h3>PEAKOKA VALIK </h3>
     <p>kolm erinevat hooajalist suupistet peakoka valikul</p>
     <p>&nbsp;</p>
+  </div>
 </section>
 
 <div id="brunch1" class="menu-heading-group">
@@ -31,6 +32,7 @@ permalink: /pidulik-menu
     <h3>ÕRNSUITSU FORELL </h3>
     <p>till, tuhk, brioche</p>
     <p>&nbsp;</p>
+  </div>
 </section>
   
 <div id="brunch2" class="menu-heading-group">
@@ -70,6 +72,7 @@ permalink: /pidulik-menu
     <h3>PEAKOKA VALIK </h3>
     <p>kaks erinevat järeldesserti peakoka valikul</p>
     <p>&nbsp;</p>
+  </div>
 </section>
 
 <div style="text-align:center; margin-top:40px;">
