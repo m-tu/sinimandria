@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Lõpetaja pidulik menüü
-permalink: /events/pidulik-menu
+permalink: /pidulik-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
