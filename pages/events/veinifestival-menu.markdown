@@ -6,7 +6,7 @@ permalink: /events/veinifestival-menu
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>VEINIÕHTUSÖÖK - SINIMANDRIA & DOMAINE DESOM</h2>
-    <p class="menu-note">R august 2026, 19:00</p>
+    <p class="menu-note">R 7.august 2026, 19:00</p>
     <p class="menu-note"><em>Hind alates 79EUR/in</em></p>
   </div>
 </div>
@@ -24,6 +24,7 @@ permalink: /events/veinifestival-menu
     <p>&nbsp;</p>
     <h3>PORRUD</h3>
     <p>vadakukaste</p>
+    <p>&nbsp;</p>
     <p><em>ja</em></p>
     <p>&nbsp;</p>
     <h3>RÄIMED</h3>
