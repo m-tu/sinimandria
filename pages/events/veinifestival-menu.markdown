@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Veiniõhtusöök - Sinimandria & Domaine Desom
-permalink: /events/emadepaev-menu
+permalink: /events/veinifestival-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
