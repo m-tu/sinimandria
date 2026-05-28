@@ -7,7 +7,7 @@ permalink: /events/veinifestival-menu
   <div class="menu-summary-item">
     <h2>VEINIÕHTUSÖÖK - SINIMANDRIA & DOMAINE DESOM</h2>
     <p class="menu-note">R 7.august 2026, 19:00</p>
-    <p class="menu-note"><em>Hind alates 79EUR/in</em></p>
+    <p class="menu-note"><em>Hind alates 79EUR/in (sisaldab sobitatud veine)</em></p>
   </div>
 </div>
 
