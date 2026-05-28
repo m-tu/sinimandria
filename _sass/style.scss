@@ -360,11 +360,13 @@ nav.open .nav-dropdown {
 /* Limit measure of text for better readability */
 .section .text p,
 .section .text .section-description,
+.section .text ul,
+.section .text ol {
+  width: 100%;
+}
+
 .section .text ul {
   padding-left: 1.5em;
-},
-.section .text ol {
-  width: 100%; /* fill the grid column */
 }
 
 /* Align h2 and the link to the same left edge as the centered text block,
