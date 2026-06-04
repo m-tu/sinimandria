@@ -70,19 +70,20 @@ permalink: /menu/
 <section class="menu-section">
   <h2 class="menu-heading">JAGAMISEKS KAHELE</h2>
   <div class="menu-item">
-    <h3>SINIMANDRIA LEIVAD  <span class="price">6€</span></h3>
-    <p>oma maja leivad & metsaanni pesto, maitsevõi</p>
-  </div>
-  <div class="menu-item">
-    <h3>METSA MAITSETE TALDRIK <span class="price">24€</span></h3>
-    <p>lihad, juustud ja juurikad Sinimandria sahvrist</p>
-  </div><div class="menu-item">
     <h3>AUSTER <span class="price">5€/tk</span></h3>
     <p>tomati mignonette, tilliõli</p>
   </div>
   <div class="menu-item">
+    <h3>SINIMANDRIA LEIVAD <span class="price">6€</span></h3>
+    <p>oma maja leivad & metsaanni pesto, maitsevõi</p>
+  </div>
+  <div class="menu-item">
     <h3>RÄIMED <span class="price">18€</span></h3>
     <p>sibulamoos, kodujuust, must leib</p>
+  </div>
+  <div class="menu-item">
+    <h3>METSA MAITSETE TALDRIK <span class="price">24€</span></h3>
+    <p>lihad, juustud ja juurikad Sinimandria sahvrist</p>
   </div>
 </section>
 
