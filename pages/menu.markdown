@@ -47,7 +47,7 @@ permalink: /menu/
     <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto, focaccia</p>
   </div>
   <div class="menu-item">
-    <h3>BATAADI/FETA SALAT <span class="price">10€</span></h3>
+    <h3>BATAADI-FETA SALAT <span class="price">10€</span></h3>
     <p>röstitud bataat, avokaado, granaatõun, pähkel, vaarika balsamico, focaccia</p>
   </div>
   <div class="menu-item">
@@ -92,7 +92,7 @@ permalink: /menu/
     <p>confit, porru variatsioonid, vadakukaste</p>
   </div>
   <div class="menu-item">
-    <h3>METSLINNU PATE <span class="price">14€</span></h3>
+    <h3>METSLINNU PÂTÉ <span class="price">14€</span></h3>
     <p>kananaha krõbedik, balsamico, focaccia</p>
   </div>
   <div class="menu-item">
