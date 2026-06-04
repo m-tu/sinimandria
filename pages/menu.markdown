@@ -68,45 +68,46 @@ permalink: /menu/
   <h1 class="menu-heading">ÕHTUSÖÖK</h1>
 </div>
 <section class="menu-section">
-  <h2 class="menu-heading">SUUPISTED</h2>
+  <h2 class="menu-heading">JAGAMISEKS KAHELE</h2>
   <div class="menu-item">
-    <h3>SINIMANDRIA LEIVAD  <span class="price">3€/in</span></h3>
-    <p>oma maja leivad & määrded</p>
+    <h3>SINIMANDRIA LEIVAD  <span class="price">6€</span></h3>
+    <p>oma maja leivad & metsaanni pesto, maitsevõi</p>
   </div>
   <div class="menu-item">
-    <h3>METSA MAITSETE TALDRIK <span class="price">12€/in</span></h3>
+    <h3>METSA MAITSETE TALDRIK <span class="price">24€</span></h3>
     <p>lihad, juustud ja juurikad Sinimandria sahvrist</p>
   </div><div class="menu-item">
     <h3>AUSTER <span class="price">5€/tk</span></h3>
     <p>tomati mignonette, tilliõli</p>
-  </div><div class="menu-item">
-    <h3>PÄHKLA FORELL <span class="price">7€</span></h3>
-    <p>õun, šalottsibul, pruun või</p>
+  </div>
+  <div class="menu-item">
+    <h3>RÄIMED <span class="price">18€</span></h3>
+    <p>sibulamoos, kodujuust, must leib</p>
   </div>
 </section>
 
 <section class="menu-section">
-  <h2 class="menu-heading">EELROAD</h2>
+  <h2 class="menu-heading">KERGEM</h2>
+  <div class="menu-item">
+    <h3>SALAT <span class="price">10€</span></h3>
+    <p>kana / bataat, pesto, focaccia</p>
+  </div>
   <div class="menu-item">
     <h3>PORRU <span class="price">14€</span></h3>
-    <p>confit, porru variatsioonid, vadakukaste</p>
+    <p>porru variatsioonid juurest leheni, vadakukaste</p>
   </div>
   <div class="menu-item">
     <h3>METSLINNU PÂTÉ <span class="price">14€</span></h3>
     <p>kananaha krõbedik, balsamico, focaccia</p>
   </div>
   <div class="menu-item">
-    <h3>RÄIM <span class="price">10€</span></h3>
-    <p>sibulamoos, kodujuust, must leib</p>
-  </div>
-  <div class="menu-item">
     <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
-    <p>melange noir, suitsutatud munakollane</p>
+    <p>melange noir, suitsutatud munakollane, brioche</p>
   </div>
 </section>
 
 <section class="menu-section">
-  <h2 class="menu-heading">PEAROAD</h2>
+  <h2 class="menu-heading">TÕSISEM</h2>
   <div class="menu-item">
     <h3>KAPSAS JA SÕIR <span class="price">23€</span></h3>
     <p>köögivilja demi glace, juurseller</p>
@@ -116,8 +117,8 @@ permalink: /menu/
     <p>köögiviljad, bouillabaisse</p>
   </div>
   <div class="menu-item">
-    <h3>VUTT <span class="price">27€</span></h3>
-    <p>kollane peet, hernes, trühvel</p>
+    <h3>KADAKASUITSU PART <span class="price">27€</span></h3>
+    <p>kollane peet, kirss, tatar</p>
   </div>
   <div class="menu-item">
     <h3>ULUK <span class="price">29€</span></h3>
@@ -126,10 +127,10 @@ permalink: /menu/
 </section>
 
 <section class="menu-section">
-  <h2 class="menu-heading">DESSERDID</h2>
+  <h2 class="menu-heading">MAGUSAM</h2>
   <div class="menu-item">
-    <h3>KIBUVITS <span class="price">10€</span></h3>
-    <p>brüleekreem, rose meringue, estragon</p>
+    <h3>MILLE-FEUILLE <span class="price">10€</span></h3>
+    <p>rabarber, sidruntüümian</p>
   </div>
   <div class="menu-item">
     <h3>TOORJUUST <span class="price">10€</span></h3>
