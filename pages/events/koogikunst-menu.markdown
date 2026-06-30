@@ -56,7 +56,7 @@ permalink: /events/koogikunst-menu
 
 
 <div style="text-align:center; margin-top:40px;">
-  <a href="https://fienta.com/et/TODO-LINK">
+  <a href="https://fienta.com/et/TODO-LINK](https://fienta.com/et/koogikunst-kunst-koogis">
     Reserveeri laud
   </a>
 </div>
