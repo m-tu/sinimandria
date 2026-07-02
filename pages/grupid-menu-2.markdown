@@ -5,7 +5,7 @@ permalink: /grupid-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
-    <h2>Sinimandria grupimenüü #2</h2>
+    <h2>Neljakäiguline grupimenüü</h2>
     <p class="menu-note">Seltskondadele alates 10 inimesest. Tellimiseks kirjuta info@sinimandria.ee</p>
     <p class="menu-note"><em>Neljakäigulise grupimenüü hind 48€/in</em></p>
   </div>
