@@ -5,23 +5,12 @@ permalink: /grupid-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
-    <h2>Sinimandria grupimenüü #1</h2>
+    <h2>Kolmekäiguline seltskonnamenüü</h2>
     <p class="menu-note">Seltskondadele alates 10 inimesest. Tellimiseks kirjuta info@sinimandria.ee</p>
-    <p class="menu-note"><em>Neljakäigulise grupimenüü hind 48€/in</em></p>
+    <p class="menu-note"><em>Kolmekäigulise menüü hind 35€/in</em></p>
   </div>
 
 </div>
-
-<div id="brunch" class="menu-heading-group">
-  <h1 class="menu-heading">SUUPISTED</h1>
-</div>
-<section class="menu-section">
-  
-  <div class="menu-item">
-    <h3>SUUPISTEVALIK </h3>
-    <p>Peakoka valitud hooajalised suupisted</p>
-  </div>
-</section>  
 
 <div id="brunch" class="menu-heading-group">
   <h1 class="menu-heading">EELROOG</h1>
