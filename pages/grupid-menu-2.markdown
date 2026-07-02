@@ -1,7 +1,7 @@
 ---
 layout: content
-title: 
-permalink: /grupid-menu
+title: Neljakäiguline seltskonnamenüü
+permalink: /grupid-menu-2
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
