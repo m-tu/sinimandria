@@ -1,6 +1,6 @@
 ---
 layout: content
-title: 
+title: Kolmekäiguline seltskonnamenüü
 permalink: /grupid-menu
 ---
 <div class="menu-summary">
