@@ -4,10 +4,6 @@ title: Menu
 permalink: /menu/
 ---
 <div class="menu-summary">
-  <!--<div class="menu-summary-item">
-    <h2><a href="#hommik">HOMMIK</a></h2>
-    <p class="menu-note">E–P 08:00 – kuni saiakesi jagub</p>
-  </div>-->
   <div class="menu-summary-item">
     <h2><a href="#brunch">BRUNCH</a></h2>
     <p class="menu-note"><a href="#brunch">K–R 12 – 17:00, L-P 10 - 17:00</a></p>
@@ -23,9 +19,10 @@ permalink: /menu/
 </div>
 
 <div id="brunch" class="menu-heading-group">
-  <h1 class="menu-heading">BRUNCH</h1>
-  <p class="menu-note"><a href="#brunch">saadaval kuni 17:00</a></p>
+  <h1 class="menu-heading">MUNA</h1>
+  <p class="menu-note">saadaval kuni 16:00</p>
 </div>
+
 <section class="menu-section">
   <div class="menu-item">
     <h3>EGGS BENEDICT & forell | peekon | tomat <span class="price">13€</span></h3>
@@ -36,102 +33,66 @@ permalink: /menu/
     <p>karamelliseeritud pruun juust, kartulileib</p>
   </div>
   <div class="menu-item">
-    <h3>CROQUE MONSIEUR <span class="price">10€</span></h3>
-    <p>Linnamäe sink, Kolotsi talu juust, soolakurk, béchamel, brioche</p>
-  </div>
-  <div class="menu-item">
-    <h3>MAISIKANA <span class="price">16€</span></h3>
-    <p>kanafilee, kartulikreem, bimi</p>
-  </div>  
-  <div class="menu-item">
-    <h3>SINIMANDRIA SALAT <span class="price">10€</span></h3>
-    <p>röstitud kanakints, avokaado, granaatõun, kreeka pähkel, pesto, focaccia</p>
-  </div>
-  <div class="menu-item">
-    <h3>BATAADI-FETA SALAT <span class="price">10€</span></h3>
-    <p>röstitud bataat, avokaado, granaatõun, pähkel, vaarika balsamico, focaccia</p>
-  </div>
-  <div class="menu-item">
-    <h3>AUSTER <span class="price">5€/tk</span></h3>
-    <p>tomati mignonette, tilliõli</p>
-  </div>
-  <div class="menu-item"> 
-    <h3>MAGUSAD PANNKOOGID <span class="price">6€</span></h3>
-    <p>hooajaline moos, vahtrakaramell</p>
-  </div>
-  <div class="menu-item"> 
-    <h3>KOOK <span class="price">5-8€</span></h3>
-    <p>küsi valikut ettekandjalt või piilu ise meie kondiitriletti!</p>
+    <h3>ŠOTI MUNA <span class="price">16€</span></h3>
+    <p>kartulikreem, part</p>
   </div>
 </section>
 
 <div id="ohtusook" class="menu-heading-group">
-  <h1 class="menu-heading">ÕHTUSÖÖK</h1>
+  <h1 class="menu-heading">JAGAMISEKS</h1>
 </div>
-<section class="menu-section">
-  <h2 class="menu-heading">JAGAMISEKS KAHELE</h2>
-  <div class="menu-item">
-    <h3>AUSTER <span class="price">5€/tk</span></h3>
-    <p>tomati mignonette, tilliõli</p>
-  </div>
-  <div class="menu-item">
-    <h3>SINIMANDRIA LEIVAD <span class="price">6€</span></h3>
-    <p>oma maja leivad & metsaanni pesto, maitsevõi</p>
-  </div>
-  <div class="menu-item">
-    <h3>RÄIMED <span class="price">18€</span></h3>
-    <p>sibulamoos, kodujuust, must leib</p>
-  </div>
-  <div class="menu-item">
-    <h3>METSA MAITSETE TALDRIK <span class="price">24€</span></h3>
-    <p>lihad, juustud ja juurikad Sinimandria sahvrist</p>
-  </div>
-</section>
 
 <section class="menu-section">
-  <h2 class="menu-heading">KERGEM</h2>
   <div class="menu-item">
-    <h3>SALAT <span class="price">10€</span></h3>
+    <h3>SINIMANDRIA SALAT <span class="price">9€</span></h3>
     <p>kana / bataat, pesto, focaccia</p>
   </div>
   <div class="menu-item">
-    <h3>PORRU <span class="price">14€</span></h3>
-    <p>porru variatsioonid juurest leheni, vadakukaste</p>
+    <h3>LEIVAKORV <span class="price">5€</span></h3>
+    <p>metsaanni pesto, maitsev]i</p>
   </div>
   <div class="menu-item">
-    <h3>METSLINNU PÂTÉ <span class="price">14€</span></h3>
-    <p>kananaha krõbedik, balsamico, focaccia</p>
+    <h3>TARTAR & BRIOCHE <span class="price">8€</span></h3>
   </div>
   <div class="menu-item">
-    <h3>HIRVE TAR-TAR <span class="price">16€</span></h3>
-    <p>melange noir, suitsutatud munakollane, brioche</p>
+    <h3>RÄIM & MUST LEIB <span class="price">6€</span></h3>
+  </div>
+  <div class="menu-item">
+    <h3>PORRU & FOCACCIA <span class="price">5€</span></h3>
   </div>
 </section>
 
+<div id="ohtusook" class="menu-heading-group">
+  <h1 class="menu-heading">TOEKAM</h1>
+  <p class="menu-note">saadaval alates 17:00</p>
+</div>
+
 <section class="menu-section">
-  <h2 class="menu-heading">TÕSISEM</h2>
   <div class="menu-item">
-    <h3>KAPSAS JA SÕIR <span class="price">23€</span></h3>
+    <h3>KARTULIVAHT <span class="price">15€</span></h3>
     <p>köögivilja demi glace, juurseller</p>
   </div>
   <div class="menu-item">
-    <h3>VALGE KALA <span class="price">25€</span></h3>
+    <h3>KOHA <span class="price">23€</span></h3>
     <p>köögiviljad, bouillabaisse</p>
   </div>
   <div class="menu-item">
-    <h3>KADAKASUITSU PART <span class="price">27€</span></h3>
-    <p>kollane peet, kirss, tatar</p>
-  </div>
-  <div class="menu-item">
-    <h3>ULUK <span class="price">29€</span></h3>
+    <h3>HIRV <span class="price">29€</span></h3>
     <p>kruubid, tüümian, sõstar</p>
   </div>
 </section>
 
+<div id="ohtusook" class="menu-heading-group">
+  <h1 class="menu-heading">MAGUS</h1>
+</div>
+
 <section class="menu-section">
-  <h2 class="menu-heading">MAGUSAM</h2>
+  <div class="menu-item"> 
+    <h3>PANNKOOGID <span class="price">6€</span></h3>
+    <p>apelsin, talujogurt</p>
+  </div>
   <div class="menu-item">
-    <h3>MILLE-FEUILLE <span class="price">10€</span></h3>
+    <h3>MILLE-FEUILLE <span class="price">8€</span></h3>
     <p>rabarber, sidruntüümian</p>
   </div>
   <div class="menu-item">
@@ -143,6 +104,7 @@ permalink: /menu/
 <div id="lastele" class="menu-heading-group">
   <h1 class="menu-heading">LASTELE</h1>
 </div>
+
 <section class="menu-section">
   <div class="menu-item">
     <h3>SINGI-JUUSTU VÕIKU <span class="price">5€</span></h3>
@@ -165,23 +127,3 @@ permalink: /menu/
   </div>
 
 </div>
-<!--
-<section class="menu-section">
-  <h2 class="menu-heading">MAITSEV TARTU</h2>
-  <div class="menu-item">
-    <h3>PÄHKLA FORELL</h3>
-    <p>Pähkla forelli ballotiin, kartulivaht, karamelliseeritud lillkapsas</p>
-  </div>
-  <div class="menu-item">
-    <h3>LAMBAKINTS</h3>
-    <p>kauaküpsenud lambakints, metsmarja glasuur, juurselleri gratään</p>
-  </div>
-  <div class="menu-item">
-    <h3>VAARIKA-KADAKA TIRAMISU</h3>
-    <p>vaarika biskviit, kadakamari, toorjuust</p>
-  </div>
-  <div class="menu-item">
-   <p>Maitsev Tartu menüüd pakume 1-28.veebruar. Kolmekäigulise menüü hind 38EUR.</p>
-  </div>
-</section>
-  -->
