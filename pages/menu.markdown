@@ -58,7 +58,7 @@ permalink: /menu/
 <section class="menu-section">
   <div class="menu-item">
     <h3>KARTULIVAHT <span class="price">15€</span></h3>
-    <p>köögivilja demi glace, juurseller</p>
+    <p>metsaseen, must leib</p>
   </div>
   <div class="menu-item">
     <h3>KOHA <span class="price">23€</span></h3>
