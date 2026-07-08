@@ -110,10 +110,12 @@ permalink: /menu/
 
 <div id="grupid" class="menu-heading-group">
   <h1 class="menu-heading">GRUPID</h1>
-  <p class="menu-note">Tuled meile külla suurema seltskonnaga? Tutvu meie <a href="https://sinimandria.ee/seltskonnad">grupimenüüdega</a></p>
+  <p class="menu-note">Tuled meile külla suurema seltskonnaga? Tutvu meie <a href="https://sinimandria.ee/seltskonnad">grupimenüüdega</a>.</p>
 </div>
 
 
 <div id="joogikaart" class="menu-heading-group">
-  <h1><a href="../assets/images/joogikaart-sinimandria.pdf">JOOGIKAART</a></h1>
+  <h1>JOOGIKAART</h1>
+  <p class="menu-note">Meie <a href="../assets/images/joogikaart-sinimandria.pdf">joogikaardilt</a> leiad vastavalt tujule ja kellaajale nii soojendavaid, jahutavaid kui joovastavaid jooke.</p>
+
 </div>
