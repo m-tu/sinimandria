@@ -24,6 +24,7 @@ permalink: /menu/
 
 <div id="brunch" class="menu-heading-group">
   <h1 class="menu-heading">BRUNCH</h1>
+  <p class="menu-note"><a href="#brunch">saadaval kuni 17:00</a></p>
 </div>
 <section class="menu-section">
   <div class="menu-item">
