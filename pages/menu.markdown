@@ -160,7 +160,7 @@ permalink: /menu/
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>GRUPID</h2>
-    <p class="menu-note">Tuled meile külla suurema seltskonnaga? Tutvu meie <a href="https://sinimandria.ee/grupid-menu">grupimenüüdega</a></p>
+    <p class="menu-note">Tuled meile külla suurema seltskonnaga? Tutvu meie <a href="https://sinimandria.ee/seltskonnad">grupimenüüdega</a></p>
   </div>
 
 </div>
