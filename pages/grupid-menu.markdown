@@ -23,8 +23,8 @@ permalink: /grupid-menu
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>PEEDI CARPACCIO</h3>
-    <p>Kollane peet, balsamico klaas, õhitud tatar, päevalill</p>
+    <h3>PORRU</h3>
+    <p>Porru erinevad vormid, vadakukaste, focaccia</p>
   </div>
 </section>
   
@@ -40,8 +40,8 @@ permalink: /grupid-menu
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>KAPSAS JA SÕIR</h3>
-    <p>Käharkapsas, sõir, juurselleri demi glace</p>
+    <h3>KARTULIVAHT</h3>
+    <p>metsaseen, must leib</p>
   </div>
 
 </section>
