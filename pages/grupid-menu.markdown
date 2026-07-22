@@ -24,7 +24,7 @@ permalink: /grupid-menu
     <p><em>või</em></p>
     <p>&nbsp;</p>
     <h3>PORRU</h3>
-    <p>Porru erinevad vormid, vadakukaste, focaccia</p>
+    <p>porru erinevad vormid, vadakukaste, focaccia</p>
   </div>
 </section>
   
