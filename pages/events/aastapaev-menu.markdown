@@ -63,23 +63,22 @@ permalink: /events/aastapaev-menu
      <p>Vabariigi aastapäevabrunchi erimenüü 28€. Lastele saadaval road ka meie lastemenüüst.</p>
   </div>
 </section>
-<!--
-<section class="menu-section">
-  <h2 class="menu-heading">MAITSEV TARTU MENÜÜ</h2>
-  <div class="menu-item">
-    <h3>PÄHKLA FORELL</h3>
-    <p>Pähkla forelli ballotiin, kartulivaht, karamelliseeritud lillkapsas</p>
-  </div>
-  <div class="menu-item">
-    <h3>LAMBAKINTS</h3>
-    <p>kauaküpsenud lambakints, metsmarja glasuur, juurselleri gratään</p>
-  </div>
-  <div class="menu-item">
-    <h3>VAARIKA-KADAKA TIRAMISU</h3>
-    <p>vaarika biskviit, kadakamari, toorjuust</p>
-  </div>
-  <div class="menu-item">
-   <p>24.veebruaril on samuti saadaval "Maitsev Tartu" menüü. Kolmekäigulise menüü hind 38EUR.</p>
-  </div>
-</section>-->
 
+<div style="text-align:center; margin-top:40px;">
+  <a href="https://book.easytable.com/book/?id=f4386" 
+     style="
+       display:inline-block;
+       padding:14px 28px;
+       border:1px solid #111;
+       color:#111;
+       text-decoration:none;
+       font-size:14px;
+       letter-spacing:1px;
+       text-transform:uppercase;
+       transition:all 0.2s ease;
+     "
+     onmouseover="this.style.background='#111'; this.style.color='#fff';"
+     onmouseout="this.style.background='transparent'; this.style.color='#111';"
+  >
+    Reserveeri laud
+  </a>
