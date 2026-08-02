@@ -1,5 +1,5 @@
 ---
 layout: events/aastapaev
-title: Vabariigi aastapäev
+title: Taasiseseisvumispäev 2026
 permalink: /events/aastapaev/
 ---
