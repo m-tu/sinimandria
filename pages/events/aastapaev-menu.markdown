@@ -6,7 +6,7 @@ permalink: /events/aastapaev-menu
 <div class="menu-summary">
   <div class="menu-summary-item">
     <h2>TAASISESEISVUMISPÄEVA BRUNCH - ERIMENÜÜ</h2>
-    <p class="menu-note">20.august 2026, 12:00 - 18:00</p>
+    <p class="menu-note">20.august 2026, 10:00 - 18:00</p>
   </div>
 
 </div>
