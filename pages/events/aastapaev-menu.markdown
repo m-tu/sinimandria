@@ -1,12 +1,12 @@
 ---
 layout: content
-title: Vabariigi aastapäevabrunch - menüü
+title: Taasiseseisvumispäeva brunch - menüü
 permalink: /events/aastapaev-menu
 ---
 <div class="menu-summary">
   <div class="menu-summary-item">
-    <h2>AASTAPÄEVABRUNCH - ERIMENÜÜ</h2>
-    <p class="menu-note">24.veebruar 2026, 12:00 - 18:00</p>
+    <h2>TAASISESEISVUMISPÄEVA BRUNCH - ERIMENÜÜ</h2>
+    <p class="menu-note">20.august 2026, 12:00 - 18:00</p>
   </div>
 
 </div>
@@ -18,13 +18,13 @@ permalink: /events/aastapaev-menu
 <section class="menu-section">
   
   <div class="menu-item">
-    <h3>KILU </h3>
-    <p>Meie maja must leib, maitsevõi, balti mere kilu, muna, maitseroheline.</p>
+    <h3>RÄIM </h3>
+    <p>must leib, suitsukodujuust, muna, maitseroheline.</p>
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>OLIVIER' SALAT</h3>
-    <p>Kartulisalat, maasuitsusink, meie maja must leib</p>
+    <h3>TOMAT </h3>
+    <p>focaccia, pesto, skyr</p>
   </div>
 </section>
   
@@ -35,8 +35,8 @@ permalink: /events/aastapaev-menu
 <section class="menu-section">
       
   <div class="menu-item">
-    <h3>RÄIM </h3>
-    <p>Praetud räim, karulaugu-kartuli kreem, suitsune kodujuust, kurk</p>
+    <h3>METSSEA MINIBURGERID </h3>
+    <p>porgandikukkel, tüümian</p>
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
@@ -51,16 +51,16 @@ permalink: /events/aastapaev-menu
 </div>
 <section class="menu-section">
   <div class="menu-item">
-    <h3>MÄNNIKÄBI KOHUKE </h3>
-    <p>talukohupiim, männikäbi siirup, marjaglasuur, meringue</p>
+    <h3>KARDEMONISAI </h3>
+    <p>pruun või, õun</p>
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>VASTLACROISSANT</h3>
-    <p>Croissant, vahukoor, metsmarja moos</p>
+    <h3>KAMA KOHUKE</h3>
+    <p>meringue, hooajalised marjad</p>
   </div>
   <div class="menu-item">
-     <p>Vabariigi aastapäevabrunchi erimenüü 27€. Lastele saadaval road ka meie lastemenüüst.</p>
+     <p>Vabariigi aastapäevabrunchi erimenüü 28€. Lastele saadaval road ka meie lastemenüüst.</p>
   </div>
 </section>
 <!--
