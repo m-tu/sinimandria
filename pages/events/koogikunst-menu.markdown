@@ -38,7 +38,7 @@ permalink: /events/koogikunst-menu
   </div>
   
   <div class="menu-item">
-    <h3>METSSIGA</h3>
+    <h3>METSKITS</h3>
     <p>mustikas, mustjuur, pastinaak</p>
   </div>
   
