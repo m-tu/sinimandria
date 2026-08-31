@@ -48,6 +48,10 @@ permalink: /menu/
     <h3>PORRU & FOCACCIA <span class="price">5€</span></h3>
     <p>porru variatsioonid, vadak</p>
   </div>
+  <div class="menu-item">
+    <h3>METSA MAITSETE TALDRIK <span class="price">9€</span></h3>
+    <p>Lihad, juustud ja juurikad Sinimandria sahvrist</p>
+  </div>
 </section>
 
 <div id="toekam" class="menu-heading-group">
