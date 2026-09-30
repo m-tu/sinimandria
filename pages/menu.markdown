@@ -19,7 +19,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>ŠOTI MUNA <span class="price">16€</span></h3>
-    <p>kartulikreem, part</p>
+    <p>kartulikreem, küülik</p>
   </div>
 </section>
 
@@ -30,11 +30,11 @@ permalink: /menu/
 <section class="menu-section">
   <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">9€</span></h3>
-    <p>kana / bataat, pesto, focaccia</p>
+    <p>kana & pesto / peet & kitsejuust, focaccia</p>
   </div>
   <div class="menu-item">
     <h3>LEIVAKORV <span class="price">5€</span></h3>
-    <p>metsaanni pesto, maitsevõi</p>
+    <p>hooajaline pesto, maitsevõi</p>
   </div>
   <div class="menu-item">
     <h3>TARTAR & BRIOCHE <span class="price">8€</span></h3>
@@ -45,8 +45,8 @@ permalink: /menu/
     <p>sibulamoos, suitsuhapukoor</p>
   </div>
   <div class="menu-item">
-    <h3>PORRU & FOCACCIA <span class="price">5€</span></h3>
-    <p>porru variatsioonid, vadak</p>
+    <h3>PEET & FOCACCIA <span class="price">5€</span></h3>
+    <p>suitsupeet, vadak</p>
   </div>
   <div class="menu-item">
     <h3>METSA MAITSETE TALDRIK <span class="price">9€</span></h3>
@@ -61,16 +61,16 @@ permalink: /menu/
 
 <section class="menu-section">
   <div class="menu-item">
-    <h3>KARTULIVAHT <span class="price">15€</span></h3>
-    <p>metsaseen, must leib</p>
+    <h3>MAAPIRN <span class="price">18€</span></h3>
+    <p>trühvel, metsaseen</p>
   </div>
   <div class="menu-item">
-    <h3>KOHA <span class="price">23€</span></h3>
-    <p>köögiviljad, bouillabaisse</p>
+    <h3>HUNTAHVEN <span class="price">23€</span></h3>
+    <p>aedviljad, bisque</p>
   </div>
   <div class="menu-item">
     <h3>HIRV <span class="price">29€</span></h3>
-    <p>kruubid, tüümian, sõstar</p>
+    <p>porgandi orsotto, kõrvits, pohl</p>
   </div>
 </section>
 
