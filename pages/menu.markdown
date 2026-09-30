@@ -85,7 +85,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>MILLE-FEUILLE <span class="price">8€</span></h3>
-    <p>rabarber, sidruntüümian</p>
+    <p>õunatoffee, leeder</p>
   </div>
   <div class="menu-item">
     <h3>TOORJUUST <span class="price">10€</span></h3>
