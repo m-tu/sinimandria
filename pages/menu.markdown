@@ -30,7 +30,7 @@ permalink: /menu/
 <section class="menu-section">
   <div class="menu-item">
     <h3>SINIMANDRIA SALAT <span class="price">9€</span></h3>
-    <p>kana & pesto / peet & kitsejuust, focaccia</p>
+    <p>röstitud kana / peet & kitsejuust</p>
   </div>
   <div class="menu-item">
     <h3>LEIVAKORV <span class="price">5€</span></h3>
@@ -70,7 +70,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>HIRV <span class="price">29€</span></h3>
-    <p>porgandi orsotto, kõrvits, pohl</p>
+    <p>kruubid, kõrvits, pohl</p>
   </div>
 </section>
 
@@ -85,7 +85,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>MILLE-FEUILLE <span class="price">8€</span></h3>
-    <p>õunatoffee, leeder</p>
+    <p>õunatoffee, leeder, till</p>
   </div>
   <div class="menu-item">
     <h3>TOORJUUST <span class="price">10€</span></h3>
