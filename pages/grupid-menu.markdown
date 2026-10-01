@@ -40,8 +40,8 @@ permalink: /grupid-menu
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>KARTULIVAHT</h3>
-    <p>metsaseen, must leib</p>
+    <h3>MAAPIRN</h3>
+    <p>trühvel, metsaseen</p>
   </div>
 
 </section>
