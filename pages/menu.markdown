@@ -46,7 +46,7 @@ permalink: /menu/
   </div>
   <div class="menu-item">
     <h3>PEET & FOCACCIA <span class="price">5€</span></h3>
-    <p>suitsupeet, vadak</p>
+    <p>suitsupeet, kollane peet</p>
   </div>
   <div class="menu-item">
     <h3>METSA MAITSETE TALDRIK <span class="price">9€</span></h3>
