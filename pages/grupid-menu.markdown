@@ -23,8 +23,8 @@ permalink: /grupid-menu
     <p>&nbsp;</p>
     <p><em>või</em></p>
     <p>&nbsp;</p>
-    <h3>PORRU</h3>
-    <p>porru erinevad vormid, vadakukaste, focaccia</p>
+    <h3>PEET</h3>
+    <p>peedi variatsioonid, focaccia</p>
   </div>
 </section>
   
