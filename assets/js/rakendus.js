@@ -2,8 +2,8 @@
 (function () {
   "use strict";
 
-  const FOTO_SUUR = "fotod/suur/";
-  const FOTO_VAIKE = "fotod/vaike/";
+  const FOTO_SUUR = "/assets/images/fotod/suur/";
+  const FOTO_VAIKE = "/assets/images/fotod/vaike/";
   const km = 1 + (Number(SEADED.kmMaar) || 0) / 100;
 
   // ---- Andmete ettevalmistus: igale esemele unikaalne aadress ----
