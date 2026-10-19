@@ -1,0 +1,45 @@
+SINIMANDRIA MÜÜGILEHT – KUIDAS MUUTA
+====================================
+
+ÜLESLAADIMINE
+Laadi kogu kausta sisu (index.html, andmed.js, rakendus.js, stiil.css,
+logo.png, kaust "fotod") oma veebiserverisse samasse kausta.
+Midagi pole vaja seadistada ega paigaldada.
+
+KÕIK MUUDATUSED TEHAKSE FAILIS andmed.js
+Ava see tavalise tekstiredaktoriga (Notepad, TextEdit, VS Code).
+Iga ese algab reaga, mis näeb välja nii:
+
+    { nr: "401", hind: 140, kogus: 16, myydud: false,
+
+HINNA MUUTMINE
+  Muuda numbrit hind: järel. Hind on tüki kohta ILMA käibemaksuta.
+  Komakohaga hind kirjuta punktiga: hind: 89.50
+  Hind koos KM-ga arvutatakse lehel ise.
+  Kui hinda ei soovi avaldada: hind: "kokkuleppel"
+
+ESE MÜÜDUD
+  Muuda  myydud: false   ->   myydud: true
+  Ese jääb nimekirja halli "MÜÜDUD" märgisega. Külastaja saab müüdud
+  esemed nupuga "Peida müüdud" ära peita.
+
+OSA ESEMETEST MÜÜDUD (nt 44 toolist müüdi 10)
+  Muuda kogust:  kogus: 44   ->   kogus: 34
+  Kui kogus on 0, loetakse ese müüduks.
+
+ÜLDTEKSTID
+  Faili alguses (SEADED) saab muuta pealkirja, sissejuhatust,
+  kontaktandmeid, käibemaksu määra ja kuupäeva "uuendatud".
+
+ETTEVAATUST
+  - Jäta alles jutumärgid, komad ja sulud täpselt nagu need on.
+  - Pärast muutmist salvesta fail ja laadi andmed.js serverisse uuesti üles.
+  - Kui leht jääb pärast muutmist tühjaks, on failis tõenäoliselt puudu
+    koma või jutumärk. Võrdle muudetud rida teiste ridadega.
+  - Kui muudatus ei paista, värskenda lehte (Ctrl+F5 / Cmd+Shift+R).
+
+FOTOD
+  Täissuuruses fotod: fotod/suur/   Pisipildid: fotod/vaike/
+  Eseme fotod on loetletud tema real (fotod: [...]). Esimene foto on
+  nimekirjas pisipildiks. Uue foto lisamiseks pane fail mõlemasse
+  kausta ja lisa failinimi eseme fotode loetelusse.
