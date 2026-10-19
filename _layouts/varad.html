@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sinimandria sisustus ja seadmed müügis</title>
+  <meta name="description" content="Restorani Sinimandria kasutatud köögi- ja baariseadmed, mööbel ja terrassi sisustus müügis.">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Lato:wght@400;700&display=swap">
+  <link rel="stylesheet" href="stiil.css">
+</head>
+<body>
+  <header class="pais">
+    <div class="pais-sisu">
+      <img src="logo.png" alt="Sinimandria" class="logo" width="260" height="59">
+      <h1 id="pealkiri"></h1>
+      <p id="sissejuhatus" class="sissejuhatus"></p>
+      <p id="kontakt" class="kontakt"></p>
+    </div>
+  </header>
+
+  <!-- Nimekirja vaade -->
+  <main id="nimekiri-vaade">
+    <nav class="riba" aria-label="Kategooriad ja otsing">
+      <div class="riba-sisu">
+        <ul id="kategooria-lingid" class="kat-lingid"></ul>
+        <div class="filtrid">
+          <label class="otsing">
+            <span class="peidetud">Otsi esemeid</span>
+            <input id="otsing" type="search" placeholder="Otsi nime, tootja või numbri järgi" autocomplete="off">
+          </label>
+          <label class="lyliti">
+            <input id="peida-myydud" type="checkbox">
+            <span>Peida müüdud</span>
+          </label>
+        </div>
+      </div>
+    </nav>
+    <div id="kategooriad" class="kategooriad"></div>
+    <p id="tyhi" class="tyhi" hidden>Otsingule ei vasta ükski ese. Proovi mõnda teist sõna või tühjenda otsinguväli.</p>
+  </main>
+
+  <!-- Eseme detailvaade -->
+  <main id="detail-vaade" hidden></main>
+
+  <!-- Täisekraani foto -->
+  <div id="valgus" class="valgus" hidden role="dialog" aria-modal="true" aria-label="Foto täissuuruses">
+    <button class="valgus-sulge" type="button" aria-label="Sulge">✕</button>
+    <button class="valgus-nool eelmine" type="button" aria-label="Eelmine foto">‹</button>
+    <img alt="">
+    <button class="valgus-nool jargmine" type="button" aria-label="Järgmine foto">›</button>
+    <p class="valgus-loendur"></p>
+  </div>
+
+  <footer class="jalus">
+    <p id="uuendatud"></p>
+    <p>Hinnad on toodud tüki kohta. Käibemaks lisandub.</p>
+  </footer>
+
+  <script src="andmed.js"></script>
+  <script src="rakendus.js"></script>
+</body>
+</html>
