@@ -1,0 +1,226 @@
+:root {
+  --sini: #163172;
+  --sini-tume: #0f245f;
+  --taust: #f7f5f0;
+  --pind: #ffffff;
+  --tekst: #1c2230;
+  --hall: #636977;
+  --joon: #e2dccf;
+  --hover: #efebe2;
+  --link: #163172;
+  --myydud: #9a3b2f;
+  --pais-tekst: #ffffff;
+  --pais-hall: #c9d3ec;
+  --serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --sans: "Lato", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sini: #0f245f;
+    --taust: #10141f;
+    --pind: #171c2a;
+    --tekst: #ebe8e1;
+    --hall: #a2a8b6;
+    --joon: #2a3142;
+    --hover: #1f2537;
+    --link: #a9bdf0;
+    --myydud: #e58a7c;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-padding-top: 8rem; }
+body {
+  margin: 0;
+  background: var(--taust);
+  color: var(--tekst);
+  font: 400 1rem/1.55 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--link); }
+:focus-visible { outline: 3px solid #e8b04a; outline-offset: 2px; }
+.peidetud { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* Päis */
+.pais { background: var(--sini); color: var(--pais-tekst); }
+.pais-sisu { max-width: 68rem; margin: 0 auto; padding: 2.5rem 1.25rem 2.25rem; }
+.logo { width: 200px; height: auto; margin-bottom: 2rem; }
+.pais h1 {
+  font: 600 clamp(2rem, 5vw, 3.25rem)/1.1 var(--serif);
+  margin: 0 0 1rem;
+  max-width: 18ch;
+}
+.sissejuhatus { max-width: 60ch; margin: 0 0 1.25rem; color: var(--pais-hall); font-size: 1.0625rem; }
+.kontakt { margin: 0; display: flex; flex-wrap: wrap; gap: .5rem 1.75rem; }
+.kontakt a { color: #fff; font-weight: 700; text-decoration-color: rgba(255,255,255,.4); text-underline-offset: 3px; }
+.kontakt span { color: var(--pais-hall); }
+
+/* Kleepuv riba */
+.riba {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--taust);
+  border-bottom: 1px solid var(--joon);
+}
+.riba-sisu {
+  max-width: 68rem; margin: 0 auto; padding: .75rem 1.25rem;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.5rem;
+}
+.kat-lingid { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem; }
+.kat-lingid a {
+  display: inline-block; padding: .35rem .75rem; border-radius: 999px;
+  color: var(--tekst); text-decoration: none; font-weight: 700; font-size: .9375rem;
+}
+.kat-lingid a:hover { background: var(--hover); }
+.kat-lingid small { color: var(--hall); font-weight: 400; margin-left: .25rem; }
+.filtrid { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.otsing input {
+  font: inherit; font-size: .9375rem; color: var(--tekst);
+  width: 17rem; max-width: 100%;
+  padding: .45rem .75rem; border: 1px solid var(--joon); border-radius: 6px; background: var(--pind);
+}
+.lyliti { display: inline-flex; align-items: center; gap: .4rem; font-size: .9375rem; cursor: pointer; user-select: none; }
+.lyliti input { width: 1.05rem; height: 1.05rem; accent-color: var(--sini); }
+
+/* Kategooriad ja nimekiri */
+.kategooriad { max-width: 68rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
+.kategooria { padding-top: 2.75rem; }
+.kategooria h2 {
+  font: 600 clamp(1.75rem, 4vw, 2.25rem)/1.2 var(--serif);
+  margin: 0 0 .25rem;
+  display: flex; align-items: baseline; gap: .75rem;
+}
+.kategooria h2 small { font: 400 1rem var(--sans); color: var(--hall); }
+.esemed { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--tekst); }
+.ese { border-bottom: 1px solid var(--joon); }
+.ese > a {
+  display: grid; grid-template-columns: 6.5rem 1fr auto; gap: 1.25rem; align-items: center;
+  padding: .875rem .5rem .875rem 0; color: inherit; text-decoration: none;
+}
+.ese > a:hover { background: var(--hover); }
+.pisipilt {
+  position: relative; width: 6.5rem; aspect-ratio: 1; border-radius: 4px; overflow: hidden;
+  background: var(--joon);
+}
+.pisipilt img { width: 100%; height: 100%; object-fit: cover; }
+.foto-puudub {
+  width: 100%; height: 100%; display: grid; place-items: center; text-align: center;
+  font-size: .75rem; color: var(--hall); padding: .5rem;
+}
+.ese-nimi { font-weight: 700; font-size: 1.0625rem; line-height: 1.35; margin: 0 0 .2rem; }
+.ese-mudel { color: var(--hall); margin: 0 0 .35rem; font-size: .9375rem; }
+.ese-meta { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .875rem; color: var(--hall); margin: 0; }
+.hind { text-align: right; white-space: nowrap; }
+.hind-neto { font: 700 1.25rem/1.2 var(--sans); font-variant-numeric: tabular-nums; }
+.hind-neto small { font-size: .8125rem; font-weight: 400; color: var(--hall); }
+.hind-km { font-size: .8125rem; color: var(--hall); font-variant-numeric: tabular-nums; }
+
+/* Müüdud olek: tempel pisipildil */
+.myydud .pisipilt img, .myydud .foto-puudub { filter: grayscale(1); opacity: .45; }
+.myydud .ese-nimi, .myydud .hind-neto { color: var(--hall); }
+.myydud .hind-neto { text-decoration: line-through; }
+.tempel {
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%) rotate(-14deg);
+  border: 2px solid var(--myydud); color: var(--myydud);
+  background: color-mix(in srgb, var(--pind) 80%, transparent);
+  font: 700 .8125rem/1 var(--sans); letter-spacing: .04em;
+  padding: .3rem .45rem; border-radius: 3px;
+}
+.myydud-silt { color: var(--myydud); font-weight: 700; }
+
+.tyhi { max-width: 68rem; margin: 2rem auto; padding: 0 1.25rem; color: var(--hall); }
+
+/* Detailvaade */
+#detail-vaade { max-width: 68rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+.tagasi { display: inline-block; margin-bottom: 1.5rem; font-weight: 700; text-decoration: none; }
+.tagasi:hover { text-decoration: underline; }
+.detail { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
+.galerii-suur {
+  position: relative; background: var(--pind); border: 1px solid var(--joon); border-radius: 6px; overflow: hidden;
+  aspect-ratio: 4 / 3; display: grid; place-items: center;
+}
+.galerii-suur button.ava { all: unset; cursor: zoom-in; position: absolute; inset: 0; }
+.galerii-suur button.ava:focus-visible { outline: 3px solid #e8b04a; outline-offset: -3px; }
+.galerii-suur img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.galerii-suur .valgus-nool { position: absolute; top: 50%; transform: translateY(-50%); }
+.galerii-suur .eelmine { left: .5rem; }
+.galerii-suur .jargmine { right: .5rem; }
+.pildil { font-size: .875rem; color: var(--hall); margin: .5rem 0 0; min-height: 1.3em; }
+.galerii-pisi { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; padding: 0; list-style: none; }
+.galerii-pisi button {
+  all: unset; cursor: pointer; display: block; width: 4.5rem; aspect-ratio: 1; border-radius: 4px; overflow: hidden;
+  border: 2px solid transparent;
+}
+.galerii-pisi button[aria-current="true"] { border-color: var(--sini); }
+@media (prefers-color-scheme: dark) { .galerii-pisi button[aria-current="true"] { border-color: var(--link); } }
+.galerii-pisi img { width: 100%; height: 100%; object-fit: cover; }
+
+.detail-info .objekt { color: var(--hall); margin: 0 0 .25rem; }
+.detail-info h1 { font: 600 clamp(1.75rem, 4vw, 2.5rem)/1.15 var(--serif); margin: 0 0 1.25rem; }
+.detail-hind { padding: 1rem 0; border-top: 2px solid var(--tekst); border-bottom: 1px solid var(--joon); margin-bottom: 1.25rem; }
+.detail-hind .hind-neto { font-size: 1.75rem; }
+.detail-hind .hind-km { font-size: .9375rem; margin-top: .25rem; }
+.detail-hind .myydud-silt { font-size: 1.25rem; }
+.andmed { display: grid; grid-template-columns: auto 1fr; gap: .5rem 1.25rem; margin: 0 0 1.5rem; }
+.andmed dt { color: var(--hall); }
+.andmed dd { margin: 0; overflow-wrap: anywhere; }
+.lingid { margin: 0 0 1.75rem; padding: 0; list-style: none; }
+.lingid li + li { margin-top: .35rem; }
+.kysi {
+  display: inline-block; background: var(--sini); color: #fff; text-decoration: none; font-weight: 700;
+  padding: .8rem 1.25rem; border-radius: 6px;
+}
+@media (prefers-color-scheme: dark) { .kysi { background: #2c4a9e; } }
+.kysi:hover { background: var(--sini-tume); }
+.kysi-telefon { margin: .75rem 0 0; color: var(--hall); }
+
+/* Täisekraan */
+.valgus {
+  position: fixed; inset: 0; z-index: 100; background: rgba(8, 12, 24, .94);
+  display: grid; place-items: center; padding: 3rem 4rem;
+}
+.valgus[hidden] { display: none; }
+.valgus img { max-width: 100%; max-height: calc(100vh - 6rem); object-fit: contain; }
+.valgus-sulge {
+  position: absolute; top: .75rem; right: .75rem; width: 2.75rem; height: 2.75rem;
+  background: none; border: 0; color: #fff; font-size: 1.5rem; cursor: pointer;
+}
+.valgus-nool {
+  width: 2.75rem; height: 2.75rem; border-radius: 50%; border: 0; cursor: pointer;
+  background: rgba(255,255,255,.9); color: #163172; font-size: 1.75rem; line-height: 1;
+  box-shadow: 0 0 0 1px rgba(22,49,114,.18);
+}
+.valgus > .valgus-nool { position: absolute; top: 50%; transform: translateY(-50%); }
+.valgus > .eelmine { left: .75rem; }
+.valgus > .jargmine { right: .75rem; }
+.valgus-loendur { position: absolute; bottom: .75rem; left: 0; right: 0; text-align: center; color: #c9d3ec; margin: 0; font-size: .875rem; }
+
+.jalus { max-width: 68rem; margin: 0 auto; padding: 1.5rem 1.25rem 2.5rem; border-top: 1px solid var(--joon); color: var(--hall); font-size: .875rem; }
+.jalus p { margin: 0 0 .25rem; }
+
+/* Mobiil */
+@media (max-width: 640px) {
+  html { scroll-padding-top: 11rem; }
+  .pais-sisu { padding: 1.75rem 1rem 1.75rem; }
+  .logo { width: 150px; margin-bottom: 1.25rem; }
+  .riba-sisu { padding: .5rem 1rem; gap: .5rem; }
+  .kat-lingid { flex-wrap: nowrap; overflow-x: auto; width: 100%; scrollbar-width: none; }
+  .kat-lingid a { white-space: nowrap; }
+  .filtrid { width: 100%; justify-content: space-between; }
+  .otsing { flex: 1; }
+  .otsing input { width: 100%; }
+  .kategooriad { padding: 0 1rem 2rem; }
+  .ese > a { grid-template-columns: 5rem 1fr; gap: .25rem .875rem; padding-right: 0; }
+  .pisipilt { width: 5rem; grid-row: span 2; }
+  .hind { text-align: left; }
+  .hind-neto { font-size: 1.0625rem; }
+  .detail { grid-template-columns: 1fr; gap: 1.5rem; }
+  .valgus { padding: 3rem .5rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .ese > a, .kat-lingid a { transition: background-color .15s; }
+}
+.myydud .hind-km, .myydud .hind-neto small { display: none; }
