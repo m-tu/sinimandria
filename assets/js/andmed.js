@@ -16,7 +16,7 @@ const SEADED = {
   uuendatud: "19.10.2026",           // millal nimekirja viimati muudeti
   kontakt: {
     email: "info@sinimandria.ee",
-    phone: "+372 56 256 340",
+    telefon: "+372 56 256 340",
     aadress: "Kompanii 2, Tartu"
   }
 };
