@@ -413,7 +413,7 @@ const KATEGOORIAD = {
       kommentaar: "",
       lingid: [],
       fotod: ["Objekt_413_IMG_5042.jpg"] },
-    { nr: "414", hind: 190, kogus: 1, myydud: false,
+    { nr: "414", hind: 190, kogus: 2, myydud: false,
       nimi: "Dekoratsioontaimed", tootja: "Europlant", mudel: "Kõrgus ca 2000mm", yhik: "tk",
       kommentaar: "",
       lingid: ["https://europlant.ee/"],
