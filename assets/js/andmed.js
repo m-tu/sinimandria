@@ -474,7 +474,7 @@ const KATEGOORIAD = {
       lingid: [],
       fotod: ["Objekt_424_IMG_4842.jpg"] },
     { nr: "425", hind: 330, kogus: 1, myydud: false,
-      nimi: "Brunchi väljastusriiul", tootja: "", mudel: "Plaaditud, 2100x1100x350mm", yhik: "tk",
+      nimi: "Väljastuslett", tootja: "", mudel: "Plaaditud, 2100x1100x350mm", yhik: "tk",
       kommentaar: "",
       lingid: [],
       fotod: ["Objekt_425_IMG_4843.jpg"] },
