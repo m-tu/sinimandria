@@ -346,7 +346,7 @@ const KATEGOORIAD = {
       lingid: ["https://factory.sale/et/toode/kulgpostiga-paikesevari-nordictent-capri-sa-3x4m/"],
       fotod: ["Objekt_301-305.jpg"] },
     { nr: "305", hind: 120, kogus: 3, myydud: false,
-      nimi: "Raskuskivid päikesevarjule", tootja: "", mudel: "kandilised, 50kg/tk", yhik: "tk",
+      nimi: "Raskuskivid päikesevarjule", tootja: "", mudel: "kandilised, 50kg/tk, komplektis 4tk", yhik: "kmpl",
       kommentaar: "",
       lingid: [],
       fotod: ["Objekt_301-305.jpg"] },
