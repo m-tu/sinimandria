@@ -46,10 +46,25 @@
     if (!onHind(e)) {
       return '<div class="hind-neto">' + esc(e.hind ? capital(e.hind) : "Hind kokkuleppel") + "</div>";
     }
+
+   if (onKomplekt(e)) {
+      const kokku = Math.round(e.hind * Number(e.kogus) * 100) / 100;
+      return '<div class="hind-silt">' + esc(e.kogus) + " " + esc(yhik(e)) + " komplekt</div>" +
+        '<div class="hind-neto">' + raha(kokku) + " <small>+ KM</small></div>" +
+        '<div class="hind-km">' + raha(kokku * km) + " koos KM-ga</div>" +
+        '<div class="hind-km">' + raha(e.hind) + " / " + esc(yhik(e)) + " + KM</div>";
+    }
+    
     const yh = yhik(e) === "tk" ? "" : " / " + esc(yhik(e));
     return '<div class="hind-neto">' + raha(e.hind) + yh + " <small>+ KM</small></div>" +
       '<div class="hind-km">' + raha(e.hind * km) + yh + " koos KM-ga</div>";
   }
+
+  // Kategooriad SEADED.komplektina loendis müüakse ainult kogu kogusega korraga
+  function onKomplekt(e) {
+    return Array.isArray(SEADED.komplektina) && SEADED.komplektina.indexOf(e._kat) !== -1 && Number(e.kogus) > 1;
+  }
+  
   function capital(s) { s = String(s); return s.charAt(0).toUpperCase() + s.slice(1); }
   function alamrida(e) { return [e.tootja, e.mudel].filter(Boolean).join(", "); }
   function kogusTekst(e) {
