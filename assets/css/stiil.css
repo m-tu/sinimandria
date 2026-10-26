@@ -115,6 +115,8 @@ a { color: var(--link); }
 .hind { text-align: right; white-space: nowrap; }
 .hind-neto { font: 700 1.25rem/1.2 var(--sans); font-variant-numeric: tabular-nums; }
 .hind-neto small { font-size: .8125rem; font-weight: 400; color: var(--hall); }
+.hind-silt { font-size: .8125rem; color: var(--hall); margin-bottom: .1rem; }
+.myydud .hind-silt { display: none; }
 .hind-km { font-size: .8125rem; color: var(--hall); font-variant-numeric: tabular-nums; }
 
 /* Müüdud olek: tempel pisipildil */
@@ -162,6 +164,7 @@ a { color: var(--link); }
 .detail-info h1 { font: 600 clamp(1.75rem, 4vw, 2.5rem)/1.15 var(--serif); margin: 0 0 1.25rem; }
 .detail-hind { padding: 1rem 0; border-top: 2px solid var(--tekst); border-bottom: 1px solid var(--joon); margin-bottom: 1.25rem; }
 .detail-hind .hind-neto { font-size: 1.75rem; }
+.detail-hind .hind-silt { font-size: .9375rem; margin-bottom: .25rem; }
 .detail-hind .hind-km { font-size: .9375rem; margin-top: .25rem; }
 .detail-hind .myydud-silt { font-size: 1.25rem; }
 .andmed { display: grid; grid-template-columns: auto 1fr; gap: .5rem 1.25rem; margin: 0 0 1.5rem; }
