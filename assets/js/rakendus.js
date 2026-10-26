@@ -95,6 +95,12 @@
   const otsing = document.getElementById("otsing");
   const peidaMyydud = document.getElementById("peida-myydud");
 
+  // Kategooria märkus (SEADED.kategooriaMarkused), nt Nõud müüakse komplektina
+  function katMarkus(kat) {
+    const m = SEADED.kategooriaMarkused && SEADED.kategooriaMarkused[kat];
+    return m ? String(m) : "";
+  }
+  
   function katId(kat) {
     return "kat-" + kat.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
   }
@@ -133,6 +139,7 @@
       lingid += '<li><a href="#' + id + '">' + esc(kat) + "<small>" + saadaval + "</small></a></li>";
       html += '<section class="kategooria" id="' + id + '" aria-labelledby="' + id + '-p">' +
         '<h2 id="' + id + '-p">' + esc(kat) + "<small>" + saadaval + " müügis</small></h2>" +
+        (katMarkus(kat) ? '<p class="kat-markus">' + esc(katMarkus(kat)) + "</p>" : "") +
         '<ul class="esemed">' + nahtavad.map(eseRida).join("") + "</ul></section>";
     });
     katKonteiner.innerHTML = html;
@@ -202,6 +209,7 @@
           (e.nr ? '<p class="objekt">Objekt ' + esc(e.nr) + "</p>" : "") +
           "<h1>" + esc(e.nimi) + "</h1>" +
           '<div class="detail-hind">' + (e._myydud ? '<p class="myydud-silt">See ese on müüdud</p>' : hinnaHtml(e)) + "</div>" +
+          (katMarkus(e._kat) ? '<p class="kat-markus">' + esc(katMarkus(e._kat)) + "</p>" : "") +
           '<dl class="andmed">' + andmed.map(function (r) { return "<dt>" + r[0] + "</dt><dd>" + r[1] + "</dd>"; }).join("") + "</dl>" +
           (lingid ? '<ul class="lingid">' + lingid + "</ul>" : "") +
           kysi +
