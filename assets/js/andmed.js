@@ -14,6 +14,9 @@ const SEADED = {
   sissejuhatus: "Restoran Sinimandria suleb uksed. Müüme köögi- ja baariseadmed, saali ja terrrassi mööbli ning lauanõud ja köögi väikevahendid (lisanduvad nädala jooksul). Valdav enamik esemetest on soetatud uuena ja kasutatud poolteist aastat. Esemeid saab enne ostu kohapeal vaadata, lepi aeg kokku e-posti teel.",
   kmMaar: 24,                        // käibemaksu määr protsentides
   uuendatud: "21.10.2026",           // millal nimekirja viimati muudeti
+  kategooriaMarkused: {
+     "Nõud": "Iga nõude liik müüakse ühe komplektina. Näiteks kõrgeid veeklaase on kokku 41 ja neid saab osta ainult korraga kõik 41, väiksemaid koguseid ei müüda"
+   },
   kontakt: {
     email: "info@sinimandria.ee",
     telefon: "+372 56 256 340",
