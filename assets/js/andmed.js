@@ -11,7 +11,7 @@
 
 const SEADED = {
   pealkiri: "Sinimandria sisustus ja seadmed müügis",
-  sissejuhatus: "Restoran Sinimandria suleb uksed. Müüme köögi- ja baariseadmed, saali ja terrrassi mööbli ning lauanõud ja köögi väikevahendid (lisanduvad nädala jooksul). Valdav enamik esemetest on soetatud uuena ja kasutatud poolteist aastat. Esemeid saab enne ostu kohapeal vaadata, lepi aeg kokku e-posti teel.",
+  sissejuhatus: "Restoran Sinimandria suleb uksed. Müüme köögi- ja baariseadmed, saali ja terrrassi mööbli ning lauanõud ja köögi väikevahendid. Valdav enamik esemetest on soetatud uuena ja kasutatud poolteist aastat. Esemeid saab enne ostu kohapeal vaadata, lepi aeg kokku e-posti teel. UPDATE: KÕIK VARAD ON MÜÜDUD",
   kmMaar: 24,                        // käibemaksu määr protsentides
   uuendatud: "21.10.2026",           // millal nimekirja viimati muudeti
   komplektina: ["Nõud"],
@@ -20,7 +20,6 @@ const SEADED = {
    },
   kontakt: {
     email: "info@sinimandria.ee",
-    telefon: "+372 56 256 340",
     aadress: "Kompanii 2, Tartu"
   }
 };
